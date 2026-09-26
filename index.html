@@ -156,6 +156,21 @@ section.tint{background:var(--surface)}
 .stats .v small{font-size:1rem;color:var(--ink-2);margin-left:6px}
 .stats .k{font-size:.85rem;color:var(--ink-2)}
 .stats-range{color:var(--on-dark-2);font-size:.95rem;margin:0 0 10px;text-align:center}
+.recent{margin:14px auto 0;max-width:820px;overflow-x:auto}
+.recent-tbl{width:100%;border-collapse:separate;border-spacing:0;overflow:hidden;background:var(--dark-2);border:1px solid var(--dark-rule);border-radius:6px;font-size:.95rem}
+.recent-tbl th,.recent-tbl td,.recent-tbl td:nth-child(n+3),.recent-tbl th:nth-child(n+3){padding:9px 14px;text-align:center;border-bottom:1px solid var(--dark-rule);font-variant-numeric:tabular-nums}
+.recent-tbl thead th{color:var(--on-dark);font-weight:500}
+.recent-tbl thead tr:first-child th{border-bottom:1px solid var(--dark-rule)}
+.recent-tbl thead tr:first-child th[colspan]{border-left:1px solid var(--dark-rule)}
+.recent-tbl thead tr:nth-child(2) th{color:var(--on-dark-2);font-size:.85rem;font-weight:400}
+.recent-tbl thead tr:nth-child(2) th:nth-child(odd),.recent-tbl tbody td:nth-child(2),.recent-tbl tbody td:nth-child(4){border-left:1px solid var(--dark-rule)}
+.recent-tbl tbody tr:last-child td{border-bottom:0}
+.recent-tbl td:first-child,.recent-tbl tbody td:first-child{text-align:center;white-space:nowrap}
+.recent-tbl th,.recent-tbl td:not(:first-child){width:21%;white-space:nowrap}
+.recent-tbl thead th{line-height:1.3}
+.recent-tbl .r4 td{color:var(--on-dark);font-family:var(--serif);font-size:1.15rem}
+.recent-tbl .r4 td:first-child{font-family:var(--sans);font-size:.95rem;font-weight:500}
+.recent-tbl .rs td{color:var(--on-dark-2)}
 .hero-stats{margin:0;background:var(--dark-rule);border-color:var(--dark-rule)}
 .hero-stats div{background:var(--dark-2)}
 .hero-stats{grid-template-columns:repeat(4,minmax(0,1fr))}
@@ -270,6 +285,18 @@ footer a{color:var(--ink-2)}
     <div><span class="k">Sharpe ratio<br>vs T-bills</span><span class="v">0.99</span><span class="c">SPY 0.53</span></div>
     <div><span class="k">Time below<br>10% drawdown</span><span class="v">4.0%</span><span class="c">SPY 33.5%</span></div>
   </div>
+  <div class="recent">
+    <table class="recent-tbl">
+      <thead>
+        <tr><th rowspan="2"></th><th colspan="2">Year to date</th><th colspan="2">Trailing 12 months</th></tr>
+        <tr><th>Return</th><th>Worst drawdown</th><th>Return</th><th>Worst drawdown</th></tr>
+      </thead>
+      <tbody>
+        <tr class="r4"><td>4D ETF</td><td data-k="ytd.fourd.return">10.3%</td><td data-k="ytd.fourd.max_drawdown">−8.6%</td><td data-k="ttm.fourd.return">18.2%</td><td data-k="ttm.fourd.max_drawdown">−8.6%</td></tr>
+        <tr class="rs"><td>SPY</td><td data-k="ytd.spy.return">13.5%</td><td data-k="ytd.spy.max_drawdown">−8.9%</td><td data-k="ttm.spy.return">20.0%</td><td data-k="ttm.spy.max_drawdown">−8.9%</td></tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 </main>
 </div>
@@ -306,8 +333,8 @@ footer a{color:var(--ink-2)}
 <line x1="58" x2="586" y1="330.0" y2="330.0" class="grid"/><text x="50" y="335.0" class="ax" text-anchor="end">0%</text><line x1="58" x2="586" y1="251.0" y2="251.0" class="grid"/><text x="50" y="256.0" class="ax" text-anchor="end">25%</text><line x1="58" x2="586" y1="172.0" y2="172.0" class="grid"/><text x="50" y="177.0" class="ax" text-anchor="end">50%</text><line x1="58" x2="586" y1="93.0" y2="93.0" class="grid"/><text x="50" y="98.0" class="ax" text-anchor="end">75%</text><line x1="58" x2="586" y1="14.0" y2="14.0" class="grid"/><text x="50" y="19.0" class="ax" text-anchor="end">100%</text><text x="58.0" y="352" class="ax" text-anchor="middle">−0%</text><text x="146.0" y="352" class="ax" text-anchor="middle">−10%</text><text x="234.0" y="352" class="ax" text-anchor="middle">−20%</text><text x="322.0" y="352" class="ax" text-anchor="middle">−30%</text><text x="410.0" y="352" class="ax" text-anchor="middle">−40%</text><text x="498.0" y="352" class="ax" text-anchor="middle">−50%</text><text x="586.0" y="352" class="ax" text-anchor="middle">−60%</text>
 <path d="M58.0,49.4 L62.4,81.5 L66.8,105.0 L71.2,122.2 L75.6,135.5 L80.0,146.0 L84.4,155.1 L88.8,162.9 L93.2,170.6 L97.6,176.6 L102.0,182.4 L106.4,187.0 L110.8,191.6 L115.2,196.4 L119.6,201.1 L124.0,205.0 L128.4,209.3 L132.8,213.3 L137.2,217.0 L141.6,220.8 L146.0,224.3 L150.4,227.3 L154.8,230.2 L159.2,232.3 L163.6,234.8 L168.0,237.5 L172.4,240.6 L176.8,243.2 L181.2,245.8 L185.6,247.4 L190.0,249.6 L194.4,252.3 L198.8,255.3 L203.2,257.8 L207.6,260.6 L212.0,263.2 L216.4,265.6 L220.8,267.7 L225.2,269.7 L229.6,271.6 L234.0,273.3 L238.4,274.5 L242.8,276.0 L247.2,278.6 L251.6,280.6 L256.0,283.2 L260.4,285.5 L264.8,287.6 L269.2,289.6 L273.6,291.9 L278.0,293.5 L282.4,295.2 L286.8,296.6 L291.2,298.3 L295.6,299.8 L300.0,301.3 L304.4,302.5 L308.8,304.0 L313.2,305.2 L317.6,305.9 L322.0,306.7 L326.4,307.4 L330.8,307.8 L335.2,308.8 L339.6,309.5 L344.0,310.4 L348.4,311.4 L352.8,312.0 L357.2,312.4 L361.6,312.8 L366.0,313.2 L370.4,313.4 L374.8,313.7 L379.2,314.1 L383.6,314.7 L388.0,315.7 L392.4,316.3 L396.8,317.0 L401.2,318.0 L405.6,319.1 L410.0,320.2 L414.4,321.3 L418.8,322.4 L423.2,323.2 L427.6,323.7 L432.0,324.2 L436.4,325.1 L440.8,326.1 L445.2,326.5 L449.6,327.2 L454.0,327.7 L458.4,328.1 L462.8,328.5 L467.2,328.6 L471.6,328.8 L476.0,328.9 L480.4,329.0 L484.8,329.2 L489.2,329.2 L493.6,329.4 L498.0,329.4 L502.4,329.6 L506.8,329.6 L511.2,329.7 L515.6,329.7 L520.0,329.7 L524.4,329.8 L528.8,329.8 L533.2,329.9 L537.6,329.9 L542.0,330.0 L546.4,330.0 L550.8,330.0 L555.2,330.0 L559.6,330.0 L564.0,330.0 L568.4,330.0 L572.8,330.0 L577.2,330.0 L581.6,330.0 L586.0,330.0" class="l-spy"/>
 <path d="M58.0,58.1 L62.4,100.8 L66.8,130.6 L71.2,154.7 L75.6,176.4 L80.0,195.4 L84.4,211.1 L88.8,226.3 L93.2,241.0 L97.6,255.4 L102.0,266.9 L106.4,274.7 L110.8,281.0 L115.2,287.1 L119.6,292.0 L124.0,299.0 L128.4,304.9 L132.8,308.2 L137.2,311.5 L141.6,314.4 L146.0,317.4 L150.4,320.9 L154.8,323.0 L159.2,324.9 L163.6,326.6 L168.0,327.6 L172.4,328.6 L176.8,329.3 L181.2,329.6 L185.6,329.7 L190.0,329.8 L194.4,329.9 L198.8,330.0 L203.2,330.0 L207.6,330.0 L212.0,330.0 L216.4,330.0 L220.8,330.0 L225.2,330.0 L229.6,330.0 L234.0,330.0 L238.4,330.0 L242.8,330.0 L247.2,330.0 L251.6,330.0 L256.0,330.0 L260.4,330.0 L264.8,330.0 L269.2,330.0 L273.6,330.0 L278.0,330.0 L282.4,330.0 L286.8,330.0 L291.2,330.0 L295.6,330.0 L300.0,330.0 L304.4,330.0 L308.8,330.0 L313.2,330.0 L317.6,330.0 L322.0,330.0 L326.4,330.0 L330.8,330.0 L335.2,330.0 L339.6,330.0 L344.0,330.0 L348.4,330.0 L352.8,330.0 L357.2,330.0 L361.6,330.0 L366.0,330.0 L370.4,330.0 L374.8,330.0 L379.2,330.0 L383.6,330.0 L388.0,330.0 L392.4,330.0 L396.8,330.0 L401.2,330.0 L405.6,330.0 L410.0,330.0 L414.4,330.0 L418.8,330.0 L423.2,330.0 L427.6,330.0 L432.0,330.0 L436.4,330.0 L440.8,330.0 L445.2,330.0 L449.6,330.0 L454.0,330.0 L458.4,330.0 L462.8,330.0 L467.2,330.0 L471.6,330.0 L476.0,330.0 L480.4,330.0 L484.8,330.0 L489.2,330.0 L493.6,330.0 L498.0,330.0 L502.4,330.0 L506.8,330.0 L511.2,330.0 L515.6,330.0 L520.0,330.0 L524.4,330.0 L528.8,330.0 L533.2,330.0 L537.6,330.0 L542.0,330.0 L546.4,330.0 L550.8,330.0 L555.2,330.0 L559.6,330.0 L564.0,330.0 L568.4,330.0 L572.8,330.0 L577.2,330.0 L581.6,330.0 L586.0,330.0" class="l-4d"/>
-<g transform="translate(0,36.9)"><rect x="264.0" y="26.6" width="322" height="138" rx="4" class="tbl-bg"/><text x="272.0" y="46.6" class="tbl-h" textLength="300" lengthAdjust="spacing">Portion of days at levels below peak</text><text x="508.0" y="72.6" class="tbl-4d" text-anchor="end">4D</text><text x="572.0" y="72.6" class="tbl-spy" text-anchor="end">SPY</text><text x="272.0" y="98.6" class="tbl-t">−5%</text><text x="508.0" y="98.6" class="tbl-4d" text-anchor="end">20.0%</text><text x="572.0" y="98.6" class="tbl-spy" text-anchor="end">46.7%</text><text x="272.0" y="124.6" class="tbl-t">−10%</text><text x="508.0" y="124.6" class="tbl-4d" text-anchor="end">4.0%</text><text x="572.0" y="124.6" class="tbl-spy" text-anchor="end">33.5%</text><text x="272.0" y="150.6" class="tbl-t">−15%</text><text x="508.0" y="150.6" class="tbl-4d" text-anchor="end">0.1%</text><text x="572.0" y="150.6" class="tbl-spy" text-anchor="end">25.4%</text>
-</g></svg>
+<rect x="270.0" y="63.5" width="316" height="138" rx="4" class="tbl-bg"/><text x="278.0" y="83.5" class="tbl-h" textLength="300" lengthAdjust="spacing">Portion of days at levels below peak</text><text x="478.0" y="109.5" class="tbl-4d" text-anchor="end">4D</text><text x="578.0" y="109.5" class="tbl-spy" text-anchor="end">SPY</text><text x="378.0" y="135.5" class="tbl-t" text-anchor="end">−5%</text><text x="478.0" y="135.5" class="tbl-4d" text-anchor="end">20.0%</text><text x="578.0" y="135.5" class="tbl-spy" text-anchor="end">46.7%</text><text x="378.0" y="161.5" class="tbl-t" text-anchor="end">−10%</text><text x="478.0" y="161.5" class="tbl-4d" text-anchor="end">4.0%</text><text x="578.0" y="161.5" class="tbl-spy" text-anchor="end">33.5%</text><text x="378.0" y="187.5" class="tbl-t" text-anchor="end">−15%</text><text x="478.0" y="187.5" class="tbl-4d" text-anchor="end">0.1%</text><text x="578.0" y="187.5" class="tbl-spy" text-anchor="end">25.4%</text>
+</svg>
         <p class="small" style="margin:8px 0 0;font-size:.8rem">Portion of trading days spent more than a given depth below the prior peak.</p>
       </div>
     </div>
@@ -442,6 +469,10 @@ footer a{color:var(--ink-2)}
               [m.fourd.sharpe.toFixed(2),m.spy.sharpe.toFixed(2)],
               [pct(m.fourd.time_below_10pct,1),pct(m.spy.time_below_10pct,1)]];
     rows.forEach(function(r,i){if(!cells[i])return;cells[i].querySelector('.v').textContent=r[0];cells[i].querySelector('.c').textContent='SPY '+r[1];});
+    if(m.recent){document.querySelectorAll('.recent-tbl [data-k]').forEach(function(td){
+      var v=td.dataset.k.split('.').reduce(function(o,k){return o&&o[k];},m.recent);
+      if(typeof v==='number')td.textContent=neg(pct(v,1));
+    });}
   }
   function renderHistory(h){
     if(!Array.isArray(h)||!h.length)return;
