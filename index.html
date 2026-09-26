@@ -186,6 +186,15 @@ td:nth-child(n+3),th:nth-child(n+3){text-align:right;font-variant-numeric:tabula
 @media (max-width:820px){.articles{grid-template-columns:1fr}}
 /* signup */
 .signup{max-width:560px}
+.kitform{margin:18px 0 10px}
+.kitform .formkit-form{background:transparent!important;border:0!important;box-shadow:none!important;max-width:none!important;font-family:var(--sans)!important}
+.kitform .formkit-fields{display:flex!important;gap:10px!important;flex-wrap:wrap!important}
+.kitform .formkit-field{flex:1 1 220px!important;margin:0!important}
+.kitform .formkit-input{font:inherit!important;font-size:1rem!important;padding:.75rem .9rem!important;border:1px solid var(--rule)!important;border-radius:4px!important;background:var(--surface)!important;color:var(--ink)!important;width:100%!important;box-shadow:none!important}
+.kitform .formkit-submit{font-family:var(--sans)!important;font-weight:500!important;font-size:1rem!important;padding:.75rem 1.3rem!important;border-radius:4px!important;border:1px solid var(--brass)!important;background:var(--brass)!important;color:#15191A!important;cursor:pointer;margin:0!important;white-space:nowrap}
+.kitform .formkit-submit span{padding:0!important}
+.kitform .formkit-powered-by-convertkit-container,.kitform .formkit-guarantee{display:none!important}
+.kitform .formkit-alert{font-family:var(--sans)!important;border-radius:4px!important;margin-top:10px!important}
 .field{display:flex;gap:10px;margin:18px 0 10px;flex-wrap:wrap}
 .field input{flex:1;min-width:220px;font:inherit;padding:.75rem .9rem;border:1px solid var(--rule);border-radius:4px;background:var(--surface);color:var(--ink)}
 footer{border-top:1px solid var(--rule);padding:36px 0 48px;font-size:.88rem;color:var(--ink-2)}
@@ -379,8 +388,9 @@ footer a{color:var(--ink-2)}
     <div class="signup">
       <h2>Become a founding&nbsp;member</h2>
       <p class="lede">Join the list for early access to the subscription service, publication updates and selected research. Founding members get the first year at half&nbsp;price.</p>
-      <!-- KIT FORM GOES HERE: replace the div.field below with the JavaScript embed snippet copied from Kit. -->
-      <div class="field"><input type="email" placeholder="you@example.com" aria-label="Email address"><a class="btn brass" href="#">Become a founding member</a></div>
+      <div class="kitform">
+        <script async data-uid="f1c0424a8e" src="https://four-gate-alpha.kit.com/f1c0424a8e/index.js"></script>
+      </div>
       <p class="small">No spam. Unsubscribe&nbsp;anytime.</p>
     </div>
   </div>
