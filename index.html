@@ -367,10 +367,10 @@ footer a{color:var(--ink-2)}
           <table class="sigtbl">
             <thead><tr><th>Trade date</th><th>Sleeve</th><th>System<br>state</th><th>Equity budget</th><th>Allocation</th></tr></thead>
             <tbody id="sig-rows">
-              <tr><td>Tue, Sept. 8</td><td>1</td><td>ON1</td><td>75%</td><td>SPY 60%<br>QQQ 15%<br>SHY 12.5%<br>UUP 12.5%</td></tr>
-              <tr><td>Mon, Sept. 14</td><td>2</td><td>ON3</td><td>100%</td><td>SPY 79%<br>QQQ 21%</td></tr>
-              <tr><td>Mon, Sept. 21</td><td>3</td><td>ON3</td><td>100%</td><td>SPY 78.5%<br>QQQ 21.5%</td></tr>
               <tr><td>Mon, Sept. 28</td><td>1</td><td>ON3</td><td>100%</td><td>SPY 77%<br>QQQ 23%</td></tr>
+              <tr><td>Mon, Sept. 21</td><td>3</td><td>ON3</td><td>100%</td><td>SPY 78.5%<br>QQQ 21.5%</td></tr>
+              <tr><td>Mon, Sept. 14</td><td>2</td><td>ON3</td><td>100%</td><td>SPY 79%<br>QQQ 21%</td></tr>
+              <tr><td>Tue, Sept. 8</td><td>1</td><td>ON1</td><td>75%</td><td>SPY 60%<br>QQQ 15%<br>SHY 12.5%<br>UUP 12.5%</td></tr>
             </tbody>
           </table>
         </div>
@@ -448,7 +448,7 @@ footer a{color:var(--ink-2)}
     var D=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],M=['Jan.','Feb.','March','April','May','June','July','Aug.','Sept.','Oct.','Nov.','Dec.'];
     var ORDER=['SPY','QQQ','SHY','TLT','UUP','GLD','CASH'];
     function p(x){return (Math.round(x*1000)/10).toString()+'%';}
-    var rows=h.slice(-6).map(function(e){
+    var rows=h.slice(-6).reverse().map(function(e){
       var d=new Date(e.trade_date+'T00:00:00');
       var a=ORDER.filter(function(k){return e.allocation[k]>0.0005;}).map(function(k){return (k==='CASH'?'Cash':k)+' '+p(e.allocation[k]);}).join('<br>');
       return '<tr><td>'+D[d.getDay()]+', '+M[d.getMonth()]+' '+d.getDate()+'</td><td>'+(e.sleeve||'')+'</td><td>'+(e.system_state||'')+'</td><td>'+Math.round(e.equity_budget*100)+'%</td><td>'+a+'</td></tr>';
