@@ -19,5 +19,27 @@
     "UUP": 0.0,
     "GLD": 0.0,
     "CASH": 0.0
+  },
+  "metrics": {
+    "start": "1995-01-30",
+    "end": "2026-09-25",
+    "certified_through": "2026-09-04",
+    "risk_free": "runner MMF/T-bill proxy, daily",
+    "fourd": {
+      "cagr": 0.14813780470342297,
+      "max_drawdown": -0.18139249864895424,
+      "sharpe": 1.000664284372651,
+      "time_below_10pct": 0.03978913016191791,
+      "volatility": 0.12176626055429697,
+      "growth_of_10k": 792406.8243665808
+    },
+    "spy": {
+      "cagr": 0.1117322054094847,
+      "max_drawdown": -0.5518912149186439,
+      "sharpe": 0.5286934052411768,
+      "time_below_10pct": 0.3340027613907368,
+      "volatility": 0.1893249237366333,
+      "growth_of_10k": 285766.5473587877
+    }
   }
 }
