@@ -366,10 +366,11 @@ footer a{color:var(--ink-2)}
         <div class="tablewrap">
           <table class="sigtbl">
             <thead><tr><th>Trade date</th><th>Sleeve</th><th>System<br>state</th><th>Equity budget</th><th>Allocation</th></tr></thead>
-            <tbody>
+            <tbody id="sig-rows">
               <tr><td>Tue, Sept. 8</td><td>1</td><td>ON1</td><td>75%</td><td>SPY 60%<br>QQQ 15%<br>SHY 12.5%<br>UUP 12.5%</td></tr>
               <tr><td>Mon, Sept. 14</td><td>2</td><td>ON3</td><td>100%</td><td>SPY 79%<br>QQQ 21%</td></tr>
               <tr><td>Mon, Sept. 21</td><td>3</td><td>ON3</td><td>100%</td><td>SPY 78.5%<br>QQQ 21.5%</td></tr>
+              <tr><td>Mon, Sept. 28</td><td>1</td><td>ON3</td><td>100%</td><td>SPY 77%<br>QQQ 23%</td></tr>
             </tbody>
           </table>
         </div>
@@ -442,6 +443,19 @@ footer a{color:var(--ink-2)}
               [pct(m.fourd.time_below_10pct,1),pct(m.spy.time_below_10pct,1)]];
     rows.forEach(function(r,i){if(!cells[i])return;cells[i].querySelector('.v').textContent=r[0];cells[i].querySelector('.c').textContent='SPY '+r[1];});
   }
+  function renderHistory(h){
+    if(!Array.isArray(h)||!h.length)return;
+    var D=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],M=['Jan.','Feb.','March','April','May','June','July','Aug.','Sept.','Oct.','Nov.','Dec.'];
+    var ORDER=['SPY','QQQ','SHY','TLT','UUP','GLD','CASH'];
+    function p(x){return (Math.round(x*1000)/10).toString()+'%';}
+    var rows=h.slice(-6).map(function(e){
+      var d=new Date(e.trade_date+'T00:00:00');
+      var a=ORDER.filter(function(k){return e.allocation[k]>0.0005;}).map(function(k){return (k==='CASH'?'Cash':k)+' '+p(e.allocation[k]);}).join('<br>');
+      return '<tr><td>'+D[d.getDay()]+', '+M[d.getMonth()]+' '+d.getDate()+'</td><td>'+(e.sleeve||'')+'</td><td>'+(e.system_state||'')+'</td><td>'+Math.round(e.equity_budget*100)+'%</td><td>'+a+'</td></tr>';
+    });
+    document.getElementById('sig-rows').innerHTML=rows.join('');
+  }
+  fetch('signals.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(renderHistory).catch(function(){});
   fetch('signal.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(s){if(s&&s.gates&&s.allocation)apply(s);if(s&&s.metrics)applyMetrics(s.metrics);}).catch(function(){});
 })();
 </script>
