@@ -150,6 +150,7 @@ section.tint{background:var(--surface)}
 .stats .v{font-family:var(--serif);font-size:1.9rem;display:block;line-height:1.1}
 .stats .v small{font-size:1rem;color:var(--ink-2);margin-left:6px}
 .stats .k{font-size:.85rem;color:var(--ink-2)}
+.stats-range{color:var(--on-dark-2);font-size:.95rem;margin:0 0 10px;text-align:center}
 .hero-stats{margin:0;background:var(--dark-rule);border-color:var(--dark-rule)}
 .hero-stats div{background:var(--dark-2)}
 .hero-stats{grid-template-columns:repeat(4,minmax(0,1fr))}
@@ -257,10 +258,11 @@ footer a{color:var(--ink-2)}
 </div>
 
 <div class="wrap">
+  <p class="stats-range">January 30, 1995 to September 4, 2026</p>
   <div class="stats hero-stats">
     <div><span class="k">Annualized return</span><span class="v">14.8%</span><span class="c">SPY 11.2%</span></div>
     <div><span class="k">Worst drawdown</span><span class="v">−18.1%</span><span class="c">SPY −55.2%</span></div>
-    <div><span class="k">Sharpe ratio</span><span class="v">1.19</span><span class="c">SPY 0.65</span></div>
+    <div><span class="k">Sharpe ratio<br>vs T-bills</span><span class="v">0.99</span><span class="c">SPY 0.53</span></div>
     <div><span class="k">Time below<br>10% drawdown</span><span class="v">4.0%</span><span class="c">SPY 33.5%</span></div>
   </div>
 </div>
@@ -421,7 +423,21 @@ footer a{color:var(--ink-2)}
     Object.keys(s.allocation).filter(function(k){return s.allocation[k]>0.0005;}).forEach(function(k){var d=document.createElement('div');d.innerHTML='<span>'+k+'</span><strong>'+fmt(s.allocation[k])+'</strong>';a.appendChild(d);});
     a.style.gridTemplateColumns='repeat('+a.children.length+',1fr)';
   }
-  fetch('signal.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(s){if(s&&s.gates&&s.allocation)apply(s);}).catch(function(){});
+  function applyMetrics(m){
+    if(!m||!m.fourd||!m.spy)return;
+    var M=['January','February','March','April','May','June','July','August','September','October','November','December'];
+    function f(iso){var d=new Date(iso+'T00:00:00');return M[d.getMonth()]+' '+d.getDate()+', '+d.getFullYear();}
+    var el=document.querySelector('.stats-range');if(el)el.textContent=f(m.start)+' to '+f(m.end);
+    var cells=document.querySelectorAll('.hero-stats > div');
+    function pct(x,dp){return (x*100).toFixed(dp)+'%';}
+    function neg(s){return s.replace('-','\u2212');}
+    var rows=[[pct(m.fourd.cagr,1),pct(m.spy.cagr,1)],
+              [neg(pct(m.fourd.max_drawdown,1)),neg(pct(m.spy.max_drawdown,1))],
+              [m.fourd.sharpe.toFixed(2),m.spy.sharpe.toFixed(2)],
+              [pct(m.fourd.time_below_10pct,1),pct(m.spy.time_below_10pct,1)]];
+    rows.forEach(function(r,i){if(!cells[i])return;cells[i].querySelector('.v').textContent=r[0];cells[i].querySelector('.c').textContent='SPY '+r[1];});
+  }
+  fetch('signal.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(s){if(s&&s.gates&&s.allocation)apply(s);if(s&&s.metrics)applyMetrics(s.metrics);}).catch(function(){});
 })();
 </script>
 </body>
