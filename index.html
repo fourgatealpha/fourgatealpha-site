@@ -227,7 +227,7 @@ footer a{color:var(--ink-2)}
   </div>
 
   <div class="panel" id="gatepanel">
-    <div class="head"><span>Current signal</span><span id="sig-date">as of Sept. 21, 2026</span></div>
+    <div class="head"><span>Current signal</span><span id="sig-date">as of Sept. 25, 2026 · trades Sept. 28</span></div>
     <div class="regime on" id="sig-regime"><span class="nm">Price regime</span><span class="st">Risk on</span></div>
     <div class="gates">
       <div class="gate" data-open="true" data-key="slow_momentum"><span class="nm">Slow momentum</span><span class="st">Open</span></div>
@@ -241,8 +241,8 @@ footer a{color:var(--ink-2)}
       <div class="ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
     </div>
     <div class="alloc" id="sig-alloc" style="grid-template-columns:repeat(2,1fr)">
-      <div><span>SPY</span><strong>78.5%</strong></div>
-      <div><span>QQQ</span><strong>21.5%</strong></div>
+      <div><span>SPY</span><strong>77%</strong></div>
+      <div><span>QQQ</span><strong>23%</strong></div>
     </div>
   </div>
 </div>
@@ -403,7 +403,7 @@ footer a{color:var(--ink-2)}
 (function(){
   function fmt(w){return (Math.round(w*1000)/10).toString().replace(/\.0$/,'')+'%';}
   function apply(s){
-    if(s.trade_date){var d=new Date(s.trade_date+'T00:00:00');document.getElementById('sig-date').textContent='as of '+d.toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'}).replace(/^(\w{3}) /,'$1. ');}
+    if(s.trade_date&&s.signal_date){var d=new Date(s.trade_date+'T00:00:00');var s2=new Date(s.signal_date+'T00:00:00');var M=['Jan.','Feb.','March','April','May','June','July','Aug.','Sept.','Oct.','Nov.','Dec.'];function f(x){return M[x.getMonth()]+' '+x.getDate()+', '+x.getFullYear();}function g(x){return M[x.getMonth()]+' '+x.getDate();}document.getElementById('sig-date').textContent='as of '+f(s2)+' \u00b7 trades '+g(d);}
     var r=document.getElementById('sig-regime');r.classList.toggle('on',!!s.risk_on);r.querySelector('.st').textContent=s.risk_on?'Risk on':'Risk off';
     document.querySelectorAll('.gate[data-key]').forEach(function(g){var on=!!s.gates[g.dataset.key];g.dataset.open=on?'true':'false';g.querySelector('.st').textContent=on?'Open':'Closed';});
     var b=Math.round(s.equity_budget*100);document.getElementById('sig-budget').textContent=b+'%';document.getElementById('sig-fill').style.width=b+'%';
