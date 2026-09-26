@@ -1,0 +1,48 @@
+[
+  {
+    "signal_date": "2026-09-04",
+    "trade_date": "2026-09-08",
+    "sleeve": 1,
+    "system_state": "ON1",
+    "equity_budget": 0.75,
+    "allocation": {
+      "SPY": 0.6,
+      "QQQ": 0.15,
+      "SHY": 0.125,
+      "UUP": 0.125
+    }
+  },
+  {
+    "signal_date": "2026-09-11",
+    "trade_date": "2026-09-14",
+    "sleeve": 2,
+    "system_state": "ON3",
+    "equity_budget": 1.0,
+    "allocation": {
+      "SPY": 0.79,
+      "QQQ": 0.21
+    }
+  },
+  {
+    "signal_date": "2026-09-18",
+    "trade_date": "2026-09-21",
+    "sleeve": 3,
+    "system_state": "ON3",
+    "equity_budget": 1.0,
+    "allocation": {
+      "SPY": 0.785,
+      "QQQ": 0.215
+    }
+  },
+  {
+    "signal_date": "2026-09-25",
+    "trade_date": "2026-09-28",
+    "sleeve": 1,
+    "system_state": "ON3",
+    "equity_budget": 1.0,
+    "allocation": {
+      "SPY": 0.77,
+      "QQQ": 0.23
+    }
+  }
+]
