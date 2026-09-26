@@ -1,0 +1,22 @@
+{
+  "signal_date": "2026-09-18",
+  "trade_date": "2026-09-21",
+  "sleeve": 3,
+  "risk_on": true,
+  "gates": {
+    "slow_momentum": true,
+    "trend_quality": true,
+    "volume_pressure": true,
+    "qqq_trend": true
+  },
+  "equity_budget": 1.0,
+  "allocation": {
+    "SPY": 0.785,
+    "QQQ": 0.215,
+    "SHY": 0.0,
+    "TLT": 0.0,
+    "UUP": 0.0,
+    "GLD": 0.0,
+    "CASH": 0.0
+  }
+}
