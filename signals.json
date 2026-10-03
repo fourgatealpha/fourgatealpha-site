@@ -44,5 +44,16 @@
       "SPY": 0.77,
       "QQQ": 0.23
     }
+  },
+  {
+    "signal_date": "2026-10-02",
+    "trade_date": "2026-10-05",
+    "sleeve": 2,
+    "system_state": "ON3",
+    "equity_budget": 1.0,
+    "allocation": {
+      "SPY": 0.755,
+      "QQQ": 0.245
+    }
   }
 ]
