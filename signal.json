@@ -1,19 +1,19 @@
 {
-  "signal_date": "2026-10-02",
-  "trade_date": "2026-10-05",
-  "sleeve": 2,
-  "system_state": "ON3",
+  "signal_date": "2026-10-09",
+  "trade_date": "2026-10-12",
+  "sleeve": 3,
+  "system_state": "ON2",
   "risk_on": true,
   "gates": {
     "slow_momentum": true,
     "trend_quality": true,
-    "volume_pressure": true,
+    "volume_pressure": false,
     "qqq_trend": true
   },
   "equity_budget": 1.0,
   "allocation": {
-    "SPY": 0.755,
-    "QQQ": 0.245,
+    "SPY": 0.735,
+    "QQQ": 0.265,
     "SHY": 0.0,
     "TLT": 0.0,
     "UUP": 0.0,
@@ -25,45 +25,45 @@
       "ytd": {
         "start": "2025-12-31",
         "fourd": {
-          "return": 0.11556644255950865,
+          "return": 0.1260728560065254,
           "max_drawdown": -0.08559618498335808
         },
         "spy": {
-          "return": 0.13745120160360447,
+          "return": 0.1506488403776467,
           "max_drawdown": -0.08884979549488836
         }
       },
       "ttm": {
-        "start": "2025-10-02",
+        "start": "2025-10-09",
         "fourd": {
-          "return": 0.14231575969681942,
-          "max_drawdown": -0.08559618498335819
+          "return": 0.14502881260802925,
+          "max_drawdown": -0.08559618498335808
         },
         "spy": {
-          "return": 0.16246247408139336,
+          "return": 0.1725511861901532,
           "max_drawdown": -0.08884979549488836
         }
       }
     },
     "start": "1995-01-30",
-    "end": "2026-10-02",
+    "end": "2026-10-09",
     "certified_through": "2026-09-04",
     "risk_free": "runner MMF/T-bill proxy, daily",
     "fourd": {
-      "cagr": 0.14804477546998007,
+      "cagr": 0.14828853473223647,
       "max_drawdown": -0.18139249864895424,
-      "sharpe": 1.0000472313933806,
-      "time_below_10pct": 0.039764174611138986,
-      "volatility": 0.12174677420302955,
-      "growth_of_10k": 792471.131469008
+      "sharpe": 1.0018351316266991,
+      "time_below_10pct": 0.03973925034474113,
+      "volatility": 0.1217294416765605,
+      "growth_of_10k": 799934.6307590507
     },
     "spy": {
-      "cagr": 0.11158305842115546,
+      "cagr": 0.11191663480084957,
       "max_drawdown": -0.5518912149186439,
-      "sharpe": 0.5280113073049363,
-      "time_below_10pct": 0.33379327646763673,
-      "volatility": 0.18927797976485677,
-      "growth_of_10k": 285133.04810592707
+      "sharpe": 0.5296271289804466,
+      "time_below_10pct": 0.33358405415569764,
+      "volatility": 0.1892311578043894,
+      "growth_of_10k": 288441.394843034
     }
   }
 }
