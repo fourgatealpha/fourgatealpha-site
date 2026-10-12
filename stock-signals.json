@@ -1,0 +1,29 @@
+[
+  {
+    "signal_date": "2026-10-09",
+    "trade_date": "2026-10-12",
+    "state": "ON2",
+    "sleeve": 2,
+    "picks": [
+      "ADBE",
+      "APP",
+      "AXON",
+      "CHTR",
+      "COIN",
+      "DASH",
+      "EFX",
+      "FICO",
+      "GLW",
+      "HOOD",
+      "LITE",
+      "MOS",
+      "MRNA",
+      "MU",
+      "NXPI",
+      "SNDK",
+      "STX",
+      "VRT",
+      "WDC"
+    ]
+  }
+]
