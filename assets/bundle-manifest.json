@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "signal_date": "2026-10-09",
+  "start": "1995-02-06",
+  "strategy_version": "2.3.0",
+  "defensive_basket": {
+    "version": "2.3.0",
+    "defensive_assets": [
+      "SHY",
+      "TLT",
+      "UUP",
+      "GLD",
+      "FXF",
+      "IBIT"
+    ],
+    "actual_only_assets": {
+      "FXF": {
+        "first_trading_date": "2006-06-26",
+        "first_source_session": "2006-06-26",
+        "first_warmup_session": "2007-04-12",
+        "warmup_sessions": 200,
+        "no_preinception_proxy": true
+      },
+      "IBIT": {
+        "first_trading_date": "2024-01-11",
+        "first_source_session": "2024-01-11",
+        "first_warmup_session": "2024-10-25",
+        "warmup_sessions": 200,
+        "no_preinception_proxy": true
+      }
+    },
+    "eligibility": "200 observed ETF sessions; strict majority of SMA63/SMA126/SMA200; equal weights among eligible defensives; preserved single-survivor volatility exception.",
+    "leverage": "FXF/IBIT defensive capital is carried unchanged in every overlay tier."
+  },
+  "market_snapshot_sha256": "2263b9c0996e5fbacd7c18006624af0b048b43e6ea7a616ff6fcacb36d7601bf",
+  "files": {
+    "stock-report.json": "49ad67f867a69e3792545b5749a8061de9974b4302a444e6c19151c6c84fae80",
+    "majority-metrics.json": "9d38b22bf3954e16be0aa99f69a813888df517c85221006b467498a93d8194d6",
+    "etf-evidence.json": "b35eb525312f014b8995606918d15378376a4346b2b8f78b45ada7b808879552",
+    "leverage.json": "e005f27be9cc572d84a6ca2a392a9596a6591b0ca07241204ebd104f7169c1e0",
+    "RESEARCH_stock_signal.json": "d6ccc538f8be6c3753e9f37542c3ef3d48f83b291bac3c087c22152feaafb0b2",
+    "model-cohorts.json": "6df59012ca3e85833916719b5b979aa189e028f918458a22b6182a5f50c1ab3f"
+  },
+  "leverage_start": "2010-02-16",
+  "stock_allocation_validation_sha256": "b05012cf534e1b56457a37d2986eb45a4c7da1fdb6483cf4b35c53529b0d8d7a"
+}

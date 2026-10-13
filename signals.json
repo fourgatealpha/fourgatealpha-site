@@ -10,7 +10,12 @@
       "QQQ": 0.15,
       "SHY": 0.125,
       "UUP": 0.125
-    }
+    },
+    "status": "Closed",
+    "close_date": "2026-09-28",
+    "gain_loss": 0.007590446265605107,
+    "performance_as_of": "2026-10-12",
+    "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
     "signal_date": "2026-09-11",
@@ -21,7 +26,12 @@
     "allocation": {
       "SPY": 0.79,
       "QQQ": 0.21
-    }
+    },
+    "status": "Closed",
+    "close_date": "2026-10-05",
+    "gain_loss": 0.027091258350158978,
+    "performance_as_of": "2026-10-12",
+    "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
     "signal_date": "2026-09-18",
@@ -32,7 +42,12 @@
     "allocation": {
       "SPY": 0.785,
       "QQQ": 0.215
-    }
+    },
+    "status": "Closed",
+    "close_date": "2026-10-12",
+    "gain_loss": 0.019274487624357184,
+    "performance_as_of": "2026-10-12",
+    "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
     "signal_date": "2026-09-25",
@@ -43,7 +58,12 @@
     "allocation": {
       "SPY": 0.77,
       "QQQ": 0.23
-    }
+    },
+    "status": "Holding",
+    "close_date": null,
+    "gain_loss": null,
+    "performance_as_of": "2026-10-12",
+    "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
     "signal_date": "2026-10-02",
@@ -54,7 +74,12 @@
     "allocation": {
       "SPY": 0.755,
       "QQQ": 0.245
-    }
+    },
+    "status": "Holding",
+    "close_date": null,
+    "gain_loss": null,
+    "performance_as_of": "2026-10-12",
+    "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
     "signal_date": "2026-10-09",
@@ -65,6 +90,11 @@
     "allocation": {
       "SPY": 0.735,
       "QQQ": 0.265
-    }
+    },
+    "status": "Holding",
+    "close_date": null,
+    "gain_loss": null,
+    "performance_as_of": "2026-10-12",
+    "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   }
 ]
