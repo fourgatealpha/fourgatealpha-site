@@ -18,6 +18,7 @@ function renderModelCohorts(){
   const status=r.status||'Awaiting update';
   return '<tr><td style="white-space:nowrap">'+safe(r.trade_date)+'</td><td>'+safe(r.sleeve)+'</td><td>'+safe(r.state)+'</td><td>'+mix+'</td><td>'+safe(r.companies)+'</td><td><span title="As of '+safe(r.performance_as_of||modelCohortData.end)+'" class="history-status '+safe(status.toLowerCase())+'">'+safe(status)+'</span></td><td style="white-space:nowrap">'+safe(r.close_date||'—')+'</td><td class="num '+color+'" title="'+safe(r.performance_note||r.return_basis||modelCohortData.return_basis)+'">'+gain+'</td></tr>';
  }).join('');
+ document.dispatchEvent(new Event('fga-tier-changed'));
 }
 renderModelCohorts();
 document.getElementById('modelCohortPanel').addEventListener('click',event=>{

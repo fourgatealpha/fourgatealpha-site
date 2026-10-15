@@ -14,3 +14,6 @@ svg [stroke="#659c91"]{stroke:var(--chart-reserve)}svg [stroke="#849767"]{stroke
 #modelCohortRows .return-positive,#stockSleeveDetails .return-positive{color:#27765b}
 .return-snapshot span,.return-row-heading,.snapshot-label,#overviewTierLabel,#analysisRecent th,#analysisAnnualized th{color:var(--navy)}
 @media print{.sidebar{display:none}.siteheader{background:white}}
+
+/* Daily closing-price model sleeve marks. */
+.active-sleeve-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:20px 0}.active-sleeve-card{border:1px solid var(--line);border-radius:8px;padding:20px}.active-sleeve-card h3{font-family:inherit;font-size:19px;margin:0 0 8px;color:var(--ink)}.active-sleeve-card p{font-size:12px;color:var(--muted);margin:0 0 16px}.active-sleeve-return{display:block;font-size:30px;font-weight:600;line-height:1.2;margin-bottom:8px}.active-sleeve-card>span{font-size:12px;color:var(--muted);display:block}@media(max-width:700px){.active-sleeve-grid{grid-template-columns:1fr;gap:10px}.active-sleeve-card{padding:16px}.active-sleeve-return{font-size:28px}}
