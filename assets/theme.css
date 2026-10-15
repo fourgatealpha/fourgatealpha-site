@@ -1,5 +1,5 @@
-/* Selected October 12, 2026: Slate & Sienna. Loaded after both page styles. */
-:root{--navy:#293440;--green:#986044;--teal:var(--green);--mint:#d6b39c;--paper:#f7f5f1;--bg:var(--paper);--ink:#303b46;--muted:#69747e;--line:#e2dcd5;--theme-soft:#f1e9e2;--chart-model:var(--green);--chart-model-dark:var(--mint);--chart-stock-dark:#91b7cf;--chart-reserve:#8b9baa;--chart-currency:#998573;--sidebar-active:color-mix(in srgb,var(--navy) 84%,white);--sidebar-hover:color-mix(in srgb,var(--navy) 92%,white)}
+/* Selected October 15, 2026: Sienna panels & Slate accents. */
+:root{--navy:#293440;--panel-dark:#624437;--green:#293440;--teal:var(--green);--mint:#d6b39c;--paper:#f7f5f1;--bg:var(--paper);--ink:#303b46;--muted:#69747e;--line:#e2dcd5;--theme-soft:#f1e9e2;--chart-model:var(--green);--chart-model-dark:var(--mint);--chart-stock-dark:#91b7cf;--chart-reserve:#8b9baa;--chart-currency:#998573;--sidebar-active:color-mix(in srgb,var(--panel-dark) 84%,white);--sidebar-hover:color-mix(in srgb,var(--panel-dark) 92%,white)}
 .siteheader{background:color-mix(in srgb,var(--paper) 96%,transparent)}
 .sidebar{background:var(--navy)}.sidebar nav button.active{background:var(--sidebar-active);box-shadow:inset 3px 0 var(--mint);color:white}.sidebar nav button:hover{background:var(--sidebar-hover);color:white}.sidebar-mark{color:var(--mint)}.sidebar .brand small,.sidebar .sidebottom{color:#bdc6cd}.sidebar .localdot{background:var(--mint)}
 .statuspill,.pill,.regimebox,.dashboardjoin,.gatebox{background:var(--theme-soft);border-color:var(--line)}.statuspill,.pill{color:var(--green)}.joinsection{background:var(--theme-soft)}.joinbutton:hover{background:var(--navy)!important}.windowhead .dots{color:var(--mint)}
@@ -17,3 +17,6 @@ svg [stroke="#659c91"]{stroke:var(--chart-reserve)}svg [stroke="#849767"]{stroke
 
 /* Daily closing-price model sleeve marks. */
 .active-sleeve-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:20px 0}.active-sleeve-card{border:1px solid var(--line);border-radius:8px;padding:20px}.active-sleeve-card h3{font-family:inherit;font-size:19px;margin:0 0 8px;color:var(--ink)}.active-sleeve-card p{font-size:12px;color:var(--muted);margin:0 0 16px}.active-sleeve-return{display:block;font-size:30px;font-weight:600;line-height:1.2;margin-bottom:8px}.active-sleeve-card>span{font-size:12px;color:var(--muted);display:block}@media(max-width:700px){.active-sleeve-grid{grid-template-columns:1fr;gap:10px}.active-sleeve-card{padding:16px}.active-sleeve-return{font-size:28px}}
+
+/* Reverse the warm/cool panel roles while keeping labels and return semantics. */
+@media screen{.previewwindow,.evidence,.sidebar{background:var(--panel-dark)}.windowhead{border-color:#9c7d6c}.historychart{border-color:#9c7d6c}.evidence svg line[stroke="#38505b"]{stroke:#9c7d6c}.evidence .eyebrow{color:var(--mint)}}
