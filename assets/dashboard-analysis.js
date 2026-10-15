@@ -37,7 +37,7 @@
   }else{let strip=node('etfHistoryReturns');if(!strip){strip=document.createElement('div');strip.id='etfHistoryReturns';strip.className='history-return-strip';node('modelCohortPanel').querySelector('.panelhead').append(strip);}strip.innerHTML='<span class="snapshot-label">Portfolio returns · '+data.end+'</span>'+html;}
  }
  function aggregate(){
-  if(stock)return;const colors={SPY:'var(--chart-model)',QQQ:'#7f92ae',SHY:'var(--chart-reserve)',TLT:'#70899b',UUP:'var(--chart-currency)',GLD:'#b99545',FXF:'#8e7cae',IBIT:'#ae7d5a',CASH:'#b9c5bd'};
+  if(stock)return;const colors={SPY:'var(--chart-model)',QQQ:'#7f92ae',SHY:'var(--chart-reserve)',TLT:'#70899b',UUP:'var(--chart-currency)',GLD:'#b99545',FXF:'#8e7cae',IBIT:'#718c6d',CASH:'#b9c5bd'};
   if(data.market_state.signal_date===ET.signal.signal_date)node('etfRegime').textContent='SPY: '+data.market_state.spy_trend_votes+' of 3 SMA trend votes · 2 required';
   const weights=Object.entries(data.aggregate_etf.weights);let running=0;
   const segments=weights.map(([k,v])=>{const a=running;running+=v;return colors[k]+' '+(a*100)+'% '+(running*100)+'%';});
