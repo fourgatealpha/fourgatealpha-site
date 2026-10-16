@@ -88,7 +88,7 @@ table,.numbers,.statuspill,.legend,.kpi,.num,td{font-variant-numeric:tabular-num
 .eyebrow{font-family:var(--sans);font-size:11.5px;letter-spacing:1.4px;font-weight:600;color:var(--accent)!important}
 
 /* ---------- Header ---------- */
-.siteheader .wordmark>span{font-family:var(--serif);font-variant-caps:small-caps;font-weight:600;letter-spacing:.7px;font-size:clamp(26px,2.65vw,38px);line-height:1.15}
+.siteheader .wordmark>span{font-family:var(--serif);font-variant-caps:small-caps;font-weight:600;letter-spacing:.7px;font-size:clamp(29.9px,3.0475vw,43.7px);line-height:1.15}
 .sidebar .brand .brand-name{display:block;font-family:var(--serif);font-variant-caps:small-caps;font-weight:600;font-size:16px;letter-spacing:.3px;line-height:1.15}
 .wordmark .brandmark path:first-child{fill:var(--accent)}
 .siteheader .globalnav a{font-size:14px;color:var(--ink)}
@@ -204,7 +204,7 @@ main a:not(.joinbutton):not(.outlinebutton):not(.wordmark){text-underline-offset
 
 /* ---------- Small screens ---------- */
 @media (max-width:760px){
-  .siteheader .wordmark>span{font-size:clamp(22px,6vw,32px);letter-spacing:.4px}
+  .siteheader .wordmark>span{font-size:clamp(25.3px,6.9vw,36.8px);letter-spacing:.4px}
   .hero{padding-top:28px!important;padding-bottom:40px!important}
   .hero .hero-heading span:first-child,.hero .hero-heading span:last-child{font-size:32px}
   .previewwindow .windowhead{margin:-17px -17px 18px;padding:12px 17px}
