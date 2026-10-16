@@ -105,7 +105,7 @@ table,.numbers,.statuspill,.legend,.kpi,.num,td{font-variant-numeric:tabular-num
 .hero .headline-results tbody tr:nth-child(-n+2) th a{font-weight:700}
 .hero .headline-results tbody tr:nth-child(n+3) th,
 .hero .headline-results tbody tr:nth-child(n+3) th a,
-.hero .headline-results tbody tr:nth-child(n+3) td{color:#66737b;font-weight:500}
+.hero .headline-results tbody tr:nth-child(n+3) td{color:#65727a;font-weight:500}
 .headline-results p{color:var(--muted)}
 
 .joinbutton{background:var(--accent)!important;border-color:var(--accent)!important;font-size:15px!important;padding:14px 24px!important;border-radius:6px}
