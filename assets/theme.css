@@ -103,6 +103,9 @@ table,.numbers,.statuspill,.legend,.kpi,.num,td{font-variant-numeric:tabular-num
 .headline-results th[scope=row] a{color:var(--ink)}
 .hero .headline-results tbody tr:nth-child(-n+2) td{color:var(--ink);font-weight:600}
 .hero .headline-results tbody tr:nth-child(-n+2) th a{font-weight:700}
+.hero .headline-results tbody tr:nth-child(n+3) th,
+.hero .headline-results tbody tr:nth-child(n+3) th a,
+.hero .headline-results tbody tr:nth-child(n+3) td{color:#66737b;font-weight:500}
 .headline-results p{color:var(--muted)}
 
 .joinbutton{background:var(--accent)!important;border-color:var(--accent)!important;font-size:15px!important;padding:14px 24px!important;border-radius:6px}
