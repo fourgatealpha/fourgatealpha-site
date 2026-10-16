@@ -40,3 +40,164 @@ svg [stroke="#659c91"]{stroke:var(--chart-reserve)}svg [stroke="#849767"]{stroke
  .sidebar nav button.active{box-shadow:inset 3px 0 #37735c}
  .sidebar-mark{color:#37735c}.sidebar .localdot{background:#37735c}
 }
+
+
+/* ===== Visual refresh, October 15, 2026: forest-green accent, IBM Plex Sans + Source Serif 4 =====
+   Accent is for brand elements only; numbers, bars and status pills stay neutral.
+   To revert, delete everything from this line to the end of the file. */
+
+/* ---------- Fonts (self-hosted) ---------- */
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'Source Serif 4';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/source-serif-4-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'Source Serif 4';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/source-serif-4-latin-600-normal.woff2) format('woff2')}
+
+/* ---------- Palette ---------- */
+:root{
+  --sans:'IBM Plex Sans','Segoe UI',Arial,sans-serif;
+  --serif:'Source Serif 4',Georgia,serif;
+  --accent:#2f6b4f;          /* forest green: CTAs, 4D lines, links, active states */
+  --accent-hover:#24563f;
+  --accent-soft:#e3eee6;
+  --navy:#293440;            /* slate: ink, dark bars */
+  --ink:#2b3640;
+  --muted:#5b6670;           /* darker than before: 5.4:1 on paper */
+  --line:#d6dfd9;
+  --paper:#f7f5f1;
+  --sage:#edf3ee;
+  --panel-dark:var(--sage);
+  --theme-soft:var(--accent-soft);
+  --green:var(--accent);
+  --gold:var(--accent);      /* dashboard.css still referenced the retired gold */
+  --chart-model:var(--accent);
+  --chart-model-dark:var(--accent);
+  --chart-stock-dark:#2a6f8f;
+  --chart-bench:#66717c;
+}
+
+/* ---------- Type ---------- */
+body{font-family:var(--sans);color:var(--ink);font-size:16px}
+h1,h2,h3,.hero-heading,.systemcard h3,.dashboardjoin strong,.previewwindow .windowintro{margin-top:4px}
+.windowintro strong{font-family:var(--sans)}
+h1,.sectionheading h2,.joinsection h2,.faq h2,#leverage-results h2,.systemcard h3{font-family:var(--serif)!important;font-weight:600;letter-spacing:-.015em}
+h1,h2,h3{text-wrap:balance}
+p,li,figcaption,.note,.lede{text-wrap:pretty}
+table,.numbers,.statuspill,.legend,.kpi,.num,td{font-variant-numeric:tabular-nums lining-nums}
+
+.eyebrow{font-family:var(--sans);font-size:11.5px;letter-spacing:1.4px;font-weight:600;color:var(--accent)!important}
+
+/* ---------- Header ---------- */
+.siteheader .wordmark span{font-family:var(--sans);font-weight:600;letter-spacing:1.6px}
+.wordmark .brandmark path:first-child{fill:var(--accent)}
+.siteheader .globalnav a{font-size:14px;color:var(--ink)}
+.siteheader .globalnav a:hover{color:var(--accent)}
+
+/* ---------- Hero ---------- */
+.hero{padding-top:56px!important;padding-bottom:64px!important;align-items:start}
+.hero .hero-heading{font-family:var(--serif)!important;font-weight:600;letter-spacing:-.02em;line-height:1.08;margin-bottom:34px}
+.hero .hero-heading>span{font-family:var(--serif)!important;font-weight:600}
+.hero .hero-heading span:first-child{font-size:clamp(32px,3.6vw,48px)}
+.hero .hero-heading span:last-child{font-size:clamp(32px,3.6vw,48px);color:var(--accent);margin-top:2px}
+.headline-results caption{font-weight:600;color:var(--ink)}
+.headline-results th[scope=row] a{color:var(--ink)}
+.hero .headline-results tbody tr:nth-child(-n+2) td{color:var(--ink);font-weight:600}
+.hero .headline-results tbody tr:nth-child(-n+2) th a{font-weight:700}
+.headline-results p{color:var(--muted)}
+
+.joinbutton{background:var(--accent)!important;border-color:var(--accent)!important;font-size:15px!important;padding:14px 24px!important;border-radius:6px}
+.joinbutton:hover{background:var(--accent-hover)!important;border-color:var(--accent-hover)!important}
+.hero .actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.hero .actions .outlinebutton{border:0;padding:14px 2px;font-size:15px;color:var(--accent);text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
+.hero .note{color:var(--muted)}
+
+/* Weekly view panel: an instrument, not a floating card */
+.previewwindow{background:#fff!important;border:1px solid var(--navy);border-radius:8px;box-shadow:none!important;overflow:hidden}
+.previewwindow .windowhead{margin:-25px -25px 22px;padding:13px 25px;background:var(--navy);color:#d3dbd6!important;border-bottom:0;letter-spacing:1.4px;font-size:11px}
+.previewwindow .windowhead .dots{color:#7fb596}
+.previewwindow .windowintro{margin-top:4px}
+.windowintro strong{font-family:var(--serif)!important;font-weight:600;font-size:26px!important}
+.windowcard{background:var(--paper)!important;border:1px solid var(--line)}
+.windowcard .numbers b{color:var(--ink)}
+.stackbar span:first-child{background:var(--navy)!important}
+.stackbar span:last-child{background:#b9c6bf!important}
+.statuspill{background:#eef1ee!important;color:var(--ink)!important;border-color:var(--line)!important;font-weight:600}
+.windowfoot{color:var(--muted)!important}
+
+/* ---------- Evidence ---------- */
+.evidence{padding:80px 0!important;background:var(--sage)!important;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.evidence .sectionheading h2{font-size:44px}
+.evidence .journey-deck{font-family:var(--sans);font-weight:500;color:var(--ink)!important}
+.historychart{background:#fff!important;border:1px solid var(--line)!important;border-radius:8px}
+.historychart h3{font-weight:600;color:var(--ink)!important}
+.evidence svg line[stroke="#38505b"]{stroke:#e4e9e5!important}
+.evidence svg text{fill:#5b6670!important;font-family:var(--sans)}
+.historychart polyline{stroke-linejoin:round}
+svg [stroke="#8cc9ac"],svg [stroke="#16705e"]{stroke:var(--accent)!important;stroke-width:2.2px}
+svg [stroke="#74cbe3"]{stroke:var(--chart-stock-dark)!important;stroke-width:2px}
+.evidence svg [stroke="#a4b3ca"]{stroke:var(--chart-bench)!important;stroke-width:1.4px;stroke-dasharray:none}
+.journey-legend span:before,.journey-legend .etfkey:before{background:var(--accent)!important}
+.journey-legend .stockkey:before{background:var(--chart-stock-dark)!important}
+.journey-legend .spykey:before{background:var(--chart-bench)!important}
+.journey-legend,.chartcaption,.journey-note{color:var(--muted)!important}
+
+/* ---------- Leverage table ---------- */
+#leverage-results{padding-top:72px!important;padding-bottom:16px!important}
+#leverage-results h2{font-size:36px!important;margin-bottom:8px!important}
+#leverage-results caption{color:var(--muted);font-weight:500}
+#leverage-results table{max-width:900px}
+#leverage-results tbody tr:nth-child(odd){background:#f0eee8}
+#leverage-results tbody th{padding-left:12px}
+#leverage-results td:last-child,#leverage-results th:last-child{padding-right:12px}
+#leverage-results .headline-results p{max-width:900px}
+
+/* ---------- System cards ---------- */
+.systems{padding-top:40px;padding-bottom:40px}
+.systemcard{border-radius:8px;border-color:var(--line)}
+.systemcard h3{font-size:30px!important}
+.systemcard li:before{color:var(--accent)}
+.outlinebutton{border-color:#b9c6bf;color:var(--ink)}
+.outlinebutton:hover{border-color:var(--accent);color:var(--accent)}
+
+/* ---------- Process ---------- */
+.process{padding-top:72px;padding-bottom:72px}
+.process .sectionheading h2{font-size:44px}
+.sleeve-graphic{border-color:var(--line)!important}
+.sleeve-timeline .renew{background:var(--navy)!important;color:#fff!important}
+.sleeve-timeline .hold{background:#f0f2ef!important;color:#6b7680!important}
+.steps span{font-family:var(--serif)!important;color:var(--accent);font-weight:600}
+.steps h3{font-weight:600}
+
+/* ---------- Join + FAQ ---------- */
+.joinsection{background:var(--sage)!important;padding:80px 0!important}
+.joinsection h2{font-size:46px}
+.joinsection .lede{color:var(--muted)!important}
+.joinoffer strong{font-family:var(--serif)!important;font-weight:600;color:var(--accent)}
+.signupbox{border:1px solid var(--line);box-shadow:none!important}
+.faq{padding-top:72px;padding-bottom:72px}
+.faq summary{font-weight:500}
+.faq summary:hover{color:var(--accent)}
+
+/* ---------- Links ---------- */
+main a:not(.joinbutton):not(.outlinebutton):not(.wordmark){text-underline-offset:3px}
+.headline-results p a,.journey-note a,#leverage-results p a{color:var(--accent)}
+
+/* ---------- Dashboards ---------- */
+.sidebar{border-right:1px solid var(--line)}
+.sidebar nav button.active{background:#fff!important;color:var(--ink)!important;box-shadow:inset 3px 0 var(--accent)!important;font-weight:600}
+.sidebar nav button:hover{background:#f4f8f5!important;color:var(--ink)!important}
+.sidebar-mark,.sidebar .brandmark path:first-child{color:var(--accent);fill:var(--accent)}
+.statusstamp{border-color:var(--accent)!important}
+
+/* ---------- Small screens ---------- */
+@media (max-width:760px){
+  .hero{padding-top:28px!important;padding-bottom:40px!important}
+  .hero .hero-heading span:first-child,.hero .hero-heading span:last-child{font-size:32px}
+  .previewwindow .windowhead{margin:-17px -17px 18px;padding:12px 17px}
+  .evidence,.joinsection{padding:52px 0!important}
+  .evidence .sectionheading h2,.process .sectionheading h2,.joinsection h2{font-size:34px}
+  #leverage-results{padding-top:52px!important}
+  #leverage-results h2{font-size:30px!important}
+  .process,.faq{padding-top:52px;padding-bottom:52px}
+  .hero .actions{row-gap:2px}
+}
