@@ -3,7 +3,7 @@
   "record_kind": "ACTIVE_MODEL_SLEEVE_PERFORMANCE",
   "as_of": "2026-10-14",
   "generated_at": "2026-10-15T19:43:38.117468+00:00",
-  "basis": "Unleveraged model total returns from rotation opening prices to the stated closing prices, before trading costs. Initial position weights drift with prices; cash earns the model cash proxy. These are model results, not investor account returns.",
+  "basis": "Unleveraged model total returns from rotation opening prices to the stated closing prices, before trading costs. Initial position weights drift with prices; cash earns the model cash proxy. Benchmarks use the same rotation open and closing date, before trading costs: SPY buy and hold; 80/20 SPY/IEF rebalances at the first market open each month. These are model results, not investor account returns.",
   "refresh_due_at": "2026-10-16T00:45:00+00:00",
   "source_signal_date": "2026-10-09",
   "etf": [
@@ -33,7 +33,23 @@
           "contribution": -0.0035736824816811276
         }
       ],
-      "note": null
+      "note": null,
+      "benchmarks": {
+        "SPY": {
+          "trade_date": "2026-09-28",
+          "as_of": "2026-10-14",
+          "status": "Holding",
+          "gain_loss": 0.001626862809550822,
+          "note": null
+        },
+        "SPY_80_20": {
+          "trade_date": "2026-09-28",
+          "as_of": "2026-10-14",
+          "status": "Holding",
+          "gain_loss": 0.0024169137117624473,
+          "note": null
+        }
+      }
     },
     {
       "sleeve": 2,
@@ -61,7 +77,23 @@
           "contribution": -0.0066697687204486395
         }
       ],
-      "note": null
+      "note": null,
+      "benchmarks": {
+        "SPY": {
+          "trade_date": "2026-10-05",
+          "as_of": "2026-10-14",
+          "status": "Holding",
+          "gain_loss": -0.00011696508358327584,
+          "note": null
+        },
+        "SPY_80_20": {
+          "trade_date": "2026-10-05",
+          "as_of": "2026-10-14",
+          "status": "Holding",
+          "gain_loss": 0.0015925790296231757,
+          "note": null
+        }
+      }
     },
     {
       "sleeve": 3,
@@ -89,7 +121,23 @@
           "contribution": -0.0073308244263063285
         }
       ],
-      "note": null
+      "note": null,
+      "benchmarks": {
+        "SPY": {
+          "trade_date": "2026-10-12",
+          "as_of": "2026-10-14",
+          "status": "Holding",
+          "gain_loss": -0.011787736415410865,
+          "note": null
+        },
+        "SPY_80_20": {
+          "trade_date": "2026-10-12",
+          "as_of": "2026-10-14",
+          "status": "Holding",
+          "gain_loss": -0.008579417284956259,
+          "note": null
+        }
+      }
     }
   ],
   "tiers": {
@@ -120,7 +168,23 @@
             "contribution": 0.0012543118419828447
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-09-28",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.001626862809550822,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-09-28",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.0024169137117624473,
+            "note": null
+          }
+        }
       },
       {
         "sleeve": 2,
@@ -148,7 +212,23 @@
             "contribution": -8.816412057725985e-05
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-10-05",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.00011696508358327584,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-10-05",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.0015925790296231757,
+            "note": null
+          }
+        }
       },
       {
         "sleeve": 3,
@@ -176,7 +256,23 @@
             "contribution": -0.007353029971484457
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-10-12",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.011787736415410865,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-10-12",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.008579417284956259,
+            "note": null
+          }
+        }
       }
     ],
     "Core": [
@@ -206,7 +302,23 @@
             "contribution": 0.0012543118419828447
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-09-28",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.001626862809550822,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-09-28",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.0024169137117624473,
+            "note": null
+          }
+        }
       },
       {
         "sleeve": 2,
@@ -234,7 +346,23 @@
             "contribution": -8.816412057725985e-05
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-10-05",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.00011696508358327584,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-10-05",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.0015925790296231757,
+            "note": null
+          }
+        }
       },
       {
         "sleeve": 3,
@@ -377,7 +505,23 @@
             "contribution": -0.005514772478613342
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-10-12",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.011787736415410865,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-10-12",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.008579417284956259,
+            "note": null
+          }
+        }
       }
     ],
     "Balanced": [
@@ -407,7 +551,23 @@
             "contribution": 0.0012543118419828447
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-09-28",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.001626862809550822,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-09-28",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.0024169137117624473,
+            "note": null
+          }
+        }
       },
       {
         "sleeve": 2,
@@ -435,7 +595,23 @@
             "contribution": -8.816412057725985e-05
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-10-05",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.00011696508358327584,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-10-05",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.0015925790296231757,
+            "note": null
+          }
+        }
       },
       {
         "sleeve": 3,
@@ -578,7 +754,23 @@
             "contribution": -0.0036765149857422284
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-10-12",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.011787736415410865,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-10-12",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.008579417284956259,
+            "note": null
+          }
+        }
       }
     ],
     "Growth": [
@@ -608,7 +800,23 @@
             "contribution": 0.0012543118419828447
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-09-28",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.001626862809550822,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-09-28",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.0024169137117624473,
+            "note": null
+          }
+        }
       },
       {
         "sleeve": 2,
@@ -636,7 +844,23 @@
             "contribution": -8.816412057725985e-05
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-10-05",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.00011696508358327584,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-10-05",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.0015925790296231757,
+            "note": null
+          }
+        }
       },
       {
         "sleeve": 3,
@@ -779,7 +1003,23 @@
             "contribution": -0.0018382574928711142
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-10-12",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.011787736415410865,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-10-12",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.008579417284956259,
+            "note": null
+          }
+        }
       }
     ],
     "FullStock": [
@@ -809,7 +1049,23 @@
             "contribution": 0.0012543118419828447
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-09-28",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.001626862809550822,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-09-28",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.0024169137117624473,
+            "note": null
+          }
+        }
       },
       {
         "sleeve": 2,
@@ -837,7 +1093,23 @@
             "contribution": -8.816412057725985e-05
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-10-05",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.00011696508358327584,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-10-05",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": 0.0015925790296231757,
+            "note": null
+          }
+        }
       },
       {
         "sleeve": 3,
@@ -966,7 +1238,23 @@
             "contribution": -0.00370529812365425
           }
         ],
-        "note": null
+        "note": null,
+        "benchmarks": {
+          "SPY": {
+            "trade_date": "2026-10-12",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.011787736415410865,
+            "note": null
+          },
+          "SPY_80_20": {
+            "trade_date": "2026-10-12",
+            "as_of": "2026-10-14",
+            "status": "Holding",
+            "gain_loss": -0.008579417284956259,
+            "note": null
+          }
+        }
       }
     ]
   },

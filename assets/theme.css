@@ -130,6 +130,7 @@ table,.numbers,.statuspill,.legend,.kpi,.num,td{font-variant-numeric:tabular-num
 /* ---------- Evidence ---------- */
 .evidence{padding:80px 0!important;background:var(--sage)!important;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .evidence .sectionheading h2{font-size:44px}
+.evidence{--chart-stock-dark:#b99545;--chart-bench:#7f92ae}
 .evidence .journey-deck{font-family:var(--sans);font-weight:500;color:var(--ink)!important}
 .historychart{background:#fff!important;border:1px solid var(--line)!important;border-radius:8px}
 .historychart h3{font-weight:600;color:var(--ink)!important}
@@ -142,6 +143,14 @@ svg [stroke="#74cbe3"]{stroke:var(--chart-stock-dark)!important;stroke-width:2px
 .journey-legend span:before,.journey-legend .etfkey:before{background:var(--accent)!important}
 .journey-legend .stockkey:before{background:var(--chart-stock-dark)!important}
 .journey-legend .spykey:before{background:var(--chart-bench)!important}
+.evidence svg [stroke="#74cbe3"]{stroke:#b99545!important;stroke-width:2px}
+.evidence svg [stroke="#a4b3ca"]{stroke:#7f92ae!important;stroke-width:2px}
+.journey-legend .stockkey:before{background:#b99545!important}
+.journey-legend .spykey:before{background:#7f92ae!important}
+.active-sleeve-benchmarks{display:grid;gap:4px;margin:0 0 12px;color:var(--muted);font-size:12px;font-weight:400;line-height:1.4;font-variant-numeric:tabular-nums}
+.active-sleeve-benchmarks>div{display:flex;justify-content:space-between;gap:12px}
+.active-sleeve-benchmarks .return-positive{color:#477663!important}
+.active-sleeve-benchmarks .return-negative{color:#9c5b55!important}
 .journey-legend,.chartcaption,.journey-note{color:var(--muted)!important}
 
 /* ---------- Leverage table ---------- */

@@ -20,7 +20,12 @@
    const valid=current&&current.trade_date===r.trade_date&&allocationMatches&&r.status==='Holding'&&Number.isFinite(r.gain_loss);
    const tone=valid?(r.gain_loss>=0?'return-positive':'return-negative'):'';
    const value=valid?(r.gain_loss>=0?'+':'−')+Math.abs(100*r.gain_loss).toFixed(2)+'%':'Pending';
-   return '<section class="active-sleeve-card"><h3>Sleeve '+r.sleeve+'</h3><p>Rotated '+(r.trade_date?date(r.trade_date):'—')+'</p><strong class="active-sleeve-return '+tone+'">'+value+'</strong><span>'+(valid?'Return since rotation':safe(r.note||'Awaiting a verified mark for this allocation.'))+'</span></section>';
+   const benchmarks=[['SPY','SPY'],['SPY_80_20','80/20 SPY/IEF']].map(([key,label])=>{
+    const b=r.benchmarks?.[key];const ready=valid&&b?.status==='Holding'&&b.trade_date===r.trade_date&&b.as_of===data.as_of&&Number.isFinite(b.gain_loss);
+    const text=ready?(b.gain_loss>=0?'+':'−')+Math.abs(100*b.gain_loss).toFixed(2)+'%':'Pending';
+    return '<div><span>'+label+'</span><span class="'+(ready?(b.gain_loss>=0?'return-positive':'return-negative'):'')+'">'+text+'</span></div>';
+   }).join('');
+   return '<section class="active-sleeve-card"><h3>Sleeve '+r.sleeve+'</h3><p>Rotated '+(r.trade_date?date(r.trade_date):'—')+'</p><strong class="active-sleeve-return '+tone+'">'+value+'</strong><div class="active-sleeve-benchmarks" aria-label="Benchmark returns for the same rotation period">'+benchmarks+'</div><span>'+(valid?'Return since rotation':safe(r.note||'Awaiting a verified mark for this allocation.'))+'</span></section>';
   }).join('');
   document.getElementById('activeSleeveBasis').textContent=data.basis;
  }
