@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "record_kind": "ACTIVE_MODEL_SLEEVE_PERFORMANCE",
-  "as_of": "2026-10-14",
-  "generated_at": "2026-10-15T19:43:38.117468+00:00",
+  "as_of": "2026-10-16",
+  "generated_at": "2026-10-17T15:07:06.705944+00:00",
   "basis": "Unleveraged model total returns from rotation opening prices to the stated closing prices, before trading costs. Initial position weights drift with prices; cash earns the model cash proxy. Benchmarks use the same rotation open and closing date, before trading costs: SPY buy and hold; 80/20 SPY/IEF rebalances at the first market open each month. These are model results, not investor account returns.",
-  "refresh_due_at": "2026-10-16T00:45:00+00:00",
-  "source_signal_date": "2026-10-09",
+  "refresh_due_at": "2026-10-20T00:45:00+00:00",
+  "source_signal_date": "2026-10-16",
   "etf": [
     {
       "sleeve": 1,
@@ -16,37 +16,37 @@
         "SPY": 0.77,
         "QQQ": 0.23
       },
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-16",
       "status": "Holding",
-      "gain_loss": -0.0023209981183269944,
+      "gain_loss": -0.01463298724744326,
       "components": [
         {
           "symbol": "SPY",
           "entry_weight": 0.77,
-          "gain_loss": 0.001626862809550822,
-          "contribution": 0.001252684363354133
+          "gain_loss": -0.006637568488302881,
+          "contribution": -0.005110927735993218
         },
         {
           "symbol": "QQQ",
           "entry_weight": 0.23,
-          "gain_loss": -0.015537749920352728,
-          "contribution": -0.0035736824816811276
+          "gain_loss": -0.04140025874543496,
+          "contribution": -0.009522059511450041
         }
       ],
       "note": null,
       "benchmarks": {
         "SPY": {
           "trade_date": "2026-09-28",
-          "as_of": "2026-10-14",
+          "as_of": "2026-10-16",
           "status": "Holding",
-          "gain_loss": 0.001626862809550822,
+          "gain_loss": -0.006637568488302881,
           "note": null
         },
         "SPY_80_20": {
           "trade_date": "2026-09-28",
-          "as_of": "2026-10-14",
+          "as_of": "2026-10-16",
           "status": "Holding",
-          "gain_loss": 0.0024169137117624473,
+          "gain_loss": -0.0026039760899345676,
           "note": null
         }
       }
@@ -60,37 +60,37 @@
         "SPY": 0.755,
         "QQQ": 0.245
       },
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-16",
       "status": "Holding",
-      "gain_loss": -0.006758077358554012,
+      "gain_loss": -0.01924796092665691,
       "components": [
         {
           "symbol": "SPY",
           "entry_weight": 0.755,
-          "gain_loss": -0.00011696508358327584,
-          "contribution": -8.830863810537326e-05
+          "gain_loss": -0.00836700804347068,
+          "contribution": -0.006317091072820364
         },
         {
           "symbol": "QQQ",
           "entry_weight": 0.245,
-          "gain_loss": -0.02722354579774955,
-          "contribution": -0.0066697687204486395
+          "gain_loss": -0.05277906062790427,
+          "contribution": -0.012930869853836546
         }
       ],
       "note": null,
       "benchmarks": {
         "SPY": {
           "trade_date": "2026-10-05",
-          "as_of": "2026-10-14",
+          "as_of": "2026-10-16",
           "status": "Holding",
-          "gain_loss": -0.00011696508358327584,
+          "gain_loss": -0.00836700804347068,
           "note": null
         },
         "SPY_80_20": {
           "trade_date": "2026-10-05",
-          "as_of": "2026-10-14",
+          "as_of": "2026-10-16",
           "status": "Holding",
-          "gain_loss": 0.0015925790296231757,
+          "gain_loss": -0.003411234358566606,
           "note": null
         }
       }
@@ -104,37 +104,37 @@
         "SPY": 0.735,
         "QQQ": 0.265
       },
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-16",
       "status": "Holding",
-      "gain_loss": -0.015994810691633315,
+      "gain_loss": -0.02875696364688348,
       "components": [
         {
           "symbol": "SPY",
           "entry_weight": 0.735,
-          "gain_loss": -0.011787736415410865,
-          "contribution": -0.008663986265326986
+          "gain_loss": -0.0199414837472095,
+          "contribution": -0.014656990554198982
         },
         {
           "symbol": "QQQ",
           "entry_weight": 0.265,
-          "gain_loss": -0.027663488401155956,
-          "contribution": -0.0073308244263063285
+          "gain_loss": -0.05320744563277169,
+          "contribution": -0.014099973092684497
         }
       ],
       "note": null,
       "benchmarks": {
         "SPY": {
           "trade_date": "2026-10-12",
-          "as_of": "2026-10-14",
+          "as_of": "2026-10-16",
           "status": "Holding",
-          "gain_loss": -0.011787736415410865,
+          "gain_loss": -0.0199414837472095,
           "note": null
         },
         "SPY_80_20": {
           "trade_date": "2026-10-12",
-          "as_of": "2026-10-14",
+          "as_of": "2026-10-16",
           "status": "Holding",
-          "gain_loss": -0.008579417284956259,
+          "gain_loss": -0.01351280568007307,
           "note": null
         }
       }
@@ -151,37 +151,37 @@
           "QQQ": 0.22899962146829012,
           "SPY": 0.7710003785317099
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.002303827008246885,
+        "gain_loss": -0.014598211398405543,
         "components": [
           {
             "symbol": "QQQ",
             "entry_weight": 0.22899962146829012,
-            "gain_loss": -0.015537749920352728,
-            "contribution": -0.0035581388502297297
+            "gain_loss": -0.04140025874543496,
+            "contribution": -0.009480643581393873
           },
           {
             "symbol": "SPY",
             "entry_weight": 0.7710003785317099,
-            "gain_loss": 0.001626862809550822,
-            "contribution": 0.0012543118419828447
+            "gain_loss": -0.006637568488302881,
+            "contribution": -0.00511756781701167
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-09-28",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.001626862809550822,
+            "gain_loss": -0.006637568488302881,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-09-28",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.0024169137117624473,
+            "gain_loss": -0.0026039760899345676,
             "note": null
           }
         }
@@ -195,37 +195,37 @@
           "QQQ": 0.24623556127765697,
           "SPY": 0.753764438722343
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.00679156920005412,
+        "gain_loss": -0.0193028347390915,
         "components": [
           {
             "symbol": "QQQ",
             "entry_weight": 0.24623556127765697,
-            "gain_loss": -0.02722354579774955,
-            "contribution": -0.00670340507947686
+            "gain_loss": -0.05277906062790427,
+            "contribution": -0.012996081617419495
           },
           {
             "symbol": "SPY",
             "entry_weight": 0.753764438722343,
-            "gain_loss": -0.00011696508358327584,
-            "contribution": -8.816412057725985e-05
+            "gain_loss": -0.00836700804347068,
+            "contribution": -0.006306753121672007
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-10-05",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.00011696508358327584,
+            "gain_loss": -0.00836700804347068,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-10-05",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.0015925790296231757,
+            "gain_loss": -0.003411234358566606,
             "note": null
           }
         }
@@ -239,37 +239,37 @@
           "SPY": 0.7341972977212374,
           "QQQ": 0.2658027022787625
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.01600755419392934,
+        "gain_loss": -0.028783666310294248,
         "components": [
           {
             "symbol": "SPY",
             "entry_weight": 0.7341972977212374,
-            "gain_loss": -0.011787736415410865,
-            "contribution": -0.008654524222444884
+            "gain_loss": -0.0199414837472095,
+            "contribution": -0.01464098347975319
           },
           {
             "symbol": "QQQ",
             "entry_weight": 0.2658027022787625,
-            "gain_loss": -0.027663488401155956,
-            "contribution": -0.007353029971484457
+            "gain_loss": -0.05320744563277169,
+            "contribution": -0.014142682830541056
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-10-12",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.011787736415410865,
+            "gain_loss": -0.0199414837472095,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-10-12",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.008579417284956259,
+            "gain_loss": -0.01351280568007307,
             "note": null
           }
         }
@@ -285,37 +285,37 @@
           "QQQ": 0.22899962146829012,
           "SPY": 0.7710003785317099
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.002303827008246885,
+        "gain_loss": -0.014598211398405543,
         "components": [
           {
             "symbol": "QQQ",
             "entry_weight": 0.22899962146829012,
-            "gain_loss": -0.015537749920352728,
-            "contribution": -0.0035581388502297297
+            "gain_loss": -0.04140025874543496,
+            "contribution": -0.009480643581393873
           },
           {
             "symbol": "SPY",
             "entry_weight": 0.7710003785317099,
-            "gain_loss": 0.001626862809550822,
-            "contribution": 0.0012543118419828447
+            "gain_loss": -0.006637568488302881,
+            "contribution": -0.00511756781701167
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-09-28",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.001626862809550822,
+            "gain_loss": -0.006637568488302881,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-09-28",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.0024169137117624473,
+            "gain_loss": -0.0026039760899345676,
             "note": null
           }
         }
@@ -329,37 +329,37 @@
           "QQQ": 0.24623556127765697,
           "SPY": 0.753764438722343
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.00679156920005412,
+        "gain_loss": -0.0193028347390915,
         "components": [
           {
             "symbol": "QQQ",
             "entry_weight": 0.24623556127765697,
-            "gain_loss": -0.02722354579774955,
-            "contribution": -0.00670340507947686
+            "gain_loss": -0.05277906062790427,
+            "contribution": -0.012996081617419495
           },
           {
             "symbol": "SPY",
             "entry_weight": 0.753764438722343,
-            "gain_loss": -0.00011696508358327584,
-            "contribution": -8.816412057725985e-05
+            "gain_loss": -0.00836700804347068,
+            "contribution": -0.006306753121672007
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-10-05",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.00011696508358327584,
+            "gain_loss": -0.00836700804347068,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-10-05",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.0015925790296231757,
+            "gain_loss": -0.003411234358566606,
             "note": null
           }
         }
@@ -374,151 +374,151 @@
           "SPY": 0.5506479732909281,
           "QQQ": 0.19935202670907187
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.023300259012319496,
+        "gain_loss": -0.03752578390452176,
         "components": [
           {
             "symbol": "CHTR",
             "entry_weight": 0.012236621628687291,
-            "gain_loss": 0.010961532592773438,
-            "contribution": 0.00013413212680829213
+            "gain_loss": 0.05875000586876511,
+            "contribution": 0.0007189015924992364
           },
           {
             "symbol": "APP",
             "entry_weight": 0.012236621628687291,
-            "gain_loss": -0.06360713413783481,
-            "contribution": -0.0007783364333298432
+            "gain_loss": -0.04953569684709824,
+            "contribution": -0.0006061495794312992
           },
           {
             "symbol": "AXON",
             "entry_weight": 0.012236621628687291,
-            "gain_loss": -0.03810643533489877,
-            "contribution": -0.0004662940308111959
+            "gain_loss": -0.08080545705463116,
+            "contribution": -0.0009887858035106617
           },
           {
             "symbol": "DASH",
             "entry_weight": 0.012236621628687291,
-            "gain_loss": -0.056359002529046465,
-            "contribution": -0.0006896437893181717
+            "gain_loss": -0.03000003130008011,
+            "contribution": -0.000367099031867856
           },
           {
             "symbol": "GLW",
             "entry_weight": 0.012236621628687291,
-            "gain_loss": -0.09106161122884604,
-            "contribution": -0.001114286481506011
+            "gain_loss": -0.14841459409781532,
+            "contribution": -0.001816093232150172
           },
           {
             "symbol": "WDC",
             "entry_weight": 0.012236621628687291,
-            "gain_loss": -0.07060445929296688,
-            "contribution": -0.0008639600536660899
+            "gain_loss": -0.15254239400641512,
+            "contribution": -0.0018666035577906378
           },
           {
             "symbol": "HOOD",
             "entry_weight": 0.012236621628687291,
-            "gain_loss": -0.07010115300017705,
-            "contribution": -0.0008578012849978835
+            "gain_loss": -0.09043233190099109,
+            "contribution": -0.0011065862284722952
           },
           {
             "symbol": "SNDK",
             "entry_weight": 0.025526756742625417,
-            "gain_loss": -0.08762350361953486,
-            "contribution": -0.0022367438618324242
+            "gain_loss": -0.15526468627021173,
+            "contribution": -0.003963403877139747
           },
           {
             "symbol": "COIN",
             "entry_weight": 0.012236621628687291,
-            "gain_loss": -0.036556130789379804,
-            "contribution": -0.0004473235406784463
+            "gain_loss": -0.03505150957426317,
+            "contribution": -0.0004289120601745684
           },
           {
             "symbol": "VRT",
             "entry_weight": 0.012236621628687291,
-            "gain_loss": -0.0702244912537967,
-            "contribution": -0.0008593105285397703
+            "gain_loss": -0.1386965074907881,
+            "contribution": -0.0016971766833851665
           },
           {
             "symbol": "MOS",
             "entry_weight": 0.012236621628687291,
-            "gain_loss": 0.010632683073786175,
-            "contribution": 0.00013010811967166918
+            "gain_loss": 0.0005316442937672861,
+            "contribution": 6.5055300638809525e-06
           },
           {
             "symbol": "FICO",
             "entry_weight": 0.012236621628687291,
-            "gain_loss": 0.06770030398043403,
-            "contribution": 0.0008284230039556833
+            "gain_loss": 0.14419881667864431,
+            "contribution": 0.0017645063590010126
           },
           {
             "symbol": "NXPI",
             "entry_weight": 0.012236621628687291,
-            "gain_loss": -0.02127377985144674,
-            "contribution": -0.0002603191946541451
+            "gain_loss": 0.01639851468409037,
+            "contribution": 0.00020066241946168636
           },
           {
             "symbol": "ADBE",
             "entry_weight": 0.012236621628687291,
-            "gain_loss": 0.025807107834975973,
-            "contribution": 0.00031579181390733226
+            "gain_loss": 0.04507191027487356,
+            "contribution": 0.0005515279121157707
           },
           {
             "symbol": "EFX",
             "entry_weight": 0.012236621628687291,
-            "gain_loss": 0.027610668971475016,
-            "contribution": 0.0003378613091188763
+            "gain_loss": 0.10203657687563594,
+            "contribution": 0.0012485829835136202
           },
           {
             "symbol": "LITE",
             "entry_weight": 0.013290135113938126,
-            "gain_loss": -0.18646729393187778,
-            "contribution": -0.0024781755306850705
+            "gain_loss": -0.251997924602534,
+            "contribution": -0.0033490864663996696
           },
           {
             "symbol": "MU",
             "entry_weight": 0.013290135113938126,
-            "gain_loss": -0.08795610625720285,
-            "contribution": -0.0011689485362541246
+            "gain_loss": -0.12316554998865814,
+            "contribution": -0.001636886800731767
           },
           {
             "symbol": "MRNA",
             "entry_weight": 0.013290135113938126,
-            "gain_loss": 0.008017830965513673,
-            "contribution": 0.00010655805685239369
+            "gain_loss": -0.028908710437256402,
+            "contribution": -0.0003842006676808509
           },
           {
             "symbol": "STX",
             "entry_weight": 0.013290135113938126,
-            "gain_loss": -0.06970015902562743,
-            "contribution": -0.0009263245309135625
+            "gain_loss": -0.16687091295224898,
+            "contribution": -0.0022177369797215965
           },
           {
             "symbol": "SPY",
             "entry_weight": 0.5506479732909281,
-            "gain_loss": -0.011787736415410865,
-            "contribution": -0.0064908931668336625
+            "gain_loss": -0.0199414837472095,
+            "contribution": -0.010980737609814892
           },
           {
             "symbol": "QQQ",
             "entry_weight": 0.19935202670907187,
-            "gain_loss": -0.027663488401155956,
-            "contribution": -0.005514772478613342
+            "gain_loss": -0.05320744563277169,
+            "contribution": -0.01060701212290579
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-10-12",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.011787736415410865,
+            "gain_loss": -0.0199414837472095,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-10-12",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.008579417284956259,
+            "gain_loss": -0.01351280568007307,
             "note": null
           }
         }
@@ -534,37 +534,37 @@
           "QQQ": 0.22899962146829012,
           "SPY": 0.7710003785317099
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.002303827008246885,
+        "gain_loss": -0.014598211398405543,
         "components": [
           {
             "symbol": "QQQ",
             "entry_weight": 0.22899962146829012,
-            "gain_loss": -0.015537749920352728,
-            "contribution": -0.0035581388502297297
+            "gain_loss": -0.04140025874543496,
+            "contribution": -0.009480643581393873
           },
           {
             "symbol": "SPY",
             "entry_weight": 0.7710003785317099,
-            "gain_loss": 0.001626862809550822,
-            "contribution": 0.0012543118419828447
+            "gain_loss": -0.006637568488302881,
+            "contribution": -0.00511756781701167
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-09-28",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.001626862809550822,
+            "gain_loss": -0.006637568488302881,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-09-28",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.0024169137117624473,
+            "gain_loss": -0.0026039760899345676,
             "note": null
           }
         }
@@ -578,37 +578,37 @@
           "QQQ": 0.24623556127765697,
           "SPY": 0.753764438722343
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.00679156920005412,
+        "gain_loss": -0.0193028347390915,
         "components": [
           {
             "symbol": "QQQ",
             "entry_weight": 0.24623556127765697,
-            "gain_loss": -0.02722354579774955,
-            "contribution": -0.00670340507947686
+            "gain_loss": -0.05277906062790427,
+            "contribution": -0.012996081617419495
           },
           {
             "symbol": "SPY",
             "entry_weight": 0.753764438722343,
-            "gain_loss": -0.00011696508358327584,
-            "contribution": -8.816412057725985e-05
+            "gain_loss": -0.00836700804347068,
+            "contribution": -0.006306753121672007
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-10-05",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.00011696508358327584,
+            "gain_loss": -0.00836700804347068,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-10-05",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.0015925790296231757,
+            "gain_loss": -0.003411234358566606,
             "note": null
           }
         }
@@ -623,151 +623,151 @@
           "SPY": 0.3670986488606187,
           "QQQ": 0.13290135113938126
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.030592963830709655,
+        "gain_loss": -0.046267901498749285,
         "components": [
           {
             "symbol": "CHTR",
             "entry_weight": 0.024473243257374582,
-            "gain_loss": 0.010961532592773438,
-            "contribution": 0.00026826425361658427
+            "gain_loss": 0.05875000586876511,
+            "contribution": 0.0014378031849984728
           },
           {
             "symbol": "APP",
             "entry_weight": 0.024473243257374582,
-            "gain_loss": -0.06360713413783481,
-            "contribution": -0.0015566728666596863
+            "gain_loss": -0.04953569684709824,
+            "contribution": -0.0012122991588625984
           },
           {
             "symbol": "AXON",
             "entry_weight": 0.024473243257374582,
-            "gain_loss": -0.03810643533489877,
-            "contribution": -0.0009325880616223918
+            "gain_loss": -0.08080545705463116,
+            "contribution": -0.0019775716070213234
           },
           {
             "symbol": "DASH",
             "entry_weight": 0.024473243257374582,
-            "gain_loss": -0.056359002529046465,
-            "contribution": -0.0013792875786363434
+            "gain_loss": -0.03000003130008011,
+            "contribution": -0.000734198063735712
           },
           {
             "symbol": "GLW",
             "entry_weight": 0.024473243257374582,
-            "gain_loss": -0.09106161122884604,
-            "contribution": -0.002228572963012022
+            "gain_loss": -0.14841459409781532,
+            "contribution": -0.003632186464300344
           },
           {
             "symbol": "WDC",
             "entry_weight": 0.024473243257374582,
-            "gain_loss": -0.07060445929296688,
-            "contribution": -0.0017279201073321798
+            "gain_loss": -0.15254239400641512,
+            "contribution": -0.0037332071155812756
           },
           {
             "symbol": "HOOD",
             "entry_weight": 0.024473243257374582,
-            "gain_loss": -0.07010115300017705,
-            "contribution": -0.001715602569995767
+            "gain_loss": -0.09043233190099109,
+            "contribution": -0.0022131724569445905
           },
           {
             "symbol": "SNDK",
             "entry_weight": 0.051053513485250834,
-            "gain_loss": -0.08762350361953486,
-            "contribution": -0.0044734877236648485
+            "gain_loss": -0.15526468627021173,
+            "contribution": -0.007926807754279494
           },
           {
             "symbol": "COIN",
             "entry_weight": 0.024473243257374582,
-            "gain_loss": -0.036556130789379804,
-            "contribution": -0.0008946470813568926
+            "gain_loss": -0.03505150957426317,
+            "contribution": -0.0008578241203491368
           },
           {
             "symbol": "VRT",
             "entry_weight": 0.024473243257374582,
-            "gain_loss": -0.0702244912537967,
-            "contribution": -0.0017186210570795406
+            "gain_loss": -0.1386965074907881,
+            "contribution": -0.003394353366770333
           },
           {
             "symbol": "MOS",
             "entry_weight": 0.024473243257374582,
-            "gain_loss": 0.010632683073786175,
-            "contribution": 0.00026021623934333835
+            "gain_loss": 0.0005316442937672861,
+            "contribution": 1.3011060127761905e-05
           },
           {
             "symbol": "FICO",
             "entry_weight": 0.024473243257374582,
-            "gain_loss": 0.06770030398043403,
-            "contribution": 0.0016568460079113667
+            "gain_loss": 0.14419881667864431,
+            "contribution": 0.0035290127180020252
           },
           {
             "symbol": "NXPI",
             "entry_weight": 0.024473243257374582,
-            "gain_loss": -0.02127377985144674,
-            "contribution": -0.0005206383893082902
+            "gain_loss": 0.01639851468409037,
+            "contribution": 0.0004013248389233727
           },
           {
             "symbol": "ADBE",
             "entry_weight": 0.024473243257374582,
-            "gain_loss": 0.025807107834975973,
-            "contribution": 0.0006315836278146645
+            "gain_loss": 0.04507191027487356,
+            "contribution": 0.0011030558242315414
           },
           {
             "symbol": "EFX",
             "entry_weight": 0.024473243257374582,
-            "gain_loss": 0.027610668971475016,
-            "contribution": 0.0006757226182377526
+            "gain_loss": 0.10203657687563594,
+            "contribution": 0.0024971659670272404
           },
           {
             "symbol": "LITE",
             "entry_weight": 0.026580270227876252,
-            "gain_loss": -0.18646729393187778,
-            "contribution": -0.004956351061370141
+            "gain_loss": -0.251997924602534,
+            "contribution": -0.006698172932799339
           },
           {
             "symbol": "MU",
             "entry_weight": 0.026580270227876252,
-            "gain_loss": -0.08795610625720285,
-            "contribution": -0.002337897072508249
+            "gain_loss": -0.12316554998865814,
+            "contribution": -0.003273773601463534
           },
           {
             "symbol": "MRNA",
             "entry_weight": 0.026580270227876252,
-            "gain_loss": 0.008017830965513673,
-            "contribution": 0.00021311611370478738
+            "gain_loss": -0.028908710437256402,
+            "contribution": -0.0007684013353617018
           },
           {
             "symbol": "STX",
             "entry_weight": 0.026580270227876252,
-            "gain_loss": -0.06970015902562743,
-            "contribution": -0.001852649061827125
+            "gain_loss": -0.16687091295224898,
+            "contribution": -0.004435473959443193
           },
           {
             "symbol": "SPY",
             "entry_weight": 0.3670986488606187,
-            "gain_loss": -0.011787736415410865,
-            "contribution": -0.004327262111222442
+            "gain_loss": -0.0199414837472095,
+            "contribution": -0.007320491739876595
           },
           {
             "symbol": "QQQ",
             "entry_weight": 0.13290135113938126,
-            "gain_loss": -0.027663488401155956,
-            "contribution": -0.0036765149857422284
+            "gain_loss": -0.05320744563277169,
+            "contribution": -0.007071341415270528
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-10-12",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.011787736415410865,
+            "gain_loss": -0.0199414837472095,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-10-12",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.008579417284956259,
+            "gain_loss": -0.01351280568007307,
             "note": null
           }
         }
@@ -783,37 +783,37 @@
           "QQQ": 0.22899962146829012,
           "SPY": 0.7710003785317099
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.002303827008246885,
+        "gain_loss": -0.014598211398405543,
         "components": [
           {
             "symbol": "QQQ",
             "entry_weight": 0.22899962146829012,
-            "gain_loss": -0.015537749920352728,
-            "contribution": -0.0035581388502297297
+            "gain_loss": -0.04140025874543496,
+            "contribution": -0.009480643581393873
           },
           {
             "symbol": "SPY",
             "entry_weight": 0.7710003785317099,
-            "gain_loss": 0.001626862809550822,
-            "contribution": 0.0012543118419828447
+            "gain_loss": -0.006637568488302881,
+            "contribution": -0.00511756781701167
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-09-28",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.001626862809550822,
+            "gain_loss": -0.006637568488302881,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-09-28",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.0024169137117624473,
+            "gain_loss": -0.0026039760899345676,
             "note": null
           }
         }
@@ -827,37 +827,37 @@
           "QQQ": 0.24623556127765697,
           "SPY": 0.753764438722343
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.00679156920005412,
+        "gain_loss": -0.0193028347390915,
         "components": [
           {
             "symbol": "QQQ",
             "entry_weight": 0.24623556127765697,
-            "gain_loss": -0.02722354579774955,
-            "contribution": -0.00670340507947686
+            "gain_loss": -0.05277906062790427,
+            "contribution": -0.012996081617419495
           },
           {
             "symbol": "SPY",
             "entry_weight": 0.753764438722343,
-            "gain_loss": -0.00011696508358327584,
-            "contribution": -8.816412057725985e-05
+            "gain_loss": -0.00836700804347068,
+            "contribution": -0.006306753121672007
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-10-05",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.00011696508358327584,
+            "gain_loss": -0.00836700804347068,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-10-05",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.0015925790296231757,
+            "gain_loss": -0.003411234358566606,
             "note": null
           }
         }
@@ -872,151 +872,151 @@
           "SPY": 0.18354932443030936,
           "QQQ": 0.06645067556969063
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.03788566864909981,
+        "gain_loss": -0.05501001909297681,
         "components": [
           {
             "symbol": "CHTR",
             "entry_weight": 0.03670986488606187,
-            "gain_loss": 0.010961532592773438,
-            "contribution": 0.00040239638042487635
+            "gain_loss": 0.05875000586876511,
+            "contribution": 0.002156704777497709
           },
           {
             "symbol": "APP",
             "entry_weight": 0.03670986488606187,
-            "gain_loss": -0.06360713413783481,
-            "contribution": -0.002335009299989529
+            "gain_loss": -0.04953569684709824,
+            "contribution": -0.0018184487382938974
           },
           {
             "symbol": "AXON",
             "entry_weight": 0.03670986488606187,
-            "gain_loss": -0.03810643533489877,
-            "contribution": -0.0013988820924335876
+            "gain_loss": -0.08080545705463116,
+            "contribution": -0.002966357410531985
           },
           {
             "symbol": "DASH",
             "entry_weight": 0.03670986488606187,
-            "gain_loss": -0.056359002529046465,
-            "contribution": -0.002068931367954515
+            "gain_loss": -0.03000003130008011,
+            "contribution": -0.0011012970956035678
           },
           {
             "symbol": "GLW",
             "entry_weight": 0.03670986488606187,
-            "gain_loss": -0.09106161122884604,
-            "contribution": -0.0033428594445180327
+            "gain_loss": -0.14841459409781532,
+            "contribution": -0.0054482796964505165
           },
           {
             "symbol": "WDC",
             "entry_weight": 0.03670986488606187,
-            "gain_loss": -0.07060445929296688,
-            "contribution": -0.00259188016099827
+            "gain_loss": -0.15254239400641512,
+            "contribution": -0.005599810673371913
           },
           {
             "symbol": "HOOD",
             "entry_weight": 0.03670986488606187,
-            "gain_loss": -0.07010115300017705,
-            "contribution": -0.0025734038549936502
+            "gain_loss": -0.09043233190099109,
+            "contribution": -0.0033197586854168855
           },
           {
             "symbol": "SNDK",
             "entry_weight": 0.07658027022787625,
-            "gain_loss": -0.08762350361953486,
-            "contribution": -0.006710231585497273
+            "gain_loss": -0.15526468627021173,
+            "contribution": -0.011890211631419241
           },
           {
             "symbol": "COIN",
             "entry_weight": 0.03670986488606187,
-            "gain_loss": -0.036556130789379804,
-            "contribution": -0.0013419706220353389
+            "gain_loss": -0.03505150957426317,
+            "contribution": -0.001286736180523705
           },
           {
             "symbol": "VRT",
             "entry_weight": 0.03670986488606187,
-            "gain_loss": -0.0702244912537967,
-            "contribution": -0.0025779315856193107
+            "gain_loss": -0.1386965074907881,
+            "contribution": -0.005091530050155499
           },
           {
             "symbol": "MOS",
             "entry_weight": 0.03670986488606187,
-            "gain_loss": 0.010632683073786175,
-            "contribution": 0.00039032435901500755
+            "gain_loss": 0.0005316442937672861,
+            "contribution": 1.9516590191642856e-05
           },
           {
             "symbol": "FICO",
             "entry_weight": 0.03670986488606187,
-            "gain_loss": 0.06770030398043403,
-            "contribution": 0.00248526901186705
+            "gain_loss": 0.14419881667864431,
+            "contribution": 0.005293519077003038
           },
           {
             "symbol": "NXPI",
             "entry_weight": 0.03670986488606187,
-            "gain_loss": -0.02127377985144674,
-            "contribution": -0.0007809575839624351
+            "gain_loss": 0.01639851468409037,
+            "contribution": 0.0006019872583850591
           },
           {
             "symbol": "ADBE",
             "entry_weight": 0.03670986488606187,
-            "gain_loss": 0.025807107834975973,
-            "contribution": 0.0009473754417219966
+            "gain_loss": 0.04507191027487356,
+            "contribution": 0.0016545837363473122
           },
           {
             "symbol": "EFX",
             "entry_weight": 0.03670986488606187,
-            "gain_loss": 0.027610668971475016,
-            "contribution": 0.0010135839273566287
+            "gain_loss": 0.10203657687563594,
+            "contribution": 0.0037457489505408606
           },
           {
             "symbol": "LITE",
             "entry_weight": 0.03987040534181438,
-            "gain_loss": -0.18646729393187778,
-            "contribution": -0.007434526592055212
+            "gain_loss": -0.251997924602534,
+            "contribution": -0.01004725939919901
           },
           {
             "symbol": "MU",
             "entry_weight": 0.03987040534181438,
-            "gain_loss": -0.08795610625720285,
-            "contribution": -0.0035068456087623736
+            "gain_loss": -0.12316554998865814,
+            "contribution": -0.004910660402195301
           },
           {
             "symbol": "MRNA",
             "entry_weight": 0.03987040534181438,
-            "gain_loss": 0.008017830965513673,
-            "contribution": 0.0003196741705571811
+            "gain_loss": -0.028908710437256402,
+            "contribution": -0.0011526020030425527
           },
           {
             "symbol": "STX",
             "entry_weight": 0.03987040534181438,
-            "gain_loss": -0.06970015902562743,
-            "contribution": -0.0027789735927406874
+            "gain_loss": -0.16687091295224898,
+            "contribution": -0.00665321093916479
           },
           {
             "symbol": "SPY",
             "entry_weight": 0.18354932443030936,
-            "gain_loss": -0.011787736415410865,
-            "contribution": -0.002163631055611221
+            "gain_loss": -0.0199414837472095,
+            "contribution": -0.0036602458699382975
           },
           {
             "symbol": "QQQ",
             "entry_weight": 0.06645067556969063,
-            "gain_loss": -0.027663488401155956,
-            "contribution": -0.0018382574928711142
+            "gain_loss": -0.05320744563277169,
+            "contribution": -0.003535670707635264
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-10-12",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.011787736415410865,
+            "gain_loss": -0.0199414837472095,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-10-12",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.008579417284956259,
+            "gain_loss": -0.01351280568007307,
             "note": null
           }
         }
@@ -1032,37 +1032,37 @@
           "QQQ": 0.22899962146829012,
           "SPY": 0.7710003785317099
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.002303827008246885,
+        "gain_loss": -0.014598211398405543,
         "components": [
           {
             "symbol": "QQQ",
             "entry_weight": 0.22899962146829012,
-            "gain_loss": -0.015537749920352728,
-            "contribution": -0.0035581388502297297
+            "gain_loss": -0.04140025874543496,
+            "contribution": -0.009480643581393873
           },
           {
             "symbol": "SPY",
             "entry_weight": 0.7710003785317099,
-            "gain_loss": 0.001626862809550822,
-            "contribution": 0.0012543118419828447
+            "gain_loss": -0.006637568488302881,
+            "contribution": -0.00511756781701167
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-09-28",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.001626862809550822,
+            "gain_loss": -0.006637568488302881,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-09-28",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.0024169137117624473,
+            "gain_loss": -0.0026039760899345676,
             "note": null
           }
         }
@@ -1076,37 +1076,37 @@
           "QQQ": 0.24623556127765697,
           "SPY": 0.753764438722343
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.00679156920005412,
+        "gain_loss": -0.0193028347390915,
         "components": [
           {
             "symbol": "QQQ",
             "entry_weight": 0.24623556127765697,
-            "gain_loss": -0.02722354579774955,
-            "contribution": -0.00670340507947686
+            "gain_loss": -0.05277906062790427,
+            "contribution": -0.012996081617419495
           },
           {
             "symbol": "SPY",
             "entry_weight": 0.753764438722343,
-            "gain_loss": -0.00011696508358327584,
-            "contribution": -8.816412057725985e-05
+            "gain_loss": -0.00836700804347068,
+            "contribution": -0.006306753121672007
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-10-05",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.00011696508358327584,
+            "gain_loss": -0.00836700804347068,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-10-05",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": 0.0015925790296231757,
+            "gain_loss": -0.003411234358566606,
             "note": null
           }
         }
@@ -1119,139 +1119,139 @@
         "allocation": {
           "STOCKS": 1.0
         },
-        "as_of": "2026-10-14",
+        "as_of": "2026-10-16",
         "status": "Holding",
-        "gain_loss": -0.045178373467489964,
+        "gain_loss": -0.06375213668720432,
         "components": [
           {
             "symbol": "CHTR",
             "entry_weight": 0.048946486514749164,
-            "gain_loss": 0.010961532592773438,
-            "contribution": 0.0005365285072331685
+            "gain_loss": 0.05875000586876511,
+            "contribution": 0.0028756063699969456
           },
           {
             "symbol": "APP",
             "entry_weight": 0.048946486514749164,
-            "gain_loss": -0.06360713413783481,
-            "contribution": -0.0031133457333193727
+            "gain_loss": -0.04953569684709824,
+            "contribution": -0.002424598317725197
           },
           {
             "symbol": "AXON",
             "entry_weight": 0.048946486514749164,
-            "gain_loss": -0.03810643533489877,
-            "contribution": -0.0018651761232447836
+            "gain_loss": -0.08080545705463116,
+            "contribution": -0.003955143214042647
           },
           {
             "symbol": "DASH",
             "entry_weight": 0.048946486514749164,
-            "gain_loss": -0.056359002529046465,
-            "contribution": -0.0027585751572726867
+            "gain_loss": -0.03000003130008011,
+            "contribution": -0.001468396127471424
           },
           {
             "symbol": "GLW",
             "entry_weight": 0.048946486514749164,
-            "gain_loss": -0.09106161122884604,
-            "contribution": -0.004457145926024044
+            "gain_loss": -0.14841459409781532,
+            "contribution": -0.007264372928600688
           },
           {
             "symbol": "WDC",
             "entry_weight": 0.048946486514749164,
-            "gain_loss": -0.07060445929296688,
-            "contribution": -0.0034558402146643596
+            "gain_loss": -0.15254239400641512,
+            "contribution": -0.007466414231162551
           },
           {
             "symbol": "HOOD",
             "entry_weight": 0.048946486514749164,
-            "gain_loss": -0.07010115300017705,
-            "contribution": -0.003431205139991534
+            "gain_loss": -0.09043233190099109,
+            "contribution": -0.004426344913889181
           },
           {
             "symbol": "SNDK",
             "entry_weight": 0.10210702697050167,
-            "gain_loss": -0.08762350361953486,
-            "contribution": -0.008946975447329697
+            "gain_loss": -0.15526468627021173,
+            "contribution": -0.015853615508558988
           },
           {
             "symbol": "COIN",
             "entry_weight": 0.048946486514749164,
-            "gain_loss": -0.036556130789379804,
-            "contribution": -0.0017892941627137852
+            "gain_loss": -0.03505150957426317,
+            "contribution": -0.0017156482406982736
           },
           {
             "symbol": "VRT",
             "entry_weight": 0.048946486514749164,
-            "gain_loss": -0.0702244912537967,
-            "contribution": -0.003437242114159081
+            "gain_loss": -0.1386965074907881,
+            "contribution": -0.006788706733540666
           },
           {
             "symbol": "MOS",
             "entry_weight": 0.048946486514749164,
-            "gain_loss": 0.010632683073786175,
-            "contribution": 0.0005204324786866767
+            "gain_loss": 0.0005316442937672861,
+            "contribution": 2.602212025552381e-05
           },
           {
             "symbol": "FICO",
             "entry_weight": 0.048946486514749164,
-            "gain_loss": 0.06770030398043403,
-            "contribution": 0.0033136920158227333
+            "gain_loss": 0.14419881667864431,
+            "contribution": 0.0070580254360040505
           },
           {
             "symbol": "NXPI",
             "entry_weight": 0.048946486514749164,
-            "gain_loss": -0.02127377985144674,
-            "contribution": -0.0010412767786165803
+            "gain_loss": 0.01639851468409037,
+            "contribution": 0.0008026496778467454
           },
           {
             "symbol": "ADBE",
             "entry_weight": 0.048946486514749164,
-            "gain_loss": 0.025807107834975973,
-            "contribution": 0.001263167255629329
+            "gain_loss": 0.04507191027487356,
+            "contribution": 0.002206111648463083
           },
           {
             "symbol": "EFX",
             "entry_weight": 0.048946486514749164,
-            "gain_loss": 0.027610668971475016,
-            "contribution": 0.0013514452364755051
+            "gain_loss": 0.10203657687563594,
+            "contribution": 0.004994331934054481
           },
           {
             "symbol": "LITE",
             "entry_weight": 0.053160540455752504,
-            "gain_loss": -0.18646729393187778,
-            "contribution": -0.009912702122740282
+            "gain_loss": -0.251997924602534,
+            "contribution": -0.013396345865598678
           },
           {
             "symbol": "MU",
             "entry_weight": 0.053160540455752504,
-            "gain_loss": -0.08795610625720285,
-            "contribution": -0.004675794145016498
+            "gain_loss": -0.12316554998865814,
+            "contribution": -0.006547547202927068
           },
           {
             "symbol": "MRNA",
             "entry_weight": 0.053160540455752504,
-            "gain_loss": 0.008017830965513673,
-            "contribution": 0.00042623222740957475
+            "gain_loss": -0.028908710437256402,
+            "contribution": -0.0015368026707234036
           },
           {
             "symbol": "STX",
             "entry_weight": 0.053160540455752504,
-            "gain_loss": -0.06970015902562743,
-            "contribution": -0.00370529812365425
+            "gain_loss": -0.16687091295224898,
+            "contribution": -0.008870947918886386
           }
         ],
         "note": null,
         "benchmarks": {
           "SPY": {
             "trade_date": "2026-10-12",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.011787736415410865,
+            "gain_loss": -0.0199414837472095,
             "note": null
           },
           "SPY_80_20": {
             "trade_date": "2026-10-12",
-            "as_of": "2026-10-14",
+            "as_of": "2026-10-16",
             "status": "Holding",
-            "gain_loss": -0.008579417284956259,
+            "gain_loss": -0.01351280568007307,
             "note": null
           }
         }
