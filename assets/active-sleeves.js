@@ -25,7 +25,8 @@
     const text=ready?(b.gain_loss>=0?'+':'−')+Math.abs(100*b.gain_loss).toFixed(2)+'%':'Pending';
     return '<div><span>'+label+'</span><span class="'+(ready?(b.gain_loss>=0?'return-positive':'return-negative'):'')+'">'+text+'</span></div>';
    }).join('');
-   return '<section class="active-sleeve-card"><h3>Sleeve '+r.sleeve+'</h3><p>Rotated '+(r.trade_date?date(r.trade_date):'—')+'</p><strong class="active-sleeve-return '+tone+'">'+value+'</strong><div class="active-sleeve-benchmarks" aria-label="Benchmark returns for the same rotation period">'+benchmarks+'</div><span>'+(valid?'Return since rotation':safe(r.note||'Awaiting a verified mark for this allocation.'))+'</span></section>';
+   const close=current?.trade_date===r.trade_date?current.scheduled_close_date||r.scheduled_close_date:r.scheduled_close_date;
+   return '<section class="active-sleeve-card"><h3>Sleeve '+r.sleeve+'</h3><p>Rotated '+(r.trade_date?date(r.trade_date):'—')+'<br>Scheduled close '+(close?date(close):'—')+'</p><strong class="active-sleeve-return '+tone+'">'+value+'</strong><div class="active-sleeve-benchmarks" aria-label="Benchmark returns for the same rotation period">'+benchmarks+'</div><span>'+(valid?'Return since rotation':safe(r.note||'Awaiting a verified mark for this allocation.'))+'</span></section>';
   }).join('');
   document.getElementById('activeSleeveBasis').textContent=data.basis;
  }

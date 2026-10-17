@@ -16,7 +16,9 @@ function renderModelCohorts(){
   const color=valid?(r.gain_loss>=0?'return-positive':'return-negative'):'';
   const mix=Object.entries(r.allocation).map(([k,v])=>(k==='STOCKS'?'<button type="button" data-stock-date="'+safe(r.trade_date)+'" style="border:0;background:none;padding:0;color:#16705e;text-decoration:underline;font:inherit;cursor:pointer" aria-label="View stocks for '+safe(r.trade_date)+'">Stocks</button>':safe(k==='CASH'?'Cash':k))+' '+percent(v)).join(' · ');
   const status=r.status||'Awaiting update';
-  return '<tr><td style="white-space:nowrap">'+safe(r.trade_date)+'</td><td>'+safe(r.sleeve)+'</td><td>'+safe(r.state)+'</td><td>'+mix+'</td><td>'+safe(r.companies)+'</td><td><span title="As of '+safe(r.performance_as_of||modelCohortData.end)+'" class="history-status '+safe(status.toLowerCase())+'">'+safe(status)+'</span></td><td style="white-space:nowrap">'+safe(r.close_date||'—')+'</td><td class="num '+color+'" title="'+safe(r.performance_note||r.return_basis||modelCohortData.return_basis)+'">'+gain+'</td></tr>';
+  const planned=status!=='Closed'&&r.scheduled_close_date;
+  const close=safe(r.close_date||planned||'—')+(planned?'<small class="muted" style="display:block">Scheduled</small>':'');
+  return '<tr><td style="white-space:nowrap">'+safe(r.trade_date)+'</td><td>'+safe(r.sleeve)+'</td><td>'+safe(r.state)+'</td><td>'+mix+'</td><td>'+safe(r.companies)+'</td><td><span title="As of '+safe(r.performance_as_of||modelCohortData.end)+'" class="history-status '+safe(status.toLowerCase())+'">'+safe(status)+'</span></td><td style="white-space:nowrap">'+close+'</td><td class="num '+color+'" title="'+safe(r.performance_note||r.return_basis||modelCohortData.return_basis)+'">'+gain+'</td></tr>';
  }).join('');
  document.dispatchEvent(new Event('fga-tier-changed'));
 }
@@ -31,7 +33,7 @@ document.getElementById('modelCohortPanel').addEventListener('click',event=>{
  document.getElementById('stockSleeveDetails').innerHTML='<div class="tablewrap"><table><thead><tr><th>Stock</th><th class="num">Sleeve weight</th><th>Entry</th><th>Exit</th><th class="num">Gain/loss</th></tr></thead><tbody>'+rows.map(r=>{
   const valid=Number.isFinite(r.gain_loss)&&row.status==='Closed';
   const gain=valid?(r.gain_loss>=0?'+':'')+(100*r.gain_loss).toFixed(2)+'%':row.status==='Closed'?'Pending':'—';
-  return '<tr><td>'+safe(r.symbol)+'</td><td class="num">'+(100*r.weight).toFixed(2)+'%</td><td style="white-space:nowrap">'+safe(r.entry_date)+'</td><td style="white-space:nowrap">'+safe(r.exit_date||'—')+'</td><td class="num '+(valid?(r.gain_loss>=0?'return-positive':'return-negative'):'')+'" title="'+safe(r.note||r.return_basis||'')+'">'+gain+'</td></tr>';
+  return '<tr><td>'+safe(r.symbol)+'</td><td class="num">'+(100*r.weight).toFixed(2)+'%</td><td style="white-space:nowrap">'+safe(r.entry_date)+'</td><td style="white-space:nowrap">'+safe(r.exit_date||(row.status!=='Closed'&&row.scheduled_close_date)||'—')+(row.status!=='Closed'&&row.scheduled_close_date?'<small class="muted" style="display:block">Scheduled</small>':'')+'</td><td class="num '+(valid?(r.gain_loss>=0?'return-positive':'return-negative'):'')+'" title="'+safe(r.note||r.return_basis||'')+'">'+gain+'</td></tr>';
  }).join('')+'</tbody></table></div>'+(row.status!=='Closed'?'<p class="muted">'+safe(row.status)+' sleeve · individual closed returns are not available yet.</p>':'');
  document.getElementById('stockSleeveDialog').showModal();
 });
