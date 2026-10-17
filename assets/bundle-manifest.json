@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "signal_date": "2026-10-09",
+  "signal_date": "2026-10-16",
   "start": "1995-02-06",
   "strategy_version": "2.3.0",
   "defensive_basket": {
@@ -32,15 +32,15 @@
     "eligibility": "200 observed ETF sessions; strict majority of SMA63/SMA126/SMA200; equal weights among eligible defensives; preserved single-survivor volatility exception.",
     "leverage": "FXF/IBIT defensive capital is carried unchanged in every overlay tier."
   },
-  "market_snapshot_sha256": "2263b9c0996e5fbacd7c18006624af0b048b43e6ea7a616ff6fcacb36d7601bf",
+  "market_snapshot_sha256": "3703b4fe7b72ca53e725d091355badb12f40f196dddda0b252433fd32b1048df",
   "files": {
-    "stock-report.json": "49ad67f867a69e3792545b5749a8061de9974b4302a444e6c19151c6c84fae80",
-    "majority-metrics.json": "9d38b22bf3954e16be0aa99f69a813888df517c85221006b467498a93d8194d6",
-    "etf-evidence.json": "b35eb525312f014b8995606918d15378376a4346b2b8f78b45ada7b808879552",
-    "leverage.json": "e005f27be9cc572d84a6ca2a392a9596a6591b0ca07241204ebd104f7169c1e0",
-    "RESEARCH_stock_signal.json": "d6ccc538f8be6c3753e9f37542c3ef3d48f83b291bac3c087c22152feaafb0b2",
-    "model-cohorts.json": "6df59012ca3e85833916719b5b979aa189e028f918458a22b6182a5f50c1ab3f"
+    "stock-report.json": "b24c4e1fbe0e01a80645506c0f47e3a0a78c0897f8e6af9f2dd3d49b79edd4ec",
+    "majority-metrics.json": "cdf68ba14bf40acb8d07fa79ac0b5e2fff691bd58c2833951e3ec637ada4b2c6",
+    "etf-evidence.json": "c3f0ff9f08aebe6e70fdf560fe2e7d6e127dbc9ef1b95a0f8f8623cb1d4e99ee",
+    "leverage.json": "58f1eb87d3638681105d9b55ecb9e4d73e203b3a8e91840d4e825f95531d6620",
+    "RESEARCH_stock_signal.json": "601cdb143333a24f927aaebcbe2df84c8edbc527af454f674e321882a404302a",
+    "model-cohorts.json": "2ca3153abab94ff03d35c33f46f3657e2c9f449981e2277a7d10f382812178f2"
   },
   "leverage_start": "2010-02-16",
-  "stock_allocation_validation_sha256": "b05012cf534e1b56457a37d2986eb45a4c7da1fdb6483cf4b35c53529b0d8d7a"
+  "stock_allocation_validation_sha256": "d8dfb1af89d5e871deeb795abaa27795f21dad2acf1461bb2142b50c73f45261"
 }

@@ -1,25 +1,39 @@
 {
-  "signal_date": "2026-10-09",
-  "trade_date": "2026-10-12",
-  "sleeve": 3,
-  "system_state": "ON2",
+  "signal_date": "2026-10-16",
+  "trade_date": "2026-10-19",
+  "sleeve": 1,
+  "system_state": "ON3",
+  "strategy_version": "2.3.0",
+  "strategy_id": "4D_ETF_MAJORITY_FXF_IBIT",
+  "trend_rule": "AT_LEAST_2_OF_SMA63_SMA126_SMA200",
+  "spy_trend_eligible": true,
+  "qqq_trend_eligible": false,
+  "spy_trend_votes": 3,
+  "spy_sma_levels": {
+    "63": 763.2407371884301,
+    "126": 749.3398563445561,
+    "200": 721.8778744506836
+  },
   "risk_on": true,
   "gates": {
     "slow_momentum": true,
     "trend_quality": true,
-    "volume_pressure": false,
-    "qqq_trend": true
+    "volume_pressure": true,
+    "qqq_trend": false
   },
   "equity_budget": 1.0,
   "allocation": {
-    "SPY": 0.735,
-    "QQQ": 0.265,
+    "SPY": 1.0,
+    "QQQ": 0.0,
     "SHY": 0.0,
     "TLT": 0.0,
     "UUP": 0.0,
     "GLD": 0.0,
+    "FXF": 0.0,
+    "IBIT": 0.0,
     "CASH": 0.0
   },
+  "record_kind": "PUBLISHED_MODEL_SIGNAL",
   "metrics": {
     "version": "2.3.0",
     "defensive_basket": {
@@ -53,93 +67,122 @@
     },
     "kind": "hypothetical_backtest",
     "start": "1995-02-06",
-    "end": "2026-10-09",
+    "end": "2026-10-16",
     "fourd": {
       "start": "1995-02-06",
-      "end": "2026-10-09",
-      "sessions": 7972,
-      "years": 31.672108256843057,
-      "total_return": 64.85671808014489,
-      "cagr": 0.14135201366611416,
+      "end": "2026-10-16",
+      "sessions": 7977,
+      "years": 31.691273605891976,
+      "total_return": 62.98214671505462,
+      "cagr": 0.14022130614862172,
       "max_drawdown": -0.1401420530499462,
-      "annualized_volatility": 0.11599150988122817,
-      "MAR": 1.0086338154025525,
-      "ulcer_index": 0.041813398957019556,
-      "pain_index": 0.029686966473478592,
-      "drawdown_area_session_pct": 23666.449672657134,
+      "annualized_volatility": 0.11601231816936147,
+      "MAR": 1.000565519749074,
+      "ulcer_index": 0.04180286921005895,
+      "pain_index": 0.029678291243555612,
+      "drawdown_area_session_pct": 23674.372924984313,
       "CDaR95": 0.10494074726508532,
       "longest_underwater_sessions": 443,
       "longest_underwater_calendar_days": 639,
       "unrecovered_at_end": true,
-      "positive_session_fraction": 0.5560712493728048,
+      "positive_session_fraction": 0.5558480631816473,
       "worst_drawdown_peak": "2025-02-19",
       "worst_drawdown_trough": "2025-04-08",
       "worst_drawdown_recovery": "2025-06-26",
       "worst_drawdown_calendar_days": 127,
-      "time_below_5pct": 0.22616658304064224,
-      "time_below_10pct": 0.030230807827395886,
+      "time_below_5pct": 0.22602482136141405,
+      "time_below_10pct": 0.03021185909489783,
       "time_below_15pct": 0.0,
       "time_below_20pct": 0.0,
       "time_below_25pct": 0.0,
       "time_below_30pct": 0.0,
       "worst_3y": -0.015669130030208422,
-      "sharpe": 0.9941882821827714
+      "sharpe": 0.9853557690969393
     },
     "spy": {
       "start": "1995-02-06",
-      "end": "2026-10-09",
-      "sessions": 7972,
-      "years": 31.672108256843057,
-      "total_return": 27.154030024576617,
-      "cagr": 0.11113569834881787,
+      "end": "2026-10-16",
+      "sessions": 7977,
+      "years": 31.691273605891976,
+      "total_return": 26.600040091590184,
+      "cagr": 0.110368368272308,
       "max_drawdown": -0.5518911920565712,
-      "annualized_volatility": 0.18936805896493122,
-      "MAR": 0.20137248056936916,
-      "ulcer_index": 0.1484543464069449,
-      "pain_index": 0.09393877741747317,
-      "drawdown_area_session_pct": 74887.9933572096,
+      "annualized_volatility": 0.18933107779502117,
+      "MAR": 0.19998211578813305,
+      "ulcer_index": 0.14840808919638657,
+      "pain_index": 0.09388547987502484,
+      "drawdown_area_session_pct": 74892.44729630732,
       "CDaR95": 0.4162104299964778,
       "longest_underwater_sessions": 1656,
       "longest_underwater_calendar_days": 2407,
       "unrecovered_at_end": true,
-      "positive_session_fraction": 0.5368790767686904,
+      "positive_session_fraction": 0.5366679202707785,
       "worst_drawdown_peak": "2007-10-09",
       "worst_drawdown_trough": "2009-03-09",
       "worst_drawdown_recovery": "2012-08-16",
       "worst_drawdown_calendar_days": 1773,
-      "time_below_5pct": 0.46613146011038636,
-      "time_below_10pct": 0.33379327646763673,
-      "time_below_15pct": 0.25388861013547415,
-      "time_below_20pct": 0.17912694430506773,
-      "time_below_25pct": 0.1151530356246864,
-      "time_below_30pct": 0.07363271450075264,
+      "time_below_5pct": 0.4658392879528645,
+      "time_below_10pct": 0.33358405415569764,
+      "time_below_15pct": 0.2537294722326689,
+      "time_below_20pct": 0.17901466716810832,
+      "time_below_25pct": 0.11508085746521249,
+      "time_below_30pct": 0.07358656136392128,
       "worst_3y": -0.1731142677065064,
-      "sharpe": 0.5261550825750465
+      "sharpe": 0.5224994877994565
     },
     "recent": {
       "ytd": {
         "start": "2025-12-31",
         "fourd": {
-          "return": 0.12726841660640953,
+          "return": 0.09518140777658268,
           "max_drawdown": -0.08269383497696892
         },
         "spy": {
-          "return": 0.1506488635484149,
+          "return": 0.12800741981010644,
           "max_drawdown": -0.08884973970084398
         }
       },
       "ttm": {
-        "start": "2025-10-09",
+        "start": "2025-10-16",
         "fourd": {
-          "return": 0.14044606225924183,
-          "max_drawdown": -0.0826938349769687
+          "return": 0.12183289091211935,
+          "max_drawdown": -0.0826938349769688
         },
         "spy": {
-          "return": 0.17255122751155438,
-          "max_drawdown": -0.08884973970084398
+          "return": 0.16778304882148576,
+          "max_drawdown": -0.08884973970084409
         }
       }
     },
     "benchmark_basis": "Same sessions; total-return prices, 5bp per side; monthly SPY/IEF rebalancing."
+  },
+  "defensive_basket": {
+    "version": "2.3.0",
+    "defensive_assets": [
+      "SHY",
+      "TLT",
+      "UUP",
+      "GLD",
+      "FXF",
+      "IBIT"
+    ],
+    "actual_only_assets": {
+      "FXF": {
+        "first_trading_date": "2006-06-26",
+        "first_source_session": "2006-06-26",
+        "first_warmup_session": "2007-04-12",
+        "warmup_sessions": 200,
+        "no_preinception_proxy": true
+      },
+      "IBIT": {
+        "first_trading_date": "2024-01-11",
+        "first_source_session": "2024-01-11",
+        "first_warmup_session": "2024-10-25",
+        "warmup_sessions": 200,
+        "no_preinception_proxy": true
+      }
+    },
+    "eligibility": "200 observed ETF sessions; strict majority of SMA63/SMA126/SMA200; equal weights among eligible defensives; preserved single-survivor volatility exception.",
+    "leverage": "FXF/IBIT defensive capital is carried unchanged in every overlay tier."
   }
 }

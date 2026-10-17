@@ -535,8 +535,1807 @@
     ],
     "status": "Holding",
     "close_date": null,
-    "performance_as_of": "2026-10-12",
+    "performance_as_of": "2026-10-17",
     "gain_loss_by_tier": {},
-    "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+    "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
+    "stock_details_by_tier": {
+      "Balanced": [
+        {
+          "symbol": "CHTR",
+          "weight": 0.024473243257374582,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "APP",
+          "weight": 0.024473243257374582,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "AXON",
+          "weight": 0.024473243257374582,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "DASH",
+          "weight": 0.024473243257374582,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "GLW",
+          "weight": 0.024473243257374582,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "WDC",
+          "weight": 0.024473243257374582,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "HOOD",
+          "weight": 0.024473243257374582,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "SNDK",
+          "weight": 0.051053513485250834,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COIN",
+          "weight": 0.024473243257374582,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "VRT",
+          "weight": 0.024473243257374582,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MOS",
+          "weight": 0.024473243257374582,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FICO",
+          "weight": 0.024473243257374582,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "NXPI",
+          "weight": 0.024473243257374582,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "ADBE",
+          "weight": 0.024473243257374582,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "EFX",
+          "weight": 0.024473243257374582,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "LITE",
+          "weight": 0.026580270227876252,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MU",
+          "weight": 0.026580270227876252,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MRNA",
+          "weight": 0.026580270227876252,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "STX",
+          "weight": 0.026580270227876252,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        }
+      ],
+      "Core": [
+        {
+          "symbol": "CHTR",
+          "weight": 0.012236621628687291,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "APP",
+          "weight": 0.012236621628687291,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "AXON",
+          "weight": 0.012236621628687291,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "DASH",
+          "weight": 0.012236621628687291,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "GLW",
+          "weight": 0.012236621628687291,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "WDC",
+          "weight": 0.012236621628687291,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "HOOD",
+          "weight": 0.012236621628687291,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "SNDK",
+          "weight": 0.025526756742625417,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COIN",
+          "weight": 0.012236621628687291,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "VRT",
+          "weight": 0.012236621628687291,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MOS",
+          "weight": 0.012236621628687291,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FICO",
+          "weight": 0.012236621628687291,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "NXPI",
+          "weight": 0.012236621628687291,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "ADBE",
+          "weight": 0.012236621628687291,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "EFX",
+          "weight": 0.012236621628687291,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "LITE",
+          "weight": 0.013290135113938126,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MU",
+          "weight": 0.013290135113938126,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MRNA",
+          "weight": 0.013290135113938126,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "STX",
+          "weight": 0.013290135113938126,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        }
+      ],
+      "ETF": [],
+      "FullStock": [
+        {
+          "symbol": "CHTR",
+          "weight": 0.048946486514749164,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "APP",
+          "weight": 0.048946486514749164,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "AXON",
+          "weight": 0.048946486514749164,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "DASH",
+          "weight": 0.048946486514749164,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "GLW",
+          "weight": 0.048946486514749164,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "WDC",
+          "weight": 0.048946486514749164,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "HOOD",
+          "weight": 0.048946486514749164,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "SNDK",
+          "weight": 0.10210702697050167,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COIN",
+          "weight": 0.048946486514749164,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "VRT",
+          "weight": 0.048946486514749164,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MOS",
+          "weight": 0.048946486514749164,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FICO",
+          "weight": 0.048946486514749164,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "NXPI",
+          "weight": 0.048946486514749164,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "ADBE",
+          "weight": 0.048946486514749164,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "EFX",
+          "weight": 0.048946486514749164,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "LITE",
+          "weight": 0.053160540455752504,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MU",
+          "weight": 0.053160540455752504,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MRNA",
+          "weight": 0.053160540455752504,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "STX",
+          "weight": 0.053160540455752504,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        }
+      ],
+      "Growth": [
+        {
+          "symbol": "CHTR",
+          "weight": 0.03670986488606187,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "APP",
+          "weight": 0.03670986488606187,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "AXON",
+          "weight": 0.03670986488606187,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "DASH",
+          "weight": 0.03670986488606187,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "GLW",
+          "weight": 0.03670986488606187,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "WDC",
+          "weight": 0.03670986488606187,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "HOOD",
+          "weight": 0.03670986488606187,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "SNDK",
+          "weight": 0.07658027022787625,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COIN",
+          "weight": 0.03670986488606187,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "VRT",
+          "weight": 0.03670986488606187,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MOS",
+          "weight": 0.03670986488606187,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FICO",
+          "weight": 0.03670986488606187,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "NXPI",
+          "weight": 0.03670986488606187,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "ADBE",
+          "weight": 0.03670986488606187,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "EFX",
+          "weight": 0.03670986488606187,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "LITE",
+          "weight": 0.03987040534181438,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MU",
+          "weight": 0.03987040534181438,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MRNA",
+          "weight": 0.03987040534181438,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "STX",
+          "weight": 0.03987040534181438,
+          "entry_date": "2026-10-12",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        }
+      ]
+    }
+  },
+  {
+    "signal_date": "2026-10-16",
+    "trade_date": "2026-10-19",
+    "state": "ON3",
+    "sleeve": 3,
+    "public_sleeve": 1,
+    "strategy_version": "2.3.0",
+    "picks": [
+      "APP",
+      "BE",
+      "COIN",
+      "DELL",
+      "FICO",
+      "FLEX",
+      "HPE",
+      "INTC",
+      "MRVL",
+      "MU",
+      "SKYD",
+      "SMCI",
+      "SNDK",
+      "STX",
+      "WDC"
+    ],
+    "tiers": [
+      {
+        "tier": "ETF",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 1.0
+      },
+      {
+        "tier": "Core",
+        "symbol": "SNDK",
+        "kind": "STOCK",
+        "weight": 0.01811400121561235
+      },
+      {
+        "tier": "Core",
+        "symbol": "WDC",
+        "kind": "STOCK",
+        "weight": 0.015715451035944454
+      },
+      {
+        "tier": "Core",
+        "symbol": "FICO",
+        "kind": "STOCK",
+        "weight": 0.010645670176373493
+      },
+      {
+        "tier": "Core",
+        "symbol": "MU",
+        "kind": "STOCK",
+        "weight": 0.021820106612042152
+      },
+      {
+        "tier": "Core",
+        "symbol": "MRVL",
+        "kind": "STOCK",
+        "weight": 0.016775709311186576
+      },
+      {
+        "tier": "Core",
+        "symbol": "SMCI",
+        "kind": "STOCK",
+        "weight": 0.017961755978089595
+      },
+      {
+        "tier": "Core",
+        "symbol": "DELL",
+        "kind": "STOCK",
+        "weight": 0.018520809390384422
+      },
+      {
+        "tier": "Core",
+        "symbol": "APP",
+        "kind": "STOCK",
+        "weight": 0.02146894946776219
+      },
+      {
+        "tier": "Core",
+        "symbol": "BE",
+        "kind": "STOCK",
+        "weight": 0.013824240056273359
+      },
+      {
+        "tier": "Core",
+        "symbol": "SKYD",
+        "kind": "STOCK",
+        "weight": 0.010249151064237209
+      },
+      {
+        "tier": "Core",
+        "symbol": "STX",
+        "kind": "STOCK",
+        "weight": 0.013680929040833905
+      },
+      {
+        "tier": "Core",
+        "symbol": "HPE",
+        "kind": "STOCK",
+        "weight": 0.01605508968834275
+      },
+      {
+        "tier": "Core",
+        "symbol": "COIN",
+        "kind": "STOCK",
+        "weight": 0.01755057085535516
+      },
+      {
+        "tier": "Core",
+        "symbol": "FLEX",
+        "kind": "STOCK",
+        "weight": 0.01891582276073963
+      },
+      {
+        "tier": "Core",
+        "symbol": "INTC",
+        "kind": "STOCK",
+        "weight": 0.01870174334682277
+      },
+      {
+        "tier": "Core",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.75
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "SNDK",
+        "kind": "STOCK",
+        "weight": 0.0362280024312247
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "WDC",
+        "kind": "STOCK",
+        "weight": 0.03143090207188891
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "FICO",
+        "kind": "STOCK",
+        "weight": 0.021291340352746987
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "MU",
+        "kind": "STOCK",
+        "weight": 0.043640213224084304
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "MRVL",
+        "kind": "STOCK",
+        "weight": 0.03355141862237315
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "SMCI",
+        "kind": "STOCK",
+        "weight": 0.03592351195617919
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "DELL",
+        "kind": "STOCK",
+        "weight": 0.037041618780768844
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "APP",
+        "kind": "STOCK",
+        "weight": 0.04293789893552438
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "BE",
+        "kind": "STOCK",
+        "weight": 0.027648480112546718
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "SKYD",
+        "kind": "STOCK",
+        "weight": 0.020498302128474418
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "STX",
+        "kind": "STOCK",
+        "weight": 0.02736185808166781
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "HPE",
+        "kind": "STOCK",
+        "weight": 0.0321101793766855
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "COIN",
+        "kind": "STOCK",
+        "weight": 0.03510114171071032
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "FLEX",
+        "kind": "STOCK",
+        "weight": 0.03783164552147926
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "INTC",
+        "kind": "STOCK",
+        "weight": 0.03740348669364554
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.5
+      },
+      {
+        "tier": "Growth",
+        "symbol": "SNDK",
+        "kind": "STOCK",
+        "weight": 0.05434200364683704
+      },
+      {
+        "tier": "Growth",
+        "symbol": "WDC",
+        "kind": "STOCK",
+        "weight": 0.04714635310783336
+      },
+      {
+        "tier": "Growth",
+        "symbol": "FICO",
+        "kind": "STOCK",
+        "weight": 0.03193701052912048
+      },
+      {
+        "tier": "Growth",
+        "symbol": "MU",
+        "kind": "STOCK",
+        "weight": 0.06546031983612646
+      },
+      {
+        "tier": "Growth",
+        "symbol": "MRVL",
+        "kind": "STOCK",
+        "weight": 0.05032712793355973
+      },
+      {
+        "tier": "Growth",
+        "symbol": "SMCI",
+        "kind": "STOCK",
+        "weight": 0.05388526793426879
+      },
+      {
+        "tier": "Growth",
+        "symbol": "DELL",
+        "kind": "STOCK",
+        "weight": 0.05556242817115327
+      },
+      {
+        "tier": "Growth",
+        "symbol": "APP",
+        "kind": "STOCK",
+        "weight": 0.06440684840328657
+      },
+      {
+        "tier": "Growth",
+        "symbol": "BE",
+        "kind": "STOCK",
+        "weight": 0.041472720168820074
+      },
+      {
+        "tier": "Growth",
+        "symbol": "SKYD",
+        "kind": "STOCK",
+        "weight": 0.030747453192711625
+      },
+      {
+        "tier": "Growth",
+        "symbol": "STX",
+        "kind": "STOCK",
+        "weight": 0.041042787122501714
+      },
+      {
+        "tier": "Growth",
+        "symbol": "HPE",
+        "kind": "STOCK",
+        "weight": 0.04816526906502824
+      },
+      {
+        "tier": "Growth",
+        "symbol": "COIN",
+        "kind": "STOCK",
+        "weight": 0.052651712566065476
+      },
+      {
+        "tier": "Growth",
+        "symbol": "FLEX",
+        "kind": "STOCK",
+        "weight": 0.05674746828221889
+      },
+      {
+        "tier": "Growth",
+        "symbol": "INTC",
+        "kind": "STOCK",
+        "weight": 0.056105230040468315
+      },
+      {
+        "tier": "Growth",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "SNDK",
+        "kind": "STOCK",
+        "weight": 0.0724560048624494
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "WDC",
+        "kind": "STOCK",
+        "weight": 0.06286180414377782
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "FICO",
+        "kind": "STOCK",
+        "weight": 0.042582680705493973
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "MU",
+        "kind": "STOCK",
+        "weight": 0.08728042644816861
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "MRVL",
+        "kind": "STOCK",
+        "weight": 0.0671028372447463
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "SMCI",
+        "kind": "STOCK",
+        "weight": 0.07184702391235838
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "DELL",
+        "kind": "STOCK",
+        "weight": 0.07408323756153769
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "APP",
+        "kind": "STOCK",
+        "weight": 0.08587579787104876
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "BE",
+        "kind": "STOCK",
+        "weight": 0.055296960225093436
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "SKYD",
+        "kind": "STOCK",
+        "weight": 0.040996604256948836
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "STX",
+        "kind": "STOCK",
+        "weight": 0.05472371616333562
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "HPE",
+        "kind": "STOCK",
+        "weight": 0.064220358753371
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "COIN",
+        "kind": "STOCK",
+        "weight": 0.07020228342142064
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "FLEX",
+        "kind": "STOCK",
+        "weight": 0.07566329104295852
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "INTC",
+        "kind": "STOCK",
+        "weight": 0.07480697338729109
+      }
+    ],
+    "retained_sleeve_actions": [],
+    "status": "Scheduled",
+    "close_date": null,
+    "performance_as_of": "2026-10-17",
+    "gain_loss_by_tier": {},
+    "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
+    "stock_details_by_tier": {
+      "Balanced": [
+        {
+          "symbol": "SNDK",
+          "weight": 0.0362280024312247,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "WDC",
+          "weight": 0.03143090207188891,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FICO",
+          "weight": 0.021291340352746987,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MU",
+          "weight": 0.043640213224084304,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MRVL",
+          "weight": 0.03355141862237315,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "SMCI",
+          "weight": 0.03592351195617919,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "DELL",
+          "weight": 0.037041618780768844,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "APP",
+          "weight": 0.04293789893552438,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "BE",
+          "weight": 0.027648480112546718,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "SKYD",
+          "weight": 0.020498302128474418,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "STX",
+          "weight": 0.02736185808166781,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "HPE",
+          "weight": 0.0321101793766855,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COIN",
+          "weight": 0.03510114171071032,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FLEX",
+          "weight": 0.03783164552147926,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "INTC",
+          "weight": 0.03740348669364554,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        }
+      ],
+      "Core": [
+        {
+          "symbol": "SNDK",
+          "weight": 0.01811400121561235,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "WDC",
+          "weight": 0.015715451035944454,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FICO",
+          "weight": 0.010645670176373493,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MU",
+          "weight": 0.021820106612042152,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MRVL",
+          "weight": 0.016775709311186576,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "SMCI",
+          "weight": 0.017961755978089595,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "DELL",
+          "weight": 0.018520809390384422,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "APP",
+          "weight": 0.02146894946776219,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "BE",
+          "weight": 0.013824240056273359,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "SKYD",
+          "weight": 0.010249151064237209,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "STX",
+          "weight": 0.013680929040833905,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "HPE",
+          "weight": 0.01605508968834275,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COIN",
+          "weight": 0.01755057085535516,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FLEX",
+          "weight": 0.01891582276073963,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "INTC",
+          "weight": 0.01870174334682277,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        }
+      ],
+      "ETF": [],
+      "FullStock": [
+        {
+          "symbol": "SNDK",
+          "weight": 0.0724560048624494,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "WDC",
+          "weight": 0.06286180414377782,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FICO",
+          "weight": 0.042582680705493973,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MU",
+          "weight": 0.08728042644816861,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MRVL",
+          "weight": 0.0671028372447463,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "SMCI",
+          "weight": 0.07184702391235838,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "DELL",
+          "weight": 0.07408323756153769,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "APP",
+          "weight": 0.08587579787104876,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "BE",
+          "weight": 0.055296960225093436,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "SKYD",
+          "weight": 0.040996604256948836,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "STX",
+          "weight": 0.05472371616333562,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "HPE",
+          "weight": 0.064220358753371,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COIN",
+          "weight": 0.07020228342142064,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FLEX",
+          "weight": 0.07566329104295852,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "INTC",
+          "weight": 0.07480697338729109,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        }
+      ],
+      "Growth": [
+        {
+          "symbol": "SNDK",
+          "weight": 0.05434200364683704,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "WDC",
+          "weight": 0.04714635310783336,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FICO",
+          "weight": 0.03193701052912048,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MU",
+          "weight": 0.06546031983612646,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "MRVL",
+          "weight": 0.05032712793355973,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "SMCI",
+          "weight": 0.05388526793426879,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "DELL",
+          "weight": 0.05556242817115327,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "APP",
+          "weight": 0.06440684840328657,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "BE",
+          "weight": 0.041472720168820074,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "SKYD",
+          "weight": 0.030747453192711625,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "STX",
+          "weight": 0.041042787122501714,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "HPE",
+          "weight": 0.04816526906502824,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COIN",
+          "weight": 0.052651712566065476,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FLEX",
+          "weight": 0.05674746828221889,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "INTC",
+          "weight": 0.056105230040468315,
+          "entry_date": "2026-10-19",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        }
+      ]
+    }
   }
 ]
