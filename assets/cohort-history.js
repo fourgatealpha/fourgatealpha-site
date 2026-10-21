@@ -6,15 +6,15 @@ function renderModelCohorts(){
  const rows=panel.dataset.cohortSystem==='etf'?modelCohortData.etf:modelCohortData.tiers[key];
  if(!rows)throw Error('Model tier unavailable');
  const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- const percent=n=>(100*n).toFixed(1)+'%';
+ const percent=n=>Number((100*n).toFixed(1))+'%';
  document.getElementById('modelCohortCount').textContent=rows.length+' weeks · '+key;
  const dates=rows.map(r=>r.performance_as_of).filter(Boolean).sort();
- document.getElementById('modelCohortAsOf').textContent='Newest first · full history · Returns through '+modelCohortData.end+(dates.at(-1)>modelCohortData.end?' · Latest execution checks '+dates.at(-1):'');
+ document.getElementById('modelCohortAsOf').textContent='Newest first · full history · Weekly backtest through '+modelCohortData.end+' · Sleeve status through '+(modelCohortData.history_as_of||dates.at(-1)||modelCohortData.end);
  document.getElementById('modelCohortRows').innerHTML=[...rows].reverse().map(r=>{
   const valid=r.status==='Closed'&&Number.isFinite(r.gain_loss);
   const gain=valid?(r.gain_loss>=0?'+':'')+(100*r.gain_loss).toFixed(2)+'%':r.status==='Closed'?'Pending':'—';
   const color=valid?(r.gain_loss>=0?'return-positive':'return-negative'):'';
-  const mix=Object.entries(r.allocation).map(([k,v])=>(k==='STOCKS'?'<button type="button" data-stock-date="'+safe(r.trade_date)+'" style="border:0;background:none;padding:0;color:#16705e;text-decoration:underline;font:inherit;cursor:pointer" aria-label="View stocks for '+safe(r.trade_date)+'">Stocks</button>':safe(k==='CASH'?'Cash':k))+' '+percent(v)).join(' · ');
+  const mix=Object.entries(r.allocation).filter(([,v])=>v>0).map(([k,v])=>(k==='STOCKS'?'<button type="button" data-stock-date="'+safe(r.trade_date)+'" style="border:0;background:none;padding:0;color:#16705e;text-decoration:underline;font:inherit;cursor:pointer" aria-label="View stocks for '+safe(r.trade_date)+'">Stocks</button>':safe(k==='CASH'?'Cash':k))+' '+percent(v)).join(' · ');
   const status=r.status||'Awaiting update';
   const planned=status!=='Closed'&&r.scheduled_close_date;
   const close=safe(r.close_date||planned||'—')+(planned?'<small class="muted" style="display:block">Scheduled</small>':'');
