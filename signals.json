@@ -78,7 +78,7 @@
     "status": "Holding",
     "close_date": null,
     "gain_loss": null,
-    "performance_as_of": "2026-10-25",
+    "performance_as_of": "2026-10-23",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -94,7 +94,7 @@
     "status": "Holding",
     "close_date": null,
     "gain_loss": null,
-    "performance_as_of": "2026-10-25",
+    "performance_as_of": "2026-10-23",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -118,7 +118,7 @@
     "status": "Holding",
     "close_date": null,
     "gain_loss": null,
-    "performance_as_of": "2026-10-25",
+    "performance_as_of": "2026-10-23",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -142,7 +142,7 @@
     "status": "Scheduled",
     "close_date": null,
     "gain_loss": null,
-    "performance_as_of": "2026-10-25",
+    "performance_as_of": "2026-10-23",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   }
 ]
