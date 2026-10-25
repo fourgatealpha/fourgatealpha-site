@@ -1,1 +1,1 @@
-{"status": "PASS", "end": "2026-10-16", "independent_window_comparisons": 161, "aggregation": "Native baseline ETF close weights reconciled", "public_provider_names": false, "model_data_only": true, "analysis_sha256": "f76ba19db8ea138a49b92e7557756fc2c6e451af3ac8ea7f7f010718fa332795"}
+{"status": "PASS", "end": "2026-10-23", "independent_window_comparisons": 161, "aggregation": "Native baseline ETF close weights reconciled", "public_provider_names": false, "model_data_only": true, "analysis_sha256": "e5933b0d212f013ffc5c6c9478825a03e203496bbb877cdc0d51805b5cd3e0e9"}

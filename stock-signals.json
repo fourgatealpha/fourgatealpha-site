@@ -535,7 +535,7 @@
     ],
     "status": "Holding",
     "close_date": null,
-    "performance_as_of": "2026-10-22",
+    "performance_as_of": "2026-10-25",
     "gain_loss_by_tier": {},
     "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
     "stock_details_by_tier": {
@@ -1723,7 +1723,7 @@
     "retained_sleeve_actions": [],
     "status": "Holding",
     "close_date": null,
-    "performance_as_of": "2026-10-22",
+    "performance_as_of": "2026-10-25",
     "gain_loss_by_tier": {},
     "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
     "stock_details_by_tier": {
@@ -2332,6 +2332,1034 @@
           "exit_date": null,
           "gain_loss": null,
           "status": "Holding",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        }
+      ]
+    }
+  },
+  {
+    "signal_date": "2026-10-23",
+    "trade_date": "2026-10-26",
+    "state": "ON2",
+    "sleeve": 1,
+    "public_sleeve": 2,
+    "strategy_version": "2.3.0",
+    "picks": [
+      "AXON",
+      "BE",
+      "COHR",
+      "COIN",
+      "FICO",
+      "FIX",
+      "FLEX",
+      "GEV",
+      "HOOD",
+      "LITE",
+      "LRCX",
+      "NRG",
+      "PCG",
+      "PWR",
+      "STX"
+    ],
+    "tiers": [
+      {
+        "tier": "ETF",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 1.0
+      },
+      {
+        "tier": "Core",
+        "symbol": "FLEX",
+        "kind": "STOCK",
+        "weight": 0.015556379862493934
+      },
+      {
+        "tier": "Core",
+        "symbol": "FIX",
+        "kind": "STOCK",
+        "weight": 0.01672524520762339
+      },
+      {
+        "tier": "Core",
+        "symbol": "COIN",
+        "kind": "STOCK",
+        "weight": 0.016201375672579583
+      },
+      {
+        "tier": "Core",
+        "symbol": "STX",
+        "kind": "STOCK",
+        "weight": 0.012052744399839027
+      },
+      {
+        "tier": "Core",
+        "symbol": "COHR",
+        "kind": "STOCK",
+        "weight": 0.01215489668515939
+      },
+      {
+        "tier": "Core",
+        "symbol": "BE",
+        "kind": "STOCK",
+        "weight": 0.011373117208121036
+      },
+      {
+        "tier": "Core",
+        "symbol": "LRCX",
+        "kind": "STOCK",
+        "weight": 0.01576354988439068
+      },
+      {
+        "tier": "Core",
+        "symbol": "NRG",
+        "kind": "STOCK",
+        "weight": 0.020852253656417123
+      },
+      {
+        "tier": "Core",
+        "symbol": "PCG",
+        "kind": "STOCK",
+        "weight": 0.02810062637380425
+      },
+      {
+        "tier": "Core",
+        "symbol": "GEV",
+        "kind": "STOCK",
+        "weight": 0.018379704160824063
+      },
+      {
+        "tier": "Core",
+        "symbol": "LITE",
+        "kind": "STOCK",
+        "weight": 0.011944714268611824
+      },
+      {
+        "tier": "Core",
+        "symbol": "HOOD",
+        "kind": "STOCK",
+        "weight": 0.016107150712281255
+      },
+      {
+        "tier": "Core",
+        "symbol": "AXON",
+        "kind": "STOCK",
+        "weight": 0.02305366189175987
+      },
+      {
+        "tier": "Core",
+        "symbol": "PWR",
+        "kind": "STOCK",
+        "weight": 0.02213413304117559
+      },
+      {
+        "tier": "Core",
+        "symbol": "FICO",
+        "kind": "STOCK",
+        "weight": 0.009600446974918993
+      },
+      {
+        "tier": "Core",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.75
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "FLEX",
+        "kind": "STOCK",
+        "weight": 0.03111275972498787
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "FIX",
+        "kind": "STOCK",
+        "weight": 0.03345049041524678
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "COIN",
+        "kind": "STOCK",
+        "weight": 0.032402751345159166
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "STX",
+        "kind": "STOCK",
+        "weight": 0.024105488799678054
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "COHR",
+        "kind": "STOCK",
+        "weight": 0.02430979337031878
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "BE",
+        "kind": "STOCK",
+        "weight": 0.022746234416242073
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "LRCX",
+        "kind": "STOCK",
+        "weight": 0.03152709976878136
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "NRG",
+        "kind": "STOCK",
+        "weight": 0.041704507312834246
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "PCG",
+        "kind": "STOCK",
+        "weight": 0.0562012527476085
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "GEV",
+        "kind": "STOCK",
+        "weight": 0.036759408321648125
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "LITE",
+        "kind": "STOCK",
+        "weight": 0.023889428537223648
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "HOOD",
+        "kind": "STOCK",
+        "weight": 0.03221430142456251
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "AXON",
+        "kind": "STOCK",
+        "weight": 0.04610732378351974
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "PWR",
+        "kind": "STOCK",
+        "weight": 0.04426826608235118
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "FICO",
+        "kind": "STOCK",
+        "weight": 0.019200893949837986
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.5
+      },
+      {
+        "tier": "Growth",
+        "symbol": "FLEX",
+        "kind": "STOCK",
+        "weight": 0.046669139587481805
+      },
+      {
+        "tier": "Growth",
+        "symbol": "FIX",
+        "kind": "STOCK",
+        "weight": 0.05017573562287017
+      },
+      {
+        "tier": "Growth",
+        "symbol": "COIN",
+        "kind": "STOCK",
+        "weight": 0.04860412701773875
+      },
+      {
+        "tier": "Growth",
+        "symbol": "STX",
+        "kind": "STOCK",
+        "weight": 0.03615823319951708
+      },
+      {
+        "tier": "Growth",
+        "symbol": "COHR",
+        "kind": "STOCK",
+        "weight": 0.03646469005547817
+      },
+      {
+        "tier": "Growth",
+        "symbol": "BE",
+        "kind": "STOCK",
+        "weight": 0.03411935162436311
+      },
+      {
+        "tier": "Growth",
+        "symbol": "LRCX",
+        "kind": "STOCK",
+        "weight": 0.04729064965317204
+      },
+      {
+        "tier": "Growth",
+        "symbol": "NRG",
+        "kind": "STOCK",
+        "weight": 0.06255676096925136
+      },
+      {
+        "tier": "Growth",
+        "symbol": "PCG",
+        "kind": "STOCK",
+        "weight": 0.08430187912141275
+      },
+      {
+        "tier": "Growth",
+        "symbol": "GEV",
+        "kind": "STOCK",
+        "weight": 0.05513911248247219
+      },
+      {
+        "tier": "Growth",
+        "symbol": "LITE",
+        "kind": "STOCK",
+        "weight": 0.035834142805835474
+      },
+      {
+        "tier": "Growth",
+        "symbol": "HOOD",
+        "kind": "STOCK",
+        "weight": 0.048321452136843766
+      },
+      {
+        "tier": "Growth",
+        "symbol": "AXON",
+        "kind": "STOCK",
+        "weight": 0.06916098567527962
+      },
+      {
+        "tier": "Growth",
+        "symbol": "PWR",
+        "kind": "STOCK",
+        "weight": 0.06640239912352677
+      },
+      {
+        "tier": "Growth",
+        "symbol": "FICO",
+        "kind": "STOCK",
+        "weight": 0.02880134092475698
+      },
+      {
+        "tier": "Growth",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "FLEX",
+        "kind": "STOCK",
+        "weight": 0.06222551944997574
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "FIX",
+        "kind": "STOCK",
+        "weight": 0.06690098083049356
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "COIN",
+        "kind": "STOCK",
+        "weight": 0.06480550269031833
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "STX",
+        "kind": "STOCK",
+        "weight": 0.04821097759935611
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "COHR",
+        "kind": "STOCK",
+        "weight": 0.04861958674063756
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "BE",
+        "kind": "STOCK",
+        "weight": 0.045492468832484145
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "LRCX",
+        "kind": "STOCK",
+        "weight": 0.06305419953756272
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "NRG",
+        "kind": "STOCK",
+        "weight": 0.08340901462566849
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "PCG",
+        "kind": "STOCK",
+        "weight": 0.112402505495217
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "GEV",
+        "kind": "STOCK",
+        "weight": 0.07351881664329625
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "LITE",
+        "kind": "STOCK",
+        "weight": 0.047778857074447297
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "HOOD",
+        "kind": "STOCK",
+        "weight": 0.06442860284912502
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "AXON",
+        "kind": "STOCK",
+        "weight": 0.09221464756703948
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "PWR",
+        "kind": "STOCK",
+        "weight": 0.08853653216470236
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "FICO",
+        "kind": "STOCK",
+        "weight": 0.03840178789967597
+      }
+    ],
+    "retained_sleeve_actions": [],
+    "status": "Scheduled",
+    "close_date": null,
+    "performance_as_of": "2026-10-25",
+    "gain_loss_by_tier": {},
+    "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
+    "stock_details_by_tier": {
+      "Balanced": [
+        {
+          "symbol": "FLEX",
+          "weight": 0.03111275972498787,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FIX",
+          "weight": 0.03345049041524678,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COIN",
+          "weight": 0.032402751345159166,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "STX",
+          "weight": 0.024105488799678054,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COHR",
+          "weight": 0.02430979337031878,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "BE",
+          "weight": 0.022746234416242073,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "LRCX",
+          "weight": 0.03152709976878136,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "NRG",
+          "weight": 0.041704507312834246,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "PCG",
+          "weight": 0.0562012527476085,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "GEV",
+          "weight": 0.036759408321648125,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "LITE",
+          "weight": 0.023889428537223648,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "HOOD",
+          "weight": 0.03221430142456251,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "AXON",
+          "weight": 0.04610732378351974,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "PWR",
+          "weight": 0.04426826608235118,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FICO",
+          "weight": 0.019200893949837986,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        }
+      ],
+      "Core": [
+        {
+          "symbol": "FLEX",
+          "weight": 0.015556379862493934,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FIX",
+          "weight": 0.01672524520762339,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COIN",
+          "weight": 0.016201375672579583,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "STX",
+          "weight": 0.012052744399839027,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COHR",
+          "weight": 0.01215489668515939,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "BE",
+          "weight": 0.011373117208121036,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "LRCX",
+          "weight": 0.01576354988439068,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "NRG",
+          "weight": 0.020852253656417123,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "PCG",
+          "weight": 0.02810062637380425,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "GEV",
+          "weight": 0.018379704160824063,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "LITE",
+          "weight": 0.011944714268611824,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "HOOD",
+          "weight": 0.016107150712281255,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "AXON",
+          "weight": 0.02305366189175987,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "PWR",
+          "weight": 0.02213413304117559,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FICO",
+          "weight": 0.009600446974918993,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        }
+      ],
+      "ETF": [],
+      "FullStock": [
+        {
+          "symbol": "FLEX",
+          "weight": 0.06222551944997574,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FIX",
+          "weight": 0.06690098083049356,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COIN",
+          "weight": 0.06480550269031833,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "STX",
+          "weight": 0.04821097759935611,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COHR",
+          "weight": 0.04861958674063756,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "BE",
+          "weight": 0.045492468832484145,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "LRCX",
+          "weight": 0.06305419953756272,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "NRG",
+          "weight": 0.08340901462566849,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "PCG",
+          "weight": 0.112402505495217,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "GEV",
+          "weight": 0.07351881664329625,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "LITE",
+          "weight": 0.047778857074447297,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "HOOD",
+          "weight": 0.06442860284912502,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "AXON",
+          "weight": 0.09221464756703948,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "PWR",
+          "weight": 0.08853653216470236,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FICO",
+          "weight": 0.03840178789967597,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        }
+      ],
+      "Growth": [
+        {
+          "symbol": "FLEX",
+          "weight": 0.046669139587481805,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FIX",
+          "weight": 0.05017573562287017,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COIN",
+          "weight": 0.04860412701773875,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "STX",
+          "weight": 0.03615823319951708,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "COHR",
+          "weight": 0.03646469005547817,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "BE",
+          "weight": 0.03411935162436311,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "LRCX",
+          "weight": 0.04729064965317204,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "NRG",
+          "weight": 0.06255676096925136,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "PCG",
+          "weight": 0.08430187912141275,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "GEV",
+          "weight": 0.05513911248247219,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "LITE",
+          "weight": 0.035834142805835474,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "HOOD",
+          "weight": 0.048321452136843766,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "AXON",
+          "weight": 0.06916098567527962,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "PWR",
+          "weight": 0.06640239912352677,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
+          "note": null,
+          "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
+        },
+        {
+          "symbol": "FICO",
+          "weight": 0.02880134092475698,
+          "entry_date": "2026-10-26",
+          "exit_date": null,
+          "gain_loss": null,
+          "status": "Scheduled",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         }

@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "signal_date": "2026-10-16",
+  "signal_date": "2026-10-23",
   "start": "1995-02-06",
   "strategy_version": "2.3.0",
   "defensive_basket": {
@@ -32,15 +32,15 @@
     "eligibility": "200 observed ETF sessions; strict majority of SMA63/SMA126/SMA200; equal weights among eligible defensives; preserved single-survivor volatility exception.",
     "leverage": "FXF/IBIT defensive capital is carried unchanged in every overlay tier."
   },
-  "market_snapshot_sha256": "3703b4fe7b72ca53e725d091355badb12f40f196dddda0b252433fd32b1048df",
+  "market_snapshot_sha256": "dfc4b31c0cf7834964661b3dee2169781622cab0c67319bb808a35b7998ea158",
   "files": {
-    "stock-report.json": "b24c4e1fbe0e01a80645506c0f47e3a0a78c0897f8e6af9f2dd3d49b79edd4ec",
-    "majority-metrics.json": "cdf68ba14bf40acb8d07fa79ac0b5e2fff691bd58c2833951e3ec637ada4b2c6",
-    "etf-evidence.json": "c3f0ff9f08aebe6e70fdf560fe2e7d6e127dbc9ef1b95a0f8f8623cb1d4e99ee",
-    "leverage.json": "58f1eb87d3638681105d9b55ecb9e4d73e203b3a8e91840d4e825f95531d6620",
-    "RESEARCH_stock_signal.json": "601cdb143333a24f927aaebcbe2df84c8edbc527af454f674e321882a404302a",
-    "model-cohorts.json": "2ca3153abab94ff03d35c33f46f3657e2c9f449981e2277a7d10f382812178f2"
+    "stock-report.json": "5fadcbd524b111c111f53283a4fc3b82bde82a40ff4d2c537fe2956afcd87825",
+    "majority-metrics.json": "10b7283cd5ca7ae8f80d7598ff47cb3c3affb7e4ca1f47cf0db171da56125b94",
+    "etf-evidence.json": "6c7cab770b00980456cba5a3fe22bfda33d57cb18241bc643a2e2609756ded9d",
+    "leverage.json": "cb90687ebf41c2e5ed6fd0508f3e1532e39d363cc23ed2b9f0b9ab550ca5b107",
+    "RESEARCH_stock_signal.json": "29e75d7b3769e29fed37912044007f58d70f2a7dff00a2e4d64bc4cdfcd42c52",
+    "model-cohorts.json": "fca1a301091cbd246e19a62ac797b90f211c6bf362c6b96d0d02067ec1c8372a"
   },
   "leverage_start": "2010-02-16",
-  "stock_allocation_validation_sha256": "d8dfb1af89d5e871deeb795abaa27795f21dad2acf1461bb2142b50c73f45261"
+  "stock_allocation_validation_sha256": "1a2fdc58f683c1be9c121c9c82bdb5c3b46a76c6f5944897b82eccd3c7bb4feb"
 }

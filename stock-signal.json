@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "signal_date": "2026-10-16",
-  "trade_date": "2026-10-19",
-  "published_at": "2026-10-17T14:50:21.909911+00:00",
-  "refresh_due_at": "2026-10-24T00:00:00+00:00",
+  "signal_date": "2026-10-23",
+  "trade_date": "2026-10-26",
+  "published_at": "2026-10-25T18:56:59.009299+00:00",
+  "refresh_due_at": "2026-10-31T00:00:00+00:00",
   "integrity": "verified",
   "independent_audit": "pending",
   "signal": {
-    "signal_date": "2026-10-16",
-    "state": "ON3",
-    "spy_close": 763.25,
-    "spy_sma200": 721.8778744506836,
-    "favorable_count": 3,
+    "signal_date": "2026-10-23",
+    "state": "ON2",
+    "spy_close": 759.969970703125,
+    "spy_sma200": 724.0026873779296,
+    "favorable_count": 2,
     "etf_weights": {
       "SPY": 1.0,
       "QQQ": 0.0,
@@ -27,14 +27,14 @@
     "trend_rule": "AT_LEAST_2_OF_SMA63_SMA126_SMA200",
     "spy_trend_eligible": true,
     "qqq_trend_eligible": false,
-    "spy_trend_votes": 3,
+    "spy_trend_votes": 2,
     "spy_sma_levels": {
-      "63": 763.2407371884301,
-      "126": 749.3398563445561,
-      "200": 721.8778744506836
+      "63": 765.3019050719246,
+      "126": 751.7527276901972,
+      "200": 724.0026873779296
     },
-    "sleeve": 1,
-    "rotation_sleeve_id": 3,
+    "sleeve": 2,
+    "rotation_sleeve_id": 1,
     "defensive_basket": {
       "version": "2.3.0",
       "defensive_assets": [
@@ -82,93 +82,93 @@
       },
       {
         "tier": "Core",
-        "symbol": "SNDK",
+        "symbol": "FLEX",
         "kind": "STOCK",
-        "weight": 0.01811400121561235
+        "weight": 0.015556379862493934
       },
       {
         "tier": "Core",
-        "symbol": "WDC",
+        "symbol": "FIX",
         "kind": "STOCK",
-        "weight": 0.015715451035944454
-      },
-      {
-        "tier": "Core",
-        "symbol": "FICO",
-        "kind": "STOCK",
-        "weight": 0.010645670176373493
-      },
-      {
-        "tier": "Core",
-        "symbol": "MU",
-        "kind": "STOCK",
-        "weight": 0.021820106612042152
-      },
-      {
-        "tier": "Core",
-        "symbol": "MRVL",
-        "kind": "STOCK",
-        "weight": 0.016775709311186576
-      },
-      {
-        "tier": "Core",
-        "symbol": "SMCI",
-        "kind": "STOCK",
-        "weight": 0.017961755978089595
-      },
-      {
-        "tier": "Core",
-        "symbol": "DELL",
-        "kind": "STOCK",
-        "weight": 0.018520809390384422
-      },
-      {
-        "tier": "Core",
-        "symbol": "APP",
-        "kind": "STOCK",
-        "weight": 0.02146894946776219
-      },
-      {
-        "tier": "Core",
-        "symbol": "BE",
-        "kind": "STOCK",
-        "weight": 0.013824240056273359
-      },
-      {
-        "tier": "Core",
-        "symbol": "SKYD",
-        "kind": "STOCK",
-        "weight": 0.010249151064237209
-      },
-      {
-        "tier": "Core",
-        "symbol": "STX",
-        "kind": "STOCK",
-        "weight": 0.013680929040833905
-      },
-      {
-        "tier": "Core",
-        "symbol": "HPE",
-        "kind": "STOCK",
-        "weight": 0.01605508968834275
+        "weight": 0.01672524520762339
       },
       {
         "tier": "Core",
         "symbol": "COIN",
         "kind": "STOCK",
-        "weight": 0.01755057085535516
+        "weight": 0.016201375672579583
       },
       {
         "tier": "Core",
-        "symbol": "FLEX",
+        "symbol": "STX",
         "kind": "STOCK",
-        "weight": 0.01891582276073963
+        "weight": 0.012052744399839027
       },
       {
         "tier": "Core",
-        "symbol": "INTC",
+        "symbol": "COHR",
         "kind": "STOCK",
-        "weight": 0.01870174334682277
+        "weight": 0.01215489668515939
+      },
+      {
+        "tier": "Core",
+        "symbol": "BE",
+        "kind": "STOCK",
+        "weight": 0.011373117208121036
+      },
+      {
+        "tier": "Core",
+        "symbol": "LRCX",
+        "kind": "STOCK",
+        "weight": 0.01576354988439068
+      },
+      {
+        "tier": "Core",
+        "symbol": "NRG",
+        "kind": "STOCK",
+        "weight": 0.020852253656417123
+      },
+      {
+        "tier": "Core",
+        "symbol": "PCG",
+        "kind": "STOCK",
+        "weight": 0.02810062637380425
+      },
+      {
+        "tier": "Core",
+        "symbol": "GEV",
+        "kind": "STOCK",
+        "weight": 0.018379704160824063
+      },
+      {
+        "tier": "Core",
+        "symbol": "LITE",
+        "kind": "STOCK",
+        "weight": 0.011944714268611824
+      },
+      {
+        "tier": "Core",
+        "symbol": "HOOD",
+        "kind": "STOCK",
+        "weight": 0.016107150712281255
+      },
+      {
+        "tier": "Core",
+        "symbol": "AXON",
+        "kind": "STOCK",
+        "weight": 0.02305366189175987
+      },
+      {
+        "tier": "Core",
+        "symbol": "PWR",
+        "kind": "STOCK",
+        "weight": 0.02213413304117559
+      },
+      {
+        "tier": "Core",
+        "symbol": "FICO",
+        "kind": "STOCK",
+        "weight": 0.009600446974918993
       },
       {
         "tier": "Core",
@@ -178,93 +178,93 @@
       },
       {
         "tier": "Balanced",
-        "symbol": "SNDK",
+        "symbol": "FLEX",
         "kind": "STOCK",
-        "weight": 0.0362280024312247
+        "weight": 0.03111275972498787
       },
       {
         "tier": "Balanced",
-        "symbol": "WDC",
+        "symbol": "FIX",
         "kind": "STOCK",
-        "weight": 0.03143090207188891
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "FICO",
-        "kind": "STOCK",
-        "weight": 0.021291340352746987
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "MU",
-        "kind": "STOCK",
-        "weight": 0.043640213224084304
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "MRVL",
-        "kind": "STOCK",
-        "weight": 0.03355141862237315
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "SMCI",
-        "kind": "STOCK",
-        "weight": 0.03592351195617919
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "DELL",
-        "kind": "STOCK",
-        "weight": 0.037041618780768844
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "APP",
-        "kind": "STOCK",
-        "weight": 0.04293789893552438
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "BE",
-        "kind": "STOCK",
-        "weight": 0.027648480112546718
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "SKYD",
-        "kind": "STOCK",
-        "weight": 0.020498302128474418
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "STX",
-        "kind": "STOCK",
-        "weight": 0.02736185808166781
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "HPE",
-        "kind": "STOCK",
-        "weight": 0.0321101793766855
+        "weight": 0.03345049041524678
       },
       {
         "tier": "Balanced",
         "symbol": "COIN",
         "kind": "STOCK",
-        "weight": 0.03510114171071032
+        "weight": 0.032402751345159166
       },
       {
         "tier": "Balanced",
-        "symbol": "FLEX",
+        "symbol": "STX",
         "kind": "STOCK",
-        "weight": 0.03783164552147926
+        "weight": 0.024105488799678054
       },
       {
         "tier": "Balanced",
-        "symbol": "INTC",
+        "symbol": "COHR",
         "kind": "STOCK",
-        "weight": 0.03740348669364554
+        "weight": 0.02430979337031878
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "BE",
+        "kind": "STOCK",
+        "weight": 0.022746234416242073
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "LRCX",
+        "kind": "STOCK",
+        "weight": 0.03152709976878136
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "NRG",
+        "kind": "STOCK",
+        "weight": 0.041704507312834246
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "PCG",
+        "kind": "STOCK",
+        "weight": 0.0562012527476085
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "GEV",
+        "kind": "STOCK",
+        "weight": 0.036759408321648125
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "LITE",
+        "kind": "STOCK",
+        "weight": 0.023889428537223648
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "HOOD",
+        "kind": "STOCK",
+        "weight": 0.03221430142456251
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "AXON",
+        "kind": "STOCK",
+        "weight": 0.04610732378351974
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "PWR",
+        "kind": "STOCK",
+        "weight": 0.04426826608235118
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "FICO",
+        "kind": "STOCK",
+        "weight": 0.019200893949837986
       },
       {
         "tier": "Balanced",
@@ -274,93 +274,93 @@
       },
       {
         "tier": "Growth",
-        "symbol": "SNDK",
+        "symbol": "FLEX",
         "kind": "STOCK",
-        "weight": 0.05434200364683704
+        "weight": 0.046669139587481805
       },
       {
         "tier": "Growth",
-        "symbol": "WDC",
+        "symbol": "FIX",
         "kind": "STOCK",
-        "weight": 0.04714635310783336
-      },
-      {
-        "tier": "Growth",
-        "symbol": "FICO",
-        "kind": "STOCK",
-        "weight": 0.03193701052912048
-      },
-      {
-        "tier": "Growth",
-        "symbol": "MU",
-        "kind": "STOCK",
-        "weight": 0.06546031983612646
-      },
-      {
-        "tier": "Growth",
-        "symbol": "MRVL",
-        "kind": "STOCK",
-        "weight": 0.05032712793355973
-      },
-      {
-        "tier": "Growth",
-        "symbol": "SMCI",
-        "kind": "STOCK",
-        "weight": 0.05388526793426879
-      },
-      {
-        "tier": "Growth",
-        "symbol": "DELL",
-        "kind": "STOCK",
-        "weight": 0.05556242817115327
-      },
-      {
-        "tier": "Growth",
-        "symbol": "APP",
-        "kind": "STOCK",
-        "weight": 0.06440684840328657
-      },
-      {
-        "tier": "Growth",
-        "symbol": "BE",
-        "kind": "STOCK",
-        "weight": 0.041472720168820074
-      },
-      {
-        "tier": "Growth",
-        "symbol": "SKYD",
-        "kind": "STOCK",
-        "weight": 0.030747453192711625
-      },
-      {
-        "tier": "Growth",
-        "symbol": "STX",
-        "kind": "STOCK",
-        "weight": 0.041042787122501714
-      },
-      {
-        "tier": "Growth",
-        "symbol": "HPE",
-        "kind": "STOCK",
-        "weight": 0.04816526906502824
+        "weight": 0.05017573562287017
       },
       {
         "tier": "Growth",
         "symbol": "COIN",
         "kind": "STOCK",
-        "weight": 0.052651712566065476
+        "weight": 0.04860412701773875
       },
       {
         "tier": "Growth",
-        "symbol": "FLEX",
+        "symbol": "STX",
         "kind": "STOCK",
-        "weight": 0.05674746828221889
+        "weight": 0.03615823319951708
       },
       {
         "tier": "Growth",
-        "symbol": "INTC",
+        "symbol": "COHR",
         "kind": "STOCK",
-        "weight": 0.056105230040468315
+        "weight": 0.03646469005547817
+      },
+      {
+        "tier": "Growth",
+        "symbol": "BE",
+        "kind": "STOCK",
+        "weight": 0.03411935162436311
+      },
+      {
+        "tier": "Growth",
+        "symbol": "LRCX",
+        "kind": "STOCK",
+        "weight": 0.04729064965317204
+      },
+      {
+        "tier": "Growth",
+        "symbol": "NRG",
+        "kind": "STOCK",
+        "weight": 0.06255676096925136
+      },
+      {
+        "tier": "Growth",
+        "symbol": "PCG",
+        "kind": "STOCK",
+        "weight": 0.08430187912141275
+      },
+      {
+        "tier": "Growth",
+        "symbol": "GEV",
+        "kind": "STOCK",
+        "weight": 0.05513911248247219
+      },
+      {
+        "tier": "Growth",
+        "symbol": "LITE",
+        "kind": "STOCK",
+        "weight": 0.035834142805835474
+      },
+      {
+        "tier": "Growth",
+        "symbol": "HOOD",
+        "kind": "STOCK",
+        "weight": 0.048321452136843766
+      },
+      {
+        "tier": "Growth",
+        "symbol": "AXON",
+        "kind": "STOCK",
+        "weight": 0.06916098567527962
+      },
+      {
+        "tier": "Growth",
+        "symbol": "PWR",
+        "kind": "STOCK",
+        "weight": 0.06640239912352677
+      },
+      {
+        "tier": "Growth",
+        "symbol": "FICO",
+        "kind": "STOCK",
+        "weight": 0.02880134092475698
       },
       {
         "tier": "Growth",
@@ -370,168 +370,168 @@
       },
       {
         "tier": "Full Stock",
-        "symbol": "SNDK",
+        "symbol": "FLEX",
         "kind": "STOCK",
-        "weight": 0.0724560048624494
+        "weight": 0.06222551944997574
       },
       {
         "tier": "Full Stock",
-        "symbol": "WDC",
+        "symbol": "FIX",
         "kind": "STOCK",
-        "weight": 0.06286180414377782
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "FICO",
-        "kind": "STOCK",
-        "weight": 0.042582680705493973
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "MU",
-        "kind": "STOCK",
-        "weight": 0.08728042644816861
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "MRVL",
-        "kind": "STOCK",
-        "weight": 0.0671028372447463
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "SMCI",
-        "kind": "STOCK",
-        "weight": 0.07184702391235838
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "DELL",
-        "kind": "STOCK",
-        "weight": 0.07408323756153769
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "APP",
-        "kind": "STOCK",
-        "weight": 0.08587579787104876
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "BE",
-        "kind": "STOCK",
-        "weight": 0.055296960225093436
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "SKYD",
-        "kind": "STOCK",
-        "weight": 0.040996604256948836
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "STX",
-        "kind": "STOCK",
-        "weight": 0.05472371616333562
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "HPE",
-        "kind": "STOCK",
-        "weight": 0.064220358753371
+        "weight": 0.06690098083049356
       },
       {
         "tier": "Full Stock",
         "symbol": "COIN",
         "kind": "STOCK",
-        "weight": 0.07020228342142064
+        "weight": 0.06480550269031833
       },
       {
         "tier": "Full Stock",
-        "symbol": "FLEX",
+        "symbol": "STX",
         "kind": "STOCK",
-        "weight": 0.07566329104295852
+        "weight": 0.04821097759935611
       },
       {
         "tier": "Full Stock",
-        "symbol": "INTC",
+        "symbol": "COHR",
         "kind": "STOCK",
-        "weight": 0.07480697338729109
+        "weight": 0.04861958674063756
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "BE",
+        "kind": "STOCK",
+        "weight": 0.045492468832484145
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "LRCX",
+        "kind": "STOCK",
+        "weight": 0.06305419953756272
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "NRG",
+        "kind": "STOCK",
+        "weight": 0.08340901462566849
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "PCG",
+        "kind": "STOCK",
+        "weight": 0.112402505495217
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "GEV",
+        "kind": "STOCK",
+        "weight": 0.07351881664329625
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "LITE",
+        "kind": "STOCK",
+        "weight": 0.047778857074447297
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "HOOD",
+        "kind": "STOCK",
+        "weight": 0.06442860284912502
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "AXON",
+        "kind": "STOCK",
+        "weight": 0.09221464756703948
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "PWR",
+        "kind": "STOCK",
+        "weight": 0.08853653216470236
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "FICO",
+        "kind": "STOCK",
+        "weight": 0.03840178789967597
       }
     ],
     "picks": [
       {
-        "symbol": "SNDK",
+        "symbol": "FLEX",
         "bucket": "SPY",
         "rank": 1
       },
       {
-        "symbol": "WDC",
+        "symbol": "FIX",
         "bucket": "SPY",
         "rank": 2
       },
       {
-        "symbol": "FICO",
+        "symbol": "COIN",
         "bucket": "SPY",
         "rank": 3
       },
       {
-        "symbol": "MU",
+        "symbol": "STX",
         "bucket": "SPY",
         "rank": 4
       },
       {
-        "symbol": "MRVL",
+        "symbol": "COHR",
         "bucket": "SPY",
         "rank": 5
       },
       {
-        "symbol": "SMCI",
+        "symbol": "BE",
         "bucket": "SPY",
         "rank": 6
       },
       {
-        "symbol": "DELL",
+        "symbol": "LRCX",
         "bucket": "SPY",
         "rank": 7
       },
       {
-        "symbol": "APP",
+        "symbol": "NRG",
         "bucket": "SPY",
         "rank": 8
       },
       {
-        "symbol": "BE",
+        "symbol": "PCG",
         "bucket": "SPY",
         "rank": 9
       },
       {
-        "symbol": "SKYD",
+        "symbol": "GEV",
         "bucket": "SPY",
         "rank": 10
       },
       {
-        "symbol": "STX",
+        "symbol": "LITE",
         "bucket": "SPY",
         "rank": 11
       },
       {
-        "symbol": "HPE",
+        "symbol": "HOOD",
         "bucket": "SPY",
         "rank": 12
       },
       {
-        "symbol": "COIN",
+        "symbol": "AXON",
         "bucket": "SPY",
         "rank": 13
       },
       {
-        "symbol": "FLEX",
+        "symbol": "PWR",
         "bucket": "SPY",
         "rank": 14
       },
       {
-        "symbol": "INTC",
+        "symbol": "FICO",
         "bucket": "SPY",
         "rank": 15
       }
@@ -540,68 +540,68 @@
   },
   "quotes": {
     "SPY": {
-      "date": "2026-10-16",
-      "price": 763.25
-    },
-    "SNDK": {
-      "date": "2026-10-16",
-      "price": 1299.300048828125
-    },
-    "WDC": {
-      "date": "2026-10-16",
-      "price": 332.0
-    },
-    "FICO": {
-      "date": "2026-10-16",
-      "price": 771.1900024414062
-    },
-    "MU": {
-      "date": "2026-10-16",
-      "price": 878.8400268554688
-    },
-    "MRVL": {
-      "date": "2026-10-16",
-      "price": 227.8300018310547
-    },
-    "SMCI": {
-      "date": "2026-10-16",
-      "price": 31.6299991607666
-    },
-    "DELL": {
-      "date": "2026-10-16",
-      "price": 451.7099914550781
-    },
-    "APP": {
-      "date": "2026-10-16",
-      "price": 266.1300048828125
-    },
-    "BE": {
-      "date": "2026-10-16",
-      "price": 221.30999755859375
-    },
-    "SKYD": {
-      "date": "2026-10-16",
-      "price": 6.909999847412109
-    },
-    "STX": {
-      "date": "2026-10-16",
-      "price": 639.010009765625
-    },
-    "HPE": {
-      "date": "2026-10-16",
-      "price": 55.130001068115234
-    },
-    "COIN": {
-      "date": "2026-10-16",
-      "price": 173.16000366210938
+      "date": "2026-10-23",
+      "price": 759.969970703125
     },
     "FLEX": {
-      "date": "2026-10-16",
-      "price": 90.45999908447266
+      "date": "2026-10-23",
+      "price": 76.55000305175781
     },
-    "INTC": {
-      "date": "2026-10-16",
-      "price": 89.8499984741211
+    "FIX": {
+      "date": "2026-10-23",
+      "price": 1160.8599853515625
+    },
+    "COIN": {
+      "date": "2026-10-23",
+      "price": 164.4499969482422
+    },
+    "STX": {
+      "date": "2026-10-23",
+      "price": 630.489990234375
+    },
+    "COHR": {
+      "date": "2026-10-23",
+      "price": 209.2899932861328
+    },
+    "BE": {
+      "date": "2026-10-23",
+      "price": 193.3000030517578
+    },
+    "LRCX": {
+      "date": "2026-10-23",
+      "price": 230.10000610351562
+    },
+    "NRG": {
+      "date": "2026-10-23",
+      "price": 92.30999755859375
+    },
+    "PCG": {
+      "date": "2026-10-23",
+      "price": 12.630000114440918
+    },
+    "GEV": {
+      "date": "2026-10-23",
+      "price": 815.0
+    },
+    "LITE": {
+      "date": "2026-10-23",
+      "price": 756.1699829101562
+    },
+    "HOOD": {
+      "date": "2026-10-23",
+      "price": 95.06999969482422
+    },
+    "AXON": {
+      "date": "2026-10-23",
+      "price": 420.3699951171875
+    },
+    "PWR": {
+      "date": "2026-10-23",
+      "price": 546.4299926757812
+    },
+    "FICO": {
+      "date": "2026-10-23",
+      "price": 815.3099975585938
     }
   }
 }
