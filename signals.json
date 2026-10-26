@@ -75,10 +75,10 @@
       "SPY": 0.755,
       "QQQ": 0.245
     },
-    "status": "Holding",
-    "close_date": null,
-    "gain_loss": null,
-    "performance_as_of": "2026-10-23",
+    "status": "Closed",
+    "close_date": "2026-10-26",
+    "gain_loss": -0.021124715217956485,
+    "performance_as_of": "2026-10-26",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -94,7 +94,7 @@
     "status": "Holding",
     "close_date": null,
     "gain_loss": null,
-    "performance_as_of": "2026-10-23",
+    "performance_as_of": "2026-10-26",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -118,7 +118,7 @@
     "status": "Holding",
     "close_date": null,
     "gain_loss": null,
-    "performance_as_of": "2026-10-23",
+    "performance_as_of": "2026-10-26",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -139,10 +139,10 @@
       "CASH": 0.0
     },
     "strategy_version": "2.3.0",
-    "status": "Scheduled",
+    "status": "Holding",
     "close_date": null,
     "gain_loss": null,
-    "performance_as_of": "2026-10-23",
+    "performance_as_of": "2026-10-26",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   }
 ]

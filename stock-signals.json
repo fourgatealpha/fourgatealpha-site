@@ -535,7 +535,7 @@
     ],
     "status": "Holding",
     "close_date": null,
-    "performance_as_of": "2026-10-23",
+    "performance_as_of": "2026-10-26",
     "gain_loss_by_tier": {},
     "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
     "stock_details_by_tier": {
@@ -1723,7 +1723,7 @@
     "retained_sleeve_actions": [],
     "status": "Holding",
     "close_date": null,
-    "performance_as_of": "2026-10-23",
+    "performance_as_of": "2026-10-26",
     "gain_loss_by_tier": {},
     "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
     "stock_details_by_tier": {
@@ -2749,9 +2749,9 @@
       }
     ],
     "retained_sleeve_actions": [],
-    "status": "Scheduled",
+    "status": "Holding",
     "close_date": null,
-    "performance_as_of": "2026-10-23",
+    "performance_as_of": "2026-10-26",
     "gain_loss_by_tier": {},
     "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
     "stock_details_by_tier": {
@@ -2762,7 +2762,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2772,7 +2772,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2782,7 +2782,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2792,7 +2792,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2802,7 +2802,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2812,7 +2812,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2822,7 +2822,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2832,7 +2832,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2842,7 +2842,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2852,7 +2852,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2862,7 +2862,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2872,7 +2872,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2882,7 +2882,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2892,7 +2892,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2902,7 +2902,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         }
@@ -2914,7 +2914,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2924,7 +2924,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2934,7 +2934,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2944,7 +2944,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2954,7 +2954,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2964,7 +2964,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2974,7 +2974,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2984,7 +2984,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -2994,7 +2994,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3004,7 +3004,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3014,7 +3014,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3024,7 +3024,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3034,7 +3034,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3044,7 +3044,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3054,7 +3054,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         }
@@ -3067,7 +3067,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3077,7 +3077,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3087,7 +3087,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3097,7 +3097,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3107,7 +3107,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3117,7 +3117,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3127,7 +3127,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3137,7 +3137,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3147,7 +3147,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3157,7 +3157,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3167,7 +3167,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3177,7 +3177,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3187,7 +3187,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3197,7 +3197,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3207,7 +3207,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         }
@@ -3219,7 +3219,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3229,7 +3229,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3239,7 +3239,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3249,7 +3249,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3259,7 +3259,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3269,7 +3269,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3279,7 +3279,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3289,7 +3289,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3299,7 +3299,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3309,7 +3309,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3319,7 +3319,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3329,7 +3329,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3339,7 +3339,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3349,7 +3349,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
@@ -3359,7 +3359,7 @@
           "entry_date": "2026-10-26",
           "exit_date": null,
           "gain_loss": null,
-          "status": "Scheduled",
+          "status": "Holding",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         }
