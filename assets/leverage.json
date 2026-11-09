@@ -29,14 +29,14 @@
     "eligibility": "200 observed ETF sessions; strict majority of SMA63/SMA126/SMA200; equal weights among eligible defensives; preserved single-survivor volatility exception.",
     "leverage": "FXF/IBIT defensive capital is carried unchanged in every overlay tier."
   },
-  "signal_date": "2026-10-30",
+  "signal_date": "2026-11-06",
   "gate": {
-    "signal_date": "2026-10-30",
-    "spy_close": 755.719970703125,
-    "spy_sma200": 725.9846105957031,
+    "signal_date": "2026-11-06",
+    "spy_close": 735.2899780273438,
+    "spy_sma200": 727.6461871337891,
     "spy_above_sma200": true,
-    "spy_vol20_annualized": 0.11594228526342602,
-    "spy_vol20_percentile": 0.42063492063492064,
+    "spy_vol20_annualized": 0.19940663742311324,
+    "spy_vol20_percentile": 0.9880952380952381,
     "vol_window": 20,
     "percentile_lookback": 252,
     "minimum_prior_observations": 126,
@@ -45,239 +45,239 @@
   },
   "tier_targets_exact": {
     "1x": {
-      "SPY": 1.0,
+      "SPY": 0.5,
       "QQQ": 0.0,
-      "SHY": 0.0,
-      "TLT": 0.0,
-      "UUP": 0.0,
+      "SHY": 0.125,
+      "TLT": 0.125,
+      "UUP": 0.125,
       "GLD": 0.0,
       "FXF": 0.0,
-      "IBIT": 0.0,
+      "IBIT": 0.125,
       "CASH": 0.0
     },
     "1.5x": {
-      "SPY": 1.0,
+      "SPY": 0.5,
       "QQQ": 0.0,
       "SSO": 0.0,
       "QLD": 0.0,
       "SPXL": 0.0,
       "TQQQ": 0.0,
-      "SHY": 0.0,
-      "TLT": 0.0,
-      "UUP": 0.0,
+      "SHY": 0.125,
+      "TLT": 0.125,
+      "UUP": 0.125,
       "GLD": 0.0,
       "CASH": 0.0,
       "FXF": 0.0,
-      "IBIT": 0.0
+      "IBIT": 0.125
     },
     "2x": {
-      "SPY": 1.0,
+      "SPY": 0.5,
       "QQQ": 0.0,
       "SSO": 0.0,
       "QLD": 0.0,
       "SPXL": 0.0,
       "TQQQ": 0.0,
-      "SHY": 0.0,
-      "TLT": 0.0,
-      "UUP": 0.0,
+      "SHY": 0.125,
+      "TLT": 0.125,
+      "UUP": 0.125,
       "GLD": 0.0,
       "CASH": 0.0,
       "FXF": 0.0,
-      "IBIT": 0.0
+      "IBIT": 0.125
     },
     "2.5x": {
-      "SPY": 1.0,
+      "SPY": 0.5,
       "QQQ": 0.0,
       "SSO": 0.0,
       "QLD": 0.0,
       "SPXL": 0.0,
       "TQQQ": 0.0,
-      "SHY": 0.0,
-      "TLT": 0.0,
-      "UUP": 0.0,
+      "SHY": 0.125,
+      "TLT": 0.125,
+      "UUP": 0.125,
       "GLD": 0.0,
       "CASH": 0.0,
       "FXF": 0.0,
-      "IBIT": 0.0
+      "IBIT": 0.125
     },
     "3x": {
-      "SPY": 1.0,
+      "SPY": 0.5,
       "QQQ": 0.0,
       "SSO": 0.0,
       "QLD": 0.0,
       "SPXL": 0.0,
       "TQQQ": 0.0,
-      "SHY": 0.0,
-      "TLT": 0.0,
-      "UUP": 0.0,
+      "SHY": 0.125,
+      "TLT": 0.125,
+      "UUP": 0.125,
       "GLD": 0.0,
       "CASH": 0.0,
       "FXF": 0.0,
-      "IBIT": 0.0
+      "IBIT": 0.125
     }
   },
   "performance": {
     "start": "2010-02-16",
-    "end": "2026-10-30",
+    "end": "2026-11-06",
     "metrics": [
       {
         "start": "2010-02-16",
-        "end": "2026-10-30",
-        "sessions": 4204,
-        "years": 16.701232742629895,
-        "total_return": 7.608410132132557,
-        "cagr": 0.13757300607636602,
+        "end": "2026-11-06",
+        "sessions": 4209,
+        "years": 16.720398091678817,
+        "total_return": 7.376438927144395,
+        "cagr": 0.13554824150886557,
         "max_drawdown": -0.13870535069686363,
-        "annualized_volatility": 0.1148752081085785,
-        "MAR": 0.991836330647602,
-        "ulcer_index": 0.046820460712588434,
-        "pain_index": 0.031931662747941,
-        "drawdown_area_session_pct": 13424.071019234396,
+        "annualized_volatility": 0.1154019122498477,
+        "MAR": 0.9772387354046794,
+        "ulcer_index": 0.04682943738522273,
+        "pain_index": 0.03195480969773399,
+        "drawdown_area_session_pct": 13449.779401776237,
         "CDaR95": 0.11443329875483269,
         "longest_underwater_sessions": 393,
         "longest_underwater_calendar_days": 570,
         "unrecovered_at_end": true,
-        "positive_session_fraction": 0.5592293054234063,
+        "positive_session_fraction": 0.5592777381800903,
         "worst_drawdown_peak": "2025-02-19",
         "worst_drawdown_trough": "2025-04-08",
         "worst_drawdown_recovery": "2025-06-26",
         "worst_drawdown_calendar_days": 127,
-        "time_below_5pct": 0.2637963843958135,
-        "time_below_10pct": 0.06874405328258801,
+        "time_below_5pct": 0.26395818484200523,
+        "time_below_10pct": 0.0686623901164172,
         "time_below_15pct": 0.0,
         "time_below_20pct": 0.0,
         "time_below_25pct": 0.0,
         "time_below_30pct": 0.0,
         "worst_3y": 0.04631086313598343,
-        "sharpe": 1.0539117984065205,
+        "sharpe": 1.0338635890232069,
         "tier": "1x"
       },
       {
         "start": "2010-02-16",
-        "end": "2026-10-30",
-        "sessions": 4204,
-        "years": 16.701232742629895,
-        "total_return": 9.394623106471892,
-        "cagr": 0.15048843445024462,
+        "end": "2026-11-06",
+        "sessions": 4209,
+        "years": 16.720398091678817,
+        "total_return": 9.074116926913367,
+        "cagr": 0.14815094965957565,
         "max_drawdown": -0.15152044133197817,
-        "annualized_volatility": 0.12798333926774766,
-        "MAR": 0.9931889923718448,
-        "ulcer_index": 0.04935573838849424,
-        "pain_index": 0.035071571431844584,
-        "drawdown_area_session_pct": 14744.088629947464,
+        "annualized_volatility": 0.12861623621662857,
+        "MAR": 0.9777621313482051,
+        "ulcer_index": 0.04937619112770152,
+        "pain_index": 0.035103108668661384,
+        "drawdown_area_session_pct": 14774.898438639577,
         "CDaR95": 0.11552281146080003,
         "longest_underwater_sessions": 383,
         "longest_underwater_calendar_days": 556,
         "unrecovered_at_end": true,
-        "positive_session_fraction": 0.557802093244529,
+        "positive_session_fraction": 0.5578522214302685,
         "worst_drawdown_peak": "2015-07-20",
         "worst_drawdown_trough": "2016-06-27",
         "worst_drawdown_recovery": "2017-01-26",
         "worst_drawdown_calendar_days": 556,
-        "time_below_5pct": 0.30589914367269266,
-        "time_below_10pct": 0.07254995242626071,
-        "time_below_15pct": 0.0002378686964795433,
+        "time_below_5pct": 0.30648610121168923,
+        "time_below_10pct": 0.07246376811594203,
+        "time_below_15pct": 0.00023758612497030174,
         "time_below_20pct": 0.0,
         "time_below_25pct": 0.0,
         "time_below_30pct": 0.0,
         "worst_3y": 0.053558725717077094,
-        "sharpe": 1.046825937233053,
+        "sharpe": 1.026199265754837,
         "tier": "1.5x"
       },
       {
         "start": "2010-02-16",
-        "end": "2026-10-30",
-        "sessions": 4204,
-        "years": 16.701232742629895,
-        "total_return": 11.39210021109786,
-        "cagr": 0.16266057986248073,
+        "end": "2026-11-06",
+        "sessions": 4209,
+        "years": 16.720398091678817,
+        "total_return": 10.961423934848085,
+        "cagr": 0.16000313783962072,
         "max_drawdown": -0.16572500053746841,
-        "annualized_volatility": 0.14362125881226448,
-        "MAR": 0.9815090018702709,
-        "ulcer_index": 0.05393264132841715,
-        "pain_index": 0.03961087389702136,
-        "drawdown_area_session_pct": 16652.41138630778,
+        "annualized_volatility": 0.14434480135380665,
+        "MAR": 0.9654737506152306,
+        "ulcer_index": 0.05396131676716751,
+        "pain_index": 0.03964850161422934,
+        "drawdown_area_session_pct": 16688.054329429127,
         "CDaR95": 0.12037032248052189,
         "longest_underwater_sessions": 382,
         "longest_underwater_calendar_days": 555,
         "unrecovered_at_end": true,
-        "positive_session_fraction": 0.5575642245480494,
+        "positive_session_fraction": 0.5576146353052982,
         "worst_drawdown_peak": "2015-07-20",
         "worst_drawdown_trough": "2016-06-27",
         "worst_drawdown_recovery": "2017-01-25",
         "worst_drawdown_calendar_days": 555,
-        "time_below_5pct": 0.34871550903901044,
-        "time_below_10pct": 0.08848715509039011,
-        "time_below_15pct": 0.0002378686964795433,
+        "time_below_5pct": 0.34925160370634356,
+        "time_below_10pct": 0.08838203848895225,
+        "time_below_15pct": 0.00023758612497030174,
         "time_below_20pct": 0.0,
         "time_below_25pct": 0.0,
         "time_below_30pct": 0.0,
         "worst_3y": 0.05048853409115517,
-        "sharpe": 1.021099167006071,
+        "sharpe": 1.0005895061413788,
         "tier": "2x"
       },
       {
         "start": "2010-02-16",
-        "end": "2026-10-30",
-        "sessions": 4204,
-        "years": 16.701232742629895,
-        "total_return": 14.172462074910806,
-        "cagr": 0.17683804451901453,
+        "end": "2026-11-06",
+        "sessions": 4209,
+        "years": 16.720398091678817,
+        "total_return": 13.582673710100671,
+        "cagr": 0.1738316853519828,
         "max_drawdown": -0.17951651345543684,
-        "annualized_volatility": 0.1607838642677334,
-        "MAR": 0.9850795401221558,
-        "ulcer_index": 0.05942082977044048,
-        "pain_index": 0.04460204240449086,
-        "drawdown_area_session_pct": 18750.69862684796,
+        "annualized_volatility": 0.16158610089608966,
+        "MAR": 0.9683325617569704,
+        "ulcer_index": 0.05945485699108004,
+        "pain_index": 0.04464410763247709,
+        "drawdown_area_session_pct": 18790.704902509606,
         "CDaR95": 0.12802727617286858,
         "longest_underwater_sessions": 382,
         "longest_underwater_calendar_days": 555,
         "unrecovered_at_end": true,
-        "positive_session_fraction": 0.5585156993339676,
+        "positive_session_fraction": 0.5585649798051794,
         "worst_drawdown_peak": "2015-07-20",
         "worst_drawdown_trough": "2016-06-27",
         "worst_drawdown_recovery": "2017-01-25",
         "worst_drawdown_calendar_days": 555,
-        "time_below_5pct": 0.3967649857278782,
-        "time_below_10pct": 0.12488106565176023,
-        "time_below_15pct": 0.0014272121788772598,
+        "time_below_5pct": 0.3972440009503445,
+        "time_below_10pct": 0.12520788785934903,
+        "time_below_15pct": 0.0014255167498218105,
         "time_below_20pct": 0.0,
         "time_below_25pct": 0.0,
         "time_below_30pct": 0.0,
         "worst_3y": 0.04848864600763192,
-        "sharpe": 1.0039477771609968,
+        "sharpe": 0.9837037628549484,
         "tier": "2.5x"
       },
       {
         "start": "2010-02-16",
-        "end": "2026-10-30",
-        "sessions": 4204,
-        "years": 16.701232742629895,
-        "total_return": 17.44319906102262,
-        "cagr": 0.190674309657751,
+        "end": "2026-11-06",
+        "sessions": 4209,
+        "years": 16.720398091678817,
+        "total_return": 16.649867923503933,
+        "cagr": 0.18730993396322715,
         "max_drawdown": -0.1930936181689038,
-        "annualized_volatility": 0.1792584452055519,
-        "MAR": 0.987470800256917,
-        "ulcer_index": 0.06537364313958464,
-        "pain_index": 0.04983605270694941,
-        "drawdown_area_session_pct": 20951.076558001532,
+        "annualized_volatility": 0.1801301885627129,
+        "MAR": 0.9700472534487519,
+        "ulcer_index": 0.0654113331831216,
+        "pain_index": 0.04988161606391888,
+        "drawdown_area_session_pct": 20995.172201303456,
         "CDaR95": 0.13732383084008926,
         "longest_underwater_sessions": 382,
         "longest_underwater_calendar_days": 555,
         "unrecovered_at_end": true,
-        "positive_session_fraction": 0.5599429115128449,
+        "positive_session_fraction": 0.5599904965550012,
         "worst_drawdown_peak": "2015-07-20",
         "worst_drawdown_trough": "2016-06-27",
         "worst_drawdown_recovery": "2017-01-25",
         "worst_drawdown_calendar_days": 555,
-        "time_below_5pct": 0.44743101807802094,
-        "time_below_10pct": 0.1653187440532826,
-        "time_below_15pct": 0.003092293054234063,
+        "time_below_5pct": 0.44808743169398907,
+        "time_below_10pct": 0.1655975291043003,
+        "time_below_15pct": 0.0030886196246139226,
         "time_below_20pct": 0.0,
         "time_below_25pct": 0.0,
         "time_below_30pct": 0.0,
         "worst_3y": 0.046232805388928266,
-        "sharpe": 0.9834222579061566,
+        "sharpe": 0.9636216288987294,
         "tier": "3x"
       }
     ],
@@ -21302,6 +21302,31 @@
           "2026-10-30",
           8.608410132132557,
           -0.042109040346553495
+        ],
+        [
+          "2026-11-02",
+          8.567938773630498,
+          -0.046612444324636515
+        ],
+        [
+          "2026-11-03",
+          8.593570821052985,
+          -0.04376026765942842
+        ],
+        [
+          "2026-11-04",
+          8.735515653981132,
+          -0.027965519251256676
+        ],
+        [
+          "2026-11-05",
+          8.350351449191807,
+          -0.0708242241789695
+        ],
+        [
+          "2026-11-06",
+          8.376438927144395,
+          -0.06792137000411247
         ]
       ],
       "1.5x": [
@@ -42324,6 +42349,31 @@
           "2026-10-30",
           10.394623106471892,
           -0.051482271452592654
+        ],
+        [
+          "2026-11-02",
+          10.345079745572718,
+          -0.056003143028535596
+        ],
+        [
+          "2026-11-03",
+          10.3810080003511,
+          -0.05272466084943228
+        ],
+        [
+          "2026-11-04",
+          10.57805740377412,
+          -0.0347437441166214
+        ],
+        [
+          "2026-11-05",
+          10.03938734748359,
+          -0.08389782050743122
+        ],
+        [
+          "2026-11-06",
+          10.074116926913367,
+          -0.08072871841909968
         ]
       ],
       "2x": [
@@ -63346,6 +63396,31 @@
           "2026-10-30",
           12.39210021109786,
           -0.060295991194869836
+        ],
+        [
+          "2026-11-02",
+          12.331763348259132,
+          -0.06487138930515157
+        ],
+        [
+          "2026-11-03",
+          12.380522998855678,
+          -0.06117390152237223
+        ],
+        [
+          "2026-11-04",
+          12.645982960899794,
+          -0.04104383589502092
+        ],
+        [
+          "2026-11-05",
+          11.916176016518174,
+          -0.09638574724230442
+        ],
+        [
+          "2026-11-06",
+          11.961423934848085,
+          -0.0929545572486482
         ]
       ],
       "2.5x": [
@@ -84368,6 +84443,31 @@
           "2026-10-30",
           15.172462074910806,
           -0.06802691334146915
+        ],
+        [
+          "2026-11-02",
+          15.095167217907546,
+          -0.07277477338610072
+        ],
+        [
+          "2026-11-03",
+          15.161725066163205,
+          -0.06868643736166935
+        ],
+        [
+          "2026-11-04",
+          15.523368577550805,
+          -0.04647237494293621
+        ],
+        [
+          "2026-11-05",
+          14.523748714849656,
+          -0.10787432831919752
+        ],
+        [
+          "2026-11-06",
+          14.582673710100671,
+          -0.10425484260657625
         ]
       ],
       "3x": [
@@ -105390,6 +105490,31 @@
           "2026-10-30",
           18.44319906102262,
           -0.07518814561793385
+        ],
+        [
+          "2026-11-02",
+          18.344392230844882,
+          -0.08014269431308974
+        ],
+        [
+          "2026-11-03",
+          18.433604873258894,
+          -0.07566923453031316
+        ],
+        [
+          "2026-11-04",
+          18.917570522775318,
+          -0.05140136384770455
+        ],
+        [
+          "2026-11-05",
+          17.573974311510014,
+          -0.11877436673997432
+        ],
+        [
+          "2026-11-06",
+          17.649867923503933,
+          -0.1149687735881777
         ]
       ]
     }

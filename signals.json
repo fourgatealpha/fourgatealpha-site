@@ -14,7 +14,7 @@
     "status": "Closed",
     "close_date": "2026-09-28",
     "gain_loss": 0.0075904466314641724,
-    "performance_as_of": "2026-11-01",
+    "performance_as_of": "2026-11-09",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -30,7 +30,7 @@
     "status": "Closed",
     "close_date": "2026-10-05",
     "gain_loss": 0.027091258350158978,
-    "performance_as_of": "2026-11-01",
+    "performance_as_of": "2026-11-09",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -46,7 +46,7 @@
     "status": "Closed",
     "close_date": "2026-10-12",
     "gain_loss": 0.019274487624357184,
-    "performance_as_of": "2026-11-01",
+    "performance_as_of": "2026-11-09",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -62,7 +62,7 @@
     "status": "Closed",
     "close_date": "2026-10-19",
     "gain_loss": -0.0075972801865371595,
-    "performance_as_of": "2026-11-01",
+    "performance_as_of": "2026-11-09",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -78,7 +78,7 @@
     "status": "Closed",
     "close_date": "2026-10-26",
     "gain_loss": -0.021124715217956485,
-    "performance_as_of": "2026-11-01",
+    "performance_as_of": "2026-11-09",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -94,7 +94,7 @@
     "status": "Closed",
     "close_date": "2026-11-02",
     "gain_loss": -0.037463481822935726,
-    "performance_as_of": "2026-11-02",
+    "performance_as_of": "2026-11-09",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -115,11 +115,12 @@
       "CASH": 0.0
     },
     "strategy_version": "2.3.0",
-    "status": "Holding",
-    "close_date": null,
+    "status": "Closed",
+    "close_date": "2026-11-09",
     "gain_loss": null,
-    "performance_as_of": "2026-11-06",
-    "return_basis": "Published weights; adjusted open-to-open; before trading costs"
+    "performance_as_of": "2026-11-09",
+    "return_basis": "Published weights; adjusted open-to-open; before trading costs",
+    "performance_note": "Awaiting verified entry/exit prices"
   },
   {
     "signal_date": "2026-10-23",
@@ -142,7 +143,7 @@
     "status": "Holding",
     "close_date": null,
     "gain_loss": null,
-    "performance_as_of": "2026-11-06",
+    "performance_as_of": "2026-11-09",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -166,7 +167,31 @@
     "status": "Holding",
     "close_date": null,
     "gain_loss": null,
-    "performance_as_of": "2026-11-06",
+    "performance_as_of": "2026-11-09",
+    "return_basis": "Published weights; adjusted open-to-open; before trading costs"
+  },
+  {
+    "signal_date": "2026-11-06",
+    "trade_date": "2026-11-09",
+    "sleeve": 1,
+    "system_state": "OFF3",
+    "equity_budget": 0.5,
+    "allocation": {
+      "SPY": 0.5,
+      "QQQ": 0.0,
+      "SHY": 0.125,
+      "TLT": 0.125,
+      "UUP": 0.125,
+      "GLD": 0.0,
+      "FXF": 0.0,
+      "IBIT": 0.125,
+      "CASH": 0.0
+    },
+    "strategy_version": "2.3.0",
+    "status": "Holding",
+    "close_date": null,
+    "gain_loss": null,
+    "performance_as_of": "2026-11-09",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   }
 ]

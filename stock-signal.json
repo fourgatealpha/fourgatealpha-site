@@ -1,40 +1,40 @@
 {
   "schema_version": 1,
-  "signal_date": "2026-10-30",
-  "trade_date": "2026-11-02",
-  "published_at": "2026-11-01T16:20:11.854571+00:00",
-  "refresh_due_at": "2026-11-07T01:00:00+00:00",
+  "signal_date": "2026-11-06",
+  "trade_date": "2026-11-09",
+  "published_at": "2026-11-09T14:33:52.192105+00:00",
+  "refresh_due_at": "2026-11-14T01:00:00+00:00",
   "integrity": "verified",
   "independent_audit": "pending",
   "signal": {
-    "signal_date": "2026-10-30",
-    "state": "ON2",
-    "spy_close": 755.719970703125,
-    "spy_sma200": 725.9846105957031,
-    "favorable_count": 2,
+    "signal_date": "2026-11-06",
+    "state": "OFF3",
+    "spy_close": 735.2899780273438,
+    "spy_sma200": 727.6461871337891,
+    "favorable_count": 3,
     "etf_weights": {
-      "SPY": 1.0,
+      "SPY": 0.5,
       "QQQ": 0.0,
-      "SHY": 0.0,
-      "TLT": 0.0,
-      "UUP": 0.0,
+      "SHY": 0.125,
+      "TLT": 0.125,
+      "UUP": 0.125,
       "GLD": 0.0,
       "FXF": 0.0,
-      "IBIT": 0.0,
+      "IBIT": 0.125,
       "CASH": 0.0
     },
     "strategy_version": "2.3.0",
     "trend_rule": "AT_LEAST_2_OF_SMA63_SMA126_SMA200",
-    "spy_trend_eligible": true,
+    "spy_trend_eligible": false,
     "qqq_trend_eligible": false,
-    "spy_trend_votes": 2,
+    "spy_trend_votes": 1,
     "spy_sma_levels": {
-      "63": 767.2846912202381,
-      "126": 753.917012048146,
-      "200": 725.9846105957031
+      "63": 765.6200949048239,
+      "126": 754.830565921844,
+      "200": 727.6461871337891
     },
-    "sleeve": 3,
-    "rotation_sleeve_id": 2,
+    "sleeve": 1,
+    "rotation_sleeve_id": 3,
     "defensive_basket": {
       "version": "2.3.0",
       "defensive_assets": [
@@ -78,193 +78,61 @@
         "tier": "ETF",
         "symbol": "SPY",
         "kind": "ETF",
-        "weight": 1.0
+        "weight": 0.5
       },
       {
-        "tier": "Core",
-        "symbol": "FICO",
-        "kind": "STOCK",
-        "weight": 0.013931717698165242
+        "tier": "ETF",
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
-        "tier": "Core",
-        "symbol": "SNDK",
-        "kind": "STOCK",
-        "weight": 0.013106606867838683
+        "tier": "ETF",
+        "symbol": "TLT",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
-        "tier": "Core",
-        "symbol": "HOOD",
-        "kind": "STOCK",
-        "weight": 0.015309699397083553
+        "tier": "ETF",
+        "symbol": "UUP",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
-        "tier": "Core",
-        "symbol": "STX",
-        "kind": "STOCK",
-        "weight": 0.011278087997206964
-      },
-      {
-        "tier": "Core",
-        "symbol": "COIN",
-        "kind": "STOCK",
-        "weight": 0.014752306971532674
-      },
-      {
-        "tier": "Core",
-        "symbol": "CIEN",
-        "kind": "STOCK",
-        "weight": 0.012977274821816927
-      },
-      {
-        "tier": "Core",
-        "symbol": "TER",
-        "kind": "STOCK",
-        "weight": 0.014065477239821121
-      },
-      {
-        "tier": "Core",
-        "symbol": "APP",
-        "kind": "STOCK",
-        "weight": 0.021228108711365438
-      },
-      {
-        "tier": "Core",
-        "symbol": "ARE",
-        "kind": "STOCK",
-        "weight": 0.023894693486004197
-      },
-      {
-        "tier": "Core",
-        "symbol": "KLAC",
-        "kind": "STOCK",
-        "weight": 0.017935340145940587
-      },
-      {
-        "tier": "Core",
-        "symbol": "AMAT",
-        "kind": "STOCK",
-        "weight": 0.01812576871665902
-      },
-      {
-        "tier": "Core",
-        "symbol": "ADBE",
-        "kind": "STOCK",
-        "weight": 0.02710575965653435
-      },
-      {
-        "tier": "Core",
-        "symbol": "LRCX",
-        "kind": "STOCK",
-        "weight": 0.01491677075670143
-      },
-      {
-        "tier": "Core",
-        "symbol": "BE",
-        "kind": "STOCK",
-        "weight": 0.010774716901665616
-      },
-      {
-        "tier": "Core",
-        "symbol": "NRG",
-        "kind": "STOCK",
-        "weight": 0.020597670631664174
+        "tier": "ETF",
+        "symbol": "IBIT",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
         "tier": "Core",
         "symbol": "SPY",
         "kind": "ETF",
-        "weight": 0.75
+        "weight": 0.5
       },
       {
-        "tier": "Balanced",
-        "symbol": "FICO",
-        "kind": "STOCK",
-        "weight": 0.027863435396330485
+        "tier": "Core",
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
-        "tier": "Balanced",
-        "symbol": "SNDK",
-        "kind": "STOCK",
-        "weight": 0.026213213735677365
+        "tier": "Core",
+        "symbol": "TLT",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
-        "tier": "Balanced",
-        "symbol": "HOOD",
-        "kind": "STOCK",
-        "weight": 0.030619398794167106
+        "tier": "Core",
+        "symbol": "UUP",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
-        "tier": "Balanced",
-        "symbol": "STX",
-        "kind": "STOCK",
-        "weight": 0.022556175994413927
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "COIN",
-        "kind": "STOCK",
-        "weight": 0.029504613943065347
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "CIEN",
-        "kind": "STOCK",
-        "weight": 0.025954549643633855
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "TER",
-        "kind": "STOCK",
-        "weight": 0.028130954479642242
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "APP",
-        "kind": "STOCK",
-        "weight": 0.042456217422730876
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "ARE",
-        "kind": "STOCK",
-        "weight": 0.047789386972008394
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "KLAC",
-        "kind": "STOCK",
-        "weight": 0.035870680291881174
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "AMAT",
-        "kind": "STOCK",
-        "weight": 0.03625153743331804
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "ADBE",
-        "kind": "STOCK",
-        "weight": 0.0542115193130687
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "LRCX",
-        "kind": "STOCK",
-        "weight": 0.02983354151340286
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "BE",
-        "kind": "STOCK",
-        "weight": 0.02154943380333123
-      },
-      {
-        "tier": "Balanced",
-        "symbol": "NRG",
-        "kind": "STOCK",
-        "weight": 0.04119534126332835
+        "tier": "Core",
+        "symbol": "IBIT",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
         "tier": "Balanced",
@@ -273,335 +141,113 @@
         "weight": 0.5
       },
       {
-        "tier": "Growth",
-        "symbol": "FICO",
-        "kind": "STOCK",
-        "weight": 0.041795153094495725
+        "tier": "Balanced",
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
-        "tier": "Growth",
-        "symbol": "SNDK",
-        "kind": "STOCK",
-        "weight": 0.03931982060351605
+        "tier": "Balanced",
+        "symbol": "TLT",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
-        "tier": "Growth",
-        "symbol": "HOOD",
-        "kind": "STOCK",
-        "weight": 0.045929098191250656
+        "tier": "Balanced",
+        "symbol": "UUP",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
-        "tier": "Growth",
-        "symbol": "STX",
-        "kind": "STOCK",
-        "weight": 0.03383426399162089
-      },
-      {
-        "tier": "Growth",
-        "symbol": "COIN",
-        "kind": "STOCK",
-        "weight": 0.04425692091459802
-      },
-      {
-        "tier": "Growth",
-        "symbol": "CIEN",
-        "kind": "STOCK",
-        "weight": 0.03893182446545078
-      },
-      {
-        "tier": "Growth",
-        "symbol": "TER",
-        "kind": "STOCK",
-        "weight": 0.04219643171946336
-      },
-      {
-        "tier": "Growth",
-        "symbol": "APP",
-        "kind": "STOCK",
-        "weight": 0.06368432613409632
-      },
-      {
-        "tier": "Growth",
-        "symbol": "ARE",
-        "kind": "STOCK",
-        "weight": 0.07168408045801258
-      },
-      {
-        "tier": "Growth",
-        "symbol": "KLAC",
-        "kind": "STOCK",
-        "weight": 0.05380602043782176
-      },
-      {
-        "tier": "Growth",
-        "symbol": "AMAT",
-        "kind": "STOCK",
-        "weight": 0.05437730614997706
-      },
-      {
-        "tier": "Growth",
-        "symbol": "ADBE",
-        "kind": "STOCK",
-        "weight": 0.08131727896960306
-      },
-      {
-        "tier": "Growth",
-        "symbol": "LRCX",
-        "kind": "STOCK",
-        "weight": 0.04475031227010429
-      },
-      {
-        "tier": "Growth",
-        "symbol": "BE",
-        "kind": "STOCK",
-        "weight": 0.03232415070499685
-      },
-      {
-        "tier": "Growth",
-        "symbol": "NRG",
-        "kind": "STOCK",
-        "weight": 0.06179301189499252
+        "tier": "Balanced",
+        "symbol": "IBIT",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
         "tier": "Growth",
         "symbol": "SPY",
         "kind": "ETF",
-        "weight": 0.25
+        "weight": 0.5
+      },
+      {
+        "tier": "Growth",
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.125
+      },
+      {
+        "tier": "Growth",
+        "symbol": "TLT",
+        "kind": "ETF",
+        "weight": 0.125
+      },
+      {
+        "tier": "Growth",
+        "symbol": "UUP",
+        "kind": "ETF",
+        "weight": 0.125
+      },
+      {
+        "tier": "Growth",
+        "symbol": "IBIT",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
         "tier": "Full Stock",
-        "symbol": "FICO",
-        "kind": "STOCK",
-        "weight": 0.05572687079266097
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.5
       },
       {
         "tier": "Full Stock",
-        "symbol": "SNDK",
-        "kind": "STOCK",
-        "weight": 0.05242642747135473
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
         "tier": "Full Stock",
-        "symbol": "HOOD",
-        "kind": "STOCK",
-        "weight": 0.06123879758833421
+        "symbol": "TLT",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
         "tier": "Full Stock",
-        "symbol": "STX",
-        "kind": "STOCK",
-        "weight": 0.045112351988827855
+        "symbol": "UUP",
+        "kind": "ETF",
+        "weight": 0.125
       },
       {
         "tier": "Full Stock",
-        "symbol": "COIN",
-        "kind": "STOCK",
-        "weight": 0.059009227886130694
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "CIEN",
-        "kind": "STOCK",
-        "weight": 0.05190909928726771
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "TER",
-        "kind": "STOCK",
-        "weight": 0.056261908959284485
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "APP",
-        "kind": "STOCK",
-        "weight": 0.08491243484546175
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "ARE",
-        "kind": "STOCK",
-        "weight": 0.09557877394401679
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "KLAC",
-        "kind": "STOCK",
-        "weight": 0.07174136058376235
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "AMAT",
-        "kind": "STOCK",
-        "weight": 0.07250307486663608
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "ADBE",
-        "kind": "STOCK",
-        "weight": 0.1084230386261374
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "LRCX",
-        "kind": "STOCK",
-        "weight": 0.05966708302680572
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "BE",
-        "kind": "STOCK",
-        "weight": 0.04309886760666246
-      },
-      {
-        "tier": "Full Stock",
-        "symbol": "NRG",
-        "kind": "STOCK",
-        "weight": 0.0823906825266567
+        "symbol": "IBIT",
+        "kind": "ETF",
+        "weight": 0.125
       }
     ],
-    "picks": [
-      {
-        "symbol": "FICO",
-        "bucket": "SPY",
-        "rank": 1
-      },
-      {
-        "symbol": "SNDK",
-        "bucket": "SPY",
-        "rank": 2
-      },
-      {
-        "symbol": "HOOD",
-        "bucket": "SPY",
-        "rank": 3
-      },
-      {
-        "symbol": "STX",
-        "bucket": "SPY",
-        "rank": 4
-      },
-      {
-        "symbol": "COIN",
-        "bucket": "SPY",
-        "rank": 5
-      },
-      {
-        "symbol": "CIEN",
-        "bucket": "SPY",
-        "rank": 6
-      },
-      {
-        "symbol": "TER",
-        "bucket": "SPY",
-        "rank": 7
-      },
-      {
-        "symbol": "APP",
-        "bucket": "SPY",
-        "rank": 8
-      },
-      {
-        "symbol": "ARE",
-        "bucket": "SPY",
-        "rank": 9
-      },
-      {
-        "symbol": "KLAC",
-        "bucket": "SPY",
-        "rank": 10
-      },
-      {
-        "symbol": "AMAT",
-        "bucket": "SPY",
-        "rank": 11
-      },
-      {
-        "symbol": "ADBE",
-        "bucket": "SPY",
-        "rank": 12
-      },
-      {
-        "symbol": "LRCX",
-        "bucket": "SPY",
-        "rank": 13
-      },
-      {
-        "symbol": "BE",
-        "bucket": "SPY",
-        "rank": 14
-      },
-      {
-        "symbol": "NRG",
-        "bucket": "SPY",
-        "rank": 15
-      }
-    ],
+    "picks": [],
     "retained_sleeve_actions": []
   },
   "quotes": {
     "SPY": {
-      "date": "2026-10-30",
-      "price": 755.719970703125
+      "date": "2026-11-06",
+      "price": 735.2899780273438
     },
-    "FICO": {
-      "date": "2026-10-30",
-      "price": 711.22998046875
+    "SHY": {
+      "date": "2026-11-06",
+      "price": 81.62999725341797
     },
-    "SNDK": {
-      "date": "2026-10-30",
-      "price": 1150.8900146484375
+    "TLT": {
+      "date": "2026-11-06",
+      "price": 81.91999816894531
     },
-    "HOOD": {
-      "date": "2026-10-30",
-      "price": 84.98999786376953
+    "UUP": {
+      "date": "2026-11-06",
+      "price": 29.1299991607666
     },
-    "STX": {
-      "date": "2026-10-30",
-      "price": 644.5800170898438
-    },
-    "COIN": {
-      "date": "2026-10-30",
-      "price": 143.5399932861328
-    },
-    "CIEN": {
-      "date": "2026-10-30",
-      "price": 320.7200012207031
-    },
-    "TER": {
-      "date": "2026-10-30",
-      "price": 274.3699951171875
-    },
-    "APP": {
-      "date": "2026-10-30",
-      "price": 228.5
-    },
-    "ARE": {
-      "date": "2026-10-30",
-      "price": 40.20000076293945
-    },
-    "KLAC": {
-      "date": "2026-10-30",
-      "price": 157.91000366210938
-    },
-    "AMAT": {
-      "date": "2026-10-30",
-      "price": 390.0899963378906
-    },
-    "ADBE": {
-      "date": "2026-10-30",
-      "price": 250.22999572753906
-    },
-    "LRCX": {
-      "date": "2026-10-30",
-      "price": 239.11000061035156
-    },
-    "BE": {
-      "date": "2026-10-30",
-      "price": 203.1699981689453
-    },
-    "NRG": {
-      "date": "2026-10-30",
-      "price": 95.58499908447266
+    "IBIT": {
+      "date": "2026-11-06",
+      "price": 42.880001068115234
     }
   }
 }
