@@ -1731,11 +1731,11 @@
     "close_date": "2026-11-09",
     "performance_as_of": "2026-11-09",
     "gain_loss_by_tier": {
-      "Balanced": null,
-      "Core": null,
-      "ETF": null,
-      "FullStock": null,
-      "Growth": null
+      "Balanced": -0.10700962301996554,
+      "Core": -0.06997964233337783,
+      "ETF": -0.03294966164679014,
+      "FullStock": -0.18106958439314094,
+      "Growth": -0.14403960370655322
     },
     "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
     "stock_details_by_tier": {
@@ -1745,9 +1745,9 @@
           "weight": 0.0362280024312247,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.36980132270683863,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1755,9 +1755,9 @@
           "weight": 0.03143090207188891,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.20669082478049539,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1765,9 +1765,9 @@
           "weight": 0.021291340352746987,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.0768807572999689,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1775,9 +1775,9 @@
           "weight": 0.043640213224084304,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.2302732697017763,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1785,9 +1785,9 @@
           "weight": 0.03355141862237315,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.40104166666666663,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1795,9 +1795,9 @@
           "weight": 0.03592351195617919,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.14787876244747278,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1805,9 +1805,9 @@
           "weight": 0.037041618780768844,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.28201423783826685,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1815,9 +1815,9 @@
           "weight": 0.04293789893552438,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": 0.438893946522378,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1825,9 +1825,9 @@
           "weight": 0.027648480112546718,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.21862535337839595,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1835,9 +1835,9 @@
           "weight": 0.020498302128474418,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": 0.17271409002616522,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1845,9 +1845,9 @@
           "weight": 0.02736185808166781,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.29548872180451125,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1855,9 +1855,9 @@
           "weight": 0.0321101793766855,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.19286842584538122,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1865,9 +1865,9 @@
           "weight": 0.03510114171071032,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.25185101241343066,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1875,9 +1875,9 @@
           "weight": 0.03783164552147926,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.21302097572720802,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1885,9 +1885,9 @@
           "weight": 0.03740348669364554,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.3984787377854586,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         }
       ],
@@ -1897,9 +1897,9 @@
           "weight": 0.01811400121561235,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.36980132270683863,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1907,9 +1907,9 @@
           "weight": 0.015715451035944454,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.20669082478049539,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1917,9 +1917,9 @@
           "weight": 0.010645670176373493,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.0768807572999689,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1927,9 +1927,9 @@
           "weight": 0.021820106612042152,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.2302732697017763,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1937,9 +1937,9 @@
           "weight": 0.016775709311186576,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.40104166666666663,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1947,9 +1947,9 @@
           "weight": 0.017961755978089595,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.14787876244747278,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1957,9 +1957,9 @@
           "weight": 0.018520809390384422,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.28201423783826685,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1967,9 +1967,9 @@
           "weight": 0.02146894946776219,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": 0.438893946522378,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1977,9 +1977,9 @@
           "weight": 0.013824240056273359,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.21862535337839595,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1987,9 +1987,9 @@
           "weight": 0.010249151064237209,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": 0.17271409002616522,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -1997,9 +1997,9 @@
           "weight": 0.013680929040833905,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.29548872180451125,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2007,9 +2007,9 @@
           "weight": 0.01605508968834275,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.19286842584538122,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2017,9 +2017,9 @@
           "weight": 0.01755057085535516,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.25185101241343066,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2027,9 +2027,9 @@
           "weight": 0.01891582276073963,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.21302097572720802,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2037,9 +2037,9 @@
           "weight": 0.01870174334682277,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.3984787377854586,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         }
       ],
@@ -2050,9 +2050,9 @@
           "weight": 0.0724560048624494,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.36980132270683863,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2060,9 +2060,9 @@
           "weight": 0.06286180414377782,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.20669082478049539,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2070,9 +2070,9 @@
           "weight": 0.042582680705493973,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.0768807572999689,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2080,9 +2080,9 @@
           "weight": 0.08728042644816861,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.2302732697017763,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2090,9 +2090,9 @@
           "weight": 0.0671028372447463,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.40104166666666663,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2100,9 +2100,9 @@
           "weight": 0.07184702391235838,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.14787876244747278,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2110,9 +2110,9 @@
           "weight": 0.07408323756153769,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.28201423783826685,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2120,9 +2120,9 @@
           "weight": 0.08587579787104876,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": 0.438893946522378,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2130,9 +2130,9 @@
           "weight": 0.055296960225093436,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.21862535337839595,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2140,9 +2140,9 @@
           "weight": 0.040996604256948836,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": 0.17271409002616522,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2150,9 +2150,9 @@
           "weight": 0.05472371616333562,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.29548872180451125,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2160,9 +2160,9 @@
           "weight": 0.064220358753371,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.19286842584538122,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2170,9 +2170,9 @@
           "weight": 0.07020228342142064,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.25185101241343066,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2180,9 +2180,9 @@
           "weight": 0.07566329104295852,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.21302097572720802,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2190,9 +2190,9 @@
           "weight": 0.07480697338729109,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.3984787377854586,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         }
       ],
@@ -2202,9 +2202,9 @@
           "weight": 0.05434200364683704,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.36980132270683863,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2212,9 +2212,9 @@
           "weight": 0.04714635310783336,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.20669082478049539,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2222,9 +2222,9 @@
           "weight": 0.03193701052912048,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.0768807572999689,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2232,9 +2232,9 @@
           "weight": 0.06546031983612646,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.2302732697017763,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2242,9 +2242,9 @@
           "weight": 0.05032712793355973,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.40104166666666663,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2252,9 +2252,9 @@
           "weight": 0.05388526793426879,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.14787876244747278,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2262,9 +2262,9 @@
           "weight": 0.05556242817115327,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.28201423783826685,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2272,9 +2272,9 @@
           "weight": 0.06440684840328657,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": 0.438893946522378,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2282,9 +2282,9 @@
           "weight": 0.041472720168820074,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.21862535337839595,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2292,9 +2292,9 @@
           "weight": 0.030747453192711625,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": 0.17271409002616522,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2302,9 +2302,9 @@
           "weight": 0.041042787122501714,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.29548872180451125,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2312,9 +2312,9 @@
           "weight": 0.04816526906502824,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.19286842584538122,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2322,9 +2322,9 @@
           "weight": 0.052651712566065476,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.25185101241343066,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2332,9 +2332,9 @@
           "weight": 0.05674746828221889,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.21302097572720802,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         },
         {
@@ -2342,14 +2342,13 @@
           "weight": 0.056105230040468315,
           "entry_date": "2026-10-19",
           "exit_date": "2026-11-09",
-          "gain_loss": null,
+          "gain_loss": -0.3984787377854586,
           "status": "Closed",
-          "note": "Awaiting verified individual entry/exit prices.",
+          "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
         }
       ]
-    },
-    "performance_note": "Awaiting verified entry/exit prices"
+    }
   },
   {
     "signal_date": "2026-10-23",

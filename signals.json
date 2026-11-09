@@ -117,10 +117,9 @@
     "strategy_version": "2.3.0",
     "status": "Closed",
     "close_date": "2026-11-09",
-    "gain_loss": null,
+    "gain_loss": -0.03294966164679014,
     "performance_as_of": "2026-11-09",
-    "return_basis": "Published weights; adjusted open-to-open; before trading costs",
-    "performance_note": "Awaiting verified entry/exit prices"
+    "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
     "signal_date": "2026-10-23",
