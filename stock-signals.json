@@ -535,13 +535,13 @@
     ],
     "status": "Closed",
     "close_date": "2026-11-02",
-    "performance_as_of": "2026-11-09",
+    "performance_as_of": "2026-11-14",
     "gain_loss_by_tier": {
-      "Balanced": -0.05306367484521277,
-      "Core": -0.04528272594446141,
+      "Balanced": -0.05306367601774165,
+      "Core": -0.04528272653072585,
       "ETF": -0.037501777043710036,
-      "FullStock": -0.06862557264671551,
-      "Growth": -0.060844623745964166
+      "FullStock": -0.06862557499177327,
+      "Growth": -0.060844625504757485
     },
     "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
     "stock_details_by_tier": {
@@ -591,7 +591,7 @@
           "weight": 0.024473243257374582,
           "entry_date": "2026-10-12",
           "exit_date": "2026-11-02",
-          "gain_loss": -0.19725172487657516,
+          "gain_loss": -0.1972517727872204,
           "status": "Closed",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
@@ -783,7 +783,7 @@
           "weight": 0.012236621628687291,
           "entry_date": "2026-10-12",
           "exit_date": "2026-11-02",
-          "gain_loss": -0.19725172487657516,
+          "gain_loss": -0.1972517727872204,
           "status": "Closed",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
@@ -976,7 +976,7 @@
           "weight": 0.048946486514749164,
           "entry_date": "2026-10-12",
           "exit_date": "2026-11-02",
-          "gain_loss": -0.19725172487657516,
+          "gain_loss": -0.1972517727872204,
           "status": "Closed",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
@@ -1168,7 +1168,7 @@
           "weight": 0.03670986488606187,
           "entry_date": "2026-10-12",
           "exit_date": "2026-11-02",
-          "gain_loss": -0.19725172487657516,
+          "gain_loss": -0.1972517727872204,
           "status": "Closed",
           "note": null,
           "return_basis": "Published tier weights; adjusted open-to-open; before trading costs"
@@ -1729,7 +1729,7 @@
     "retained_sleeve_actions": [],
     "status": "Closed",
     "close_date": "2026-11-09",
-    "performance_as_of": "2026-11-09",
+    "performance_as_of": "2026-11-14",
     "gain_loss_by_tier": {
       "Balanced": -0.10700962301996554,
       "Core": -0.06997964233337783,
@@ -2763,7 +2763,7 @@
     "retained_sleeve_actions": [],
     "status": "Holding",
     "close_date": null,
-    "performance_as_of": "2026-11-13",
+    "performance_as_of": "2026-11-14",
     "gain_loss_by_tier": {},
     "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
     "stock_details_by_tier": {
@@ -3791,7 +3791,7 @@
     "retained_sleeve_actions": [],
     "status": "Holding",
     "close_date": null,
-    "performance_as_of": "2026-11-13",
+    "performance_as_of": "2026-11-14",
     "gain_loss_by_tier": {},
     "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
     "stock_details_by_tier": {
@@ -4569,7 +4569,121 @@
     "retained_sleeve_actions": [],
     "status": "Holding",
     "close_date": null,
-    "performance_as_of": "2026-11-13",
+    "performance_as_of": "2026-11-14",
+    "gain_loss_by_tier": {},
+    "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
+    "stock_details_by_tier": {
+      "Balanced": [],
+      "Core": [],
+      "ETF": [],
+      "FullStock": [],
+      "Growth": []
+    }
+  },
+  {
+    "signal_date": "2026-11-13",
+    "trade_date": "2026-11-16",
+    "state": "OFF3",
+    "sleeve": 1,
+    "public_sleeve": 2,
+    "strategy_version": "2.3.0",
+    "picks": [],
+    "tiers": [
+      {
+        "tier": "ETF",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.5
+      },
+      {
+        "tier": "ETF",
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "ETF",
+        "symbol": "UUP",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Core",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.5
+      },
+      {
+        "tier": "Core",
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Core",
+        "symbol": "UUP",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.5
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "UUP",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Growth",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.5
+      },
+      {
+        "tier": "Growth",
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Growth",
+        "symbol": "UUP",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.5
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "UUP",
+        "kind": "ETF",
+        "weight": 0.25
+      }
+    ],
+    "retained_sleeve_actions": [],
+    "status": "Scheduled",
+    "close_date": null,
+    "performance_as_of": "2026-11-14",
     "gain_loss_by_tier": {},
     "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
     "stock_details_by_tier": {

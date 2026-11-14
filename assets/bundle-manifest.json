@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "signal_date": "2026-11-06",
+  "signal_date": "2026-11-13",
   "start": "1995-02-06",
   "strategy_version": "2.3.0",
   "defensive_basket": {
@@ -32,15 +32,15 @@
     "eligibility": "200 observed ETF sessions; strict majority of SMA63/SMA126/SMA200; equal weights among eligible defensives; preserved single-survivor volatility exception.",
     "leverage": "FXF/IBIT defensive capital is carried unchanged in every overlay tier."
   },
-  "market_snapshot_sha256": "aef73134b79ba6f68a2cbb53504ba30a5d019d6be02ef5c07035b160575130b7",
+  "market_snapshot_sha256": "82cb6a7f9e5b315cbeb5c15a2fd05ac6b48fe14792d0c073aaf04700beccba53",
   "files": {
-    "stock-report.json": "d611692a9e09bdbd0d2431ec943a8466f1eafe45a20885f945c649b7603550fc",
-    "majority-metrics.json": "b7775be070963e4b516788c3d4d83791b8d1c98d0a5a103f6a8b27190d064e6b",
-    "etf-evidence.json": "a09be24bfa941407c8816d5755c2ac9e03f6cb0252b383bea0673b81a647638b",
-    "leverage.json": "6a1ba33a435e59d5b1a601a51ad40a3e20374adfb79d0d1c18bc56ef29585813",
-    "RESEARCH_stock_signal.json": "be31b404dd66e3134c408110fbadc998eeb1131a6f3537f7e29340a0f32d39ea",
-    "model-cohorts.json": "ee74df17c6049872bbcee1a81705de04d5630814fba15194d318132825f7e97d"
+    "stock-report.json": "76d019342ed24543ea475d7e9549add17c9a0abb095738c60689992978bd25d1",
+    "majority-metrics.json": "efdbc7288dc114f6a100c91572b87b57c86547ac7600e9660093849e2dfd1915",
+    "etf-evidence.json": "4526a9aadbd28e724143cd5c018efc6ce746e68a829ae2a389e239f1176126da",
+    "leverage.json": "a1d5f6ae2b1600e5aacf68912017e68d1ad91fdf55c5f3ebcc861a50c84a6f2e",
+    "RESEARCH_stock_signal.json": "fdd3a7865522140279af71eb6cdb361969ad9e12843c11c0c337acd7eaf51928",
+    "model-cohorts.json": "8b2f968e7967764c27192bb63aa4472fa04d439d69677c98ba3b1942a93ff1b0"
   },
   "leverage_start": "2010-02-16",
-  "stock_allocation_validation_sha256": "8f388109a8663f51d51639a718799c23b5032af8b10375560d106a2dfd60d67f"
+  "stock_allocation_validation_sha256": "f814cbe28e8f430acf4ac15b01c575d8c4623182ee1fd63d8d214a894724eb3e"
 }
