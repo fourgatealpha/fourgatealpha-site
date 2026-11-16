@@ -139,10 +139,10 @@
       "CASH": 0.0
     },
     "strategy_version": "2.3.0",
-    "status": "Holding",
-    "close_date": null,
-    "gain_loss": null,
-    "performance_as_of": "2026-11-14",
+    "status": "Closed",
+    "close_date": "2026-11-16",
+    "gain_loss": -0.01651692601570187,
+    "performance_as_of": "2026-11-16",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -166,7 +166,7 @@
     "status": "Holding",
     "close_date": null,
     "gain_loss": null,
-    "performance_as_of": "2026-11-14",
+    "performance_as_of": "2026-11-16",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -190,7 +190,7 @@
     "status": "Holding",
     "close_date": null,
     "gain_loss": null,
-    "performance_as_of": "2026-11-14",
+    "performance_as_of": "2026-11-16",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   },
   {
@@ -211,10 +211,10 @@
       "CASH": 0.0
     },
     "strategy_version": "2.3.0",
-    "status": "Scheduled",
+    "status": "Holding",
     "close_date": null,
     "gain_loss": null,
-    "performance_as_of": "2026-11-14",
+    "performance_as_of": "2026-11-16",
     "return_basis": "Published weights; adjusted open-to-open; before trading costs"
   }
 ]
