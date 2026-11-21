@@ -1,50 +1,56 @@
 {
   "schema_version": 1,
-  "signal_date": "2026-11-13",
-  "trade_date": "2026-11-16",
-  "published_at": "2026-11-14T14:30:25.527833+00:00",
-  "refresh_due_at": "2026-11-21T01:00:00+00:00",
+  "signal_date": "2026-11-20",
+  "trade_date": "2026-11-23",
+  "published_at": "2026-11-21T15:54:39.966762+00:00",
+  "refresh_due_at": "2026-11-28T01:00:00+00:00",
   "integrity": "verified",
   "independent_audit": "pending",
   "signal": {
-    "signal_date": "2026-11-13",
+    "signal_date": "2026-11-20",
     "state": "OFF3",
-    "spy_close": 754.3699951171875,
-    "spy_sma200": 729.3155172729493,
+    "spy_close": 689.8099975585938,
+    "spy_sma200": 730.2865823364258,
     "favorable_count": 3,
     "etf_weights": {
       "SPY": 0.5,
       "QQQ": 0.0,
       "SHY": 0.25,
       "TLT": 0.0,
-      "UUP": 0.25,
+      "UUP": 0.0,
       "GLD": 0.0,
       "FXF": 0.0,
       "IBIT": 0.0,
+      "USDU": 0.25,
       "CASH": 0.0
     },
-    "strategy_version": "2.3.0",
+    "strategy_version": "2.3.1",
     "trend_rule": "AT_LEAST_2_OF_SMA63_SMA126_SMA200",
     "spy_trend_eligible": false,
     "qqq_trend_eligible": false,
-    "spy_trend_votes": 1,
+    "spy_trend_votes": 0,
     "spy_sma_levels": {
-      "63": 764.2479529002356,
-      "126": 755.5088355654761,
-      "200": 729.3155172729493
+      "63": 760.9059225415426,
+      "126": 754.913089812748,
+      "200": 730.2865823364258
     },
-    "sleeve": 2,
-    "rotation_sleeve_id": 1,
+    "sleeve": 3,
+    "rotation_sleeve_id": 2,
     "defensive_basket": {
-      "version": "2.3.0",
+      "version": "2.3.1",
       "defensive_assets": [
         "SHY",
         "TLT",
-        "UUP",
         "GLD",
         "FXF",
-        "IBIT"
+        "IBIT",
+        "USDU"
       ],
+      "dollar_transition": {
+        "previous": "UUP",
+        "replacement": "USDU",
+        "first_signal_date": "2026-11-20"
+      },
       "actual_only_assets": {
         "FXF": {
           "first_trading_date": "2006-06-26",
@@ -59,10 +65,17 @@
           "first_warmup_session": "2024-10-25",
           "warmup_sessions": 200,
           "no_preinception_proxy": true
+        },
+        "USDU": {
+          "first_trading_date": "2013-12-18",
+          "first_source_session": "2013-12-18",
+          "first_warmup_session": "2014-10-03",
+          "warmup_sessions": 200,
+          "no_preinception_proxy": true
         }
       },
       "eligibility": "200 observed ETF sessions; strict majority of SMA63/SMA126/SMA200; equal weights among eligible defensives; preserved single-survivor volatility exception.",
-      "leverage": "FXF/IBIT defensive capital is carried unchanged in every overlay tier."
+      "leverage": "Defensive capital is carried unchanged in every overlay tier."
     },
     "stock_allocation_rule": {
       "stock_weighting": "INVERSE_YZ21",
@@ -88,7 +101,7 @@
       },
       {
         "tier": "ETF",
-        "symbol": "UUP",
+        "symbol": "USDU",
         "kind": "ETF",
         "weight": 0.25
       },
@@ -106,7 +119,7 @@
       },
       {
         "tier": "Core",
-        "symbol": "UUP",
+        "symbol": "USDU",
         "kind": "ETF",
         "weight": 0.25
       },
@@ -124,7 +137,7 @@
       },
       {
         "tier": "Balanced",
-        "symbol": "UUP",
+        "symbol": "USDU",
         "kind": "ETF",
         "weight": 0.25
       },
@@ -142,7 +155,7 @@
       },
       {
         "tier": "Growth",
-        "symbol": "UUP",
+        "symbol": "USDU",
         "kind": "ETF",
         "weight": 0.25
       },
@@ -160,7 +173,7 @@
       },
       {
         "tier": "Full Stock",
-        "symbol": "UUP",
+        "symbol": "USDU",
         "kind": "ETF",
         "weight": 0.25
       }
@@ -170,16 +183,16 @@
   },
   "quotes": {
     "SPY": {
-      "date": "2026-11-13",
-      "price": 754.3699951171875
+      "date": "2026-11-20",
+      "price": 689.8099975585938
     },
     "SHY": {
-      "date": "2026-11-13",
-      "price": 81.16999816894531
+      "date": "2026-11-20",
+      "price": 81.61000061035156
     },
-    "UUP": {
-      "date": "2026-11-13",
-      "price": 29.5
+    "USDU": {
+      "date": "2026-11-20",
+      "price": 27.639999389648438
     }
   }
 }

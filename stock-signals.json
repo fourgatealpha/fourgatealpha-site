@@ -535,7 +535,7 @@
     ],
     "status": "Closed",
     "close_date": "2026-11-02",
-    "performance_as_of": "2026-11-14",
+    "performance_as_of": "2026-11-21",
     "gain_loss_by_tier": {
       "Balanced": -0.05306367601774165,
       "Core": -0.04528272653072585,
@@ -1729,7 +1729,7 @@
     "retained_sleeve_actions": [],
     "status": "Closed",
     "close_date": "2026-11-09",
-    "performance_as_of": "2026-11-14",
+    "performance_as_of": "2026-11-21",
     "gain_loss_by_tier": {
       "Balanced": -0.10700962301996554,
       "Core": -0.06997964233337783,
@@ -2763,7 +2763,7 @@
     "retained_sleeve_actions": [],
     "status": "Closed",
     "close_date": "2026-11-16",
-    "performance_as_of": "2026-11-16",
+    "performance_as_of": "2026-11-21",
     "gain_loss_by_tier": {
       "Balanced": -0.051737439270881445,
       "Core": -0.03412718264329166,
@@ -3797,7 +3797,7 @@
     "retained_sleeve_actions": [],
     "status": "Holding",
     "close_date": null,
-    "performance_as_of": "2026-11-20",
+    "performance_as_of": "2026-11-21",
     "gain_loss_by_tier": {},
     "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
     "stock_details_by_tier": {
@@ -4575,7 +4575,7 @@
     "retained_sleeve_actions": [],
     "status": "Holding",
     "close_date": null,
-    "performance_as_of": "2026-11-20",
+    "performance_as_of": "2026-11-21",
     "gain_loss_by_tier": {},
     "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
     "stock_details_by_tier": {
@@ -4689,7 +4689,121 @@
     "retained_sleeve_actions": [],
     "status": "Holding",
     "close_date": null,
-    "performance_as_of": "2026-11-20",
+    "performance_as_of": "2026-11-21",
+    "gain_loss_by_tier": {},
+    "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
+    "stock_details_by_tier": {
+      "Balanced": [],
+      "Core": [],
+      "ETF": [],
+      "FullStock": [],
+      "Growth": []
+    }
+  },
+  {
+    "signal_date": "2026-11-20",
+    "trade_date": "2026-11-23",
+    "state": "OFF3",
+    "sleeve": 2,
+    "public_sleeve": 3,
+    "strategy_version": "2.3.1",
+    "picks": [],
+    "tiers": [
+      {
+        "tier": "ETF",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.5
+      },
+      {
+        "tier": "ETF",
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "ETF",
+        "symbol": "USDU",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Core",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.5
+      },
+      {
+        "tier": "Core",
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Core",
+        "symbol": "USDU",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.5
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Balanced",
+        "symbol": "USDU",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Growth",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.5
+      },
+      {
+        "tier": "Growth",
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Growth",
+        "symbol": "USDU",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "SPY",
+        "kind": "ETF",
+        "weight": 0.5
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "SHY",
+        "kind": "ETF",
+        "weight": 0.25
+      },
+      {
+        "tier": "Full Stock",
+        "symbol": "USDU",
+        "kind": "ETF",
+        "weight": 0.25
+      }
+    ],
+    "retained_sleeve_actions": [],
+    "status": "Scheduled",
+    "close_date": null,
+    "performance_as_of": "2026-11-21",
     "gain_loss_by_tier": {},
     "return_basis": "Published tier weights; adjusted open-to-open; before trading costs",
     "stock_details_by_tier": {
