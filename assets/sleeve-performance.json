@@ -2,10 +2,10 @@
   "schema_version": 1,
   "record_kind": "ACTIVE_MODEL_SLEEVE_PERFORMANCE",
   "as_of": "2026-11-20",
-  "generated_at": "2026-11-20T22:00:04.263494+00:00",
+  "generated_at": "2026-11-21T15:57:03.089423+00:00",
   "basis": "Unleveraged model total returns from rotation opening prices to the stated closing prices, before trading costs. Initial position weights drift with prices; cash earns the model cash proxy. Benchmarks use the same rotation open and closing date, before trading costs: SPY buy and hold; 80/20 SPY/IEF rebalances at the first market open each month. These are model results, not investor account returns.",
   "refresh_due_at": "2026-11-24T01:45:00+00:00",
-  "source_signal_date": "2026-11-13",
+  "source_signal_date": "2026-11-20",
   "etf": [
     {
       "sleeve": 1,
@@ -472,7 +472,7 @@
         "scheduled_close_date": "2026-11-23",
         "as_of": "2026-11-20",
         "status": "Holding",
-        "gain_loss": -0.10384767358419382,
+        "gain_loss": -0.10384767418911035,
         "components": [
           {
             "symbol": "FICO",
@@ -513,8 +513,8 @@
           {
             "symbol": "TER",
             "entry_weight": 0.014065477239821121,
-            "gain_loss": -0.2634258238790792,
-            "contribution": -0.0037052099301523155
+            "gain_loss": -0.26342586688626124,
+            "contribution": -0.003705210535068856
           },
           {
             "symbol": "APP",
@@ -721,7 +721,7 @@
         "scheduled_close_date": "2026-11-23",
         "as_of": "2026-11-20",
         "status": "Holding",
-        "gain_loss": -0.11599739005590144,
+        "gain_loss": -0.11599739126573452,
         "components": [
           {
             "symbol": "FICO",
@@ -762,8 +762,8 @@
           {
             "symbol": "TER",
             "entry_weight": 0.028130954479642242,
-            "gain_loss": -0.2634258238790792,
-            "contribution": -0.007410419860304631
+            "gain_loss": -0.26342586688626124,
+            "contribution": -0.007410421070137712
           },
           {
             "symbol": "APP",
@@ -970,7 +970,7 @@
         "scheduled_close_date": "2026-11-23",
         "as_of": "2026-11-20",
         "status": "Holding",
-        "gain_loss": -0.12814710652760908,
+        "gain_loss": -0.12814710834235868,
         "components": [
           {
             "symbol": "FICO",
@@ -1011,8 +1011,8 @@
           {
             "symbol": "TER",
             "entry_weight": 0.04219643171946336,
-            "gain_loss": -0.2634258238790792,
-            "contribution": -0.011115629790456947
+            "gain_loss": -0.26342586688626124,
+            "contribution": -0.011115631605206568
           },
           {
             "symbol": "APP",
@@ -1218,7 +1218,7 @@
         "scheduled_close_date": "2026-11-23",
         "as_of": "2026-11-20",
         "status": "Holding",
-        "gain_loss": -0.1402968229993167,
+        "gain_loss": -0.14029682541898286,
         "components": [
           {
             "symbol": "FICO",
@@ -1259,8 +1259,8 @@
           {
             "symbol": "TER",
             "entry_weight": 0.056261908959284485,
-            "gain_loss": -0.2634258238790792,
-            "contribution": -0.014820839720609262
+            "gain_loss": -0.26342586688626124,
+            "contribution": -0.014820842140275424
           },
           {
             "symbol": "APP",
