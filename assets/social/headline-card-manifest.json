@@ -4,39 +4,39 @@
   "results": {
     "period": [
       "1995-02-06",
-      "2026-11-20"
+      "2026-11-27"
     ],
     "etf": {
-      "cagr": 0.13689136762688592,
+      "cagr": 0.13807373938780287,
       "max_drawdown": -0.14014373666979651,
-      "time_below_10pct": 0.030242439390152462
+      "time_below_10pct": 0.030227329502872845
     },
     "stocks_balanced": {
-      "cagr": 0.17187181805618246,
-      "max_drawdown": -0.18773363991458003,
-      "time_below_10pct": 0.08435391152211948
+      "cagr": 0.1751516138181859,
+      "max_drawdown": -0.2003060183595794,
+      "time_below_10pct": 0.08218835873095179
     },
     "spy": {
-      "cagr": 0.10649072171925389,
+      "cagr": 0.10831461350171745,
       "max_drawdown": -0.5518911920565712,
-      "time_below_10pct": 0.3327918020494876
+      "time_below_10pct": 0.3326255308518611
     }
   },
   "cards": {
     "home": {
-      "path": "assets/social/home-results-2026-11-20-828b29bae7ae.png",
-      "alt": "Four Gate Alpha. Hypothetical backtest, Feb 6, 1995 to Nov 20, 2026. 4D ETF System: annualized return 13.7%, worst drawdown -14.0%, time at least 10% below peak 3.0%. 4D Stock Picker Balanced: annualized return 17.2%, worst drawdown -18.8%, time at least 10% below peak 8.4%. SPY: annualized return 10.6%, worst drawdown -55.2%, time at least 10% below peak 33.3%. Modeled costs included; early ETF history uses proxies. Not live performance.",
-      "sha256": "60b9cfd27d665b1b042c143f088777e3a43a293d390675c17312d811ceb57093"
+      "path": "assets/social/home-results-2026-11-27-d6116debc73b.png",
+      "alt": "Four Gate Alpha. Hypothetical backtest, Feb 6, 1995 to Nov 27, 2026. 4D ETF System: annualized return 13.8%, worst drawdown -14.0%, time at least 10% below peak 3.0%. 4D Stock Picker Balanced: annualized return 17.5%, worst drawdown -20.0%, time at least 10% below peak 8.2%. SPY: annualized return 10.8%, worst drawdown -55.2%, time at least 10% below peak 33.3%. Modeled costs included; early ETF history uses proxies. Not live performance.",
+      "sha256": "3858bedd85b0bee5465887efdf7e839d63e42bbe6f6adfc1409049d314b87d99"
     },
     "etf": {
-      "path": "assets/social/etf-results-2026-11-20-828b29bae7ae.png",
-      "alt": "Four Gate Alpha. Hypothetical backtest, Feb 6, 1995 to Nov 20, 2026. 4D ETF System: annualized return 13.7%, worst drawdown -14.0%, time at least 10% below peak 3.0%. SPY: annualized return 10.6%, worst drawdown -55.2%, time at least 10% below peak 33.3%. Modeled costs included; early ETF history uses proxies. Not live performance.",
-      "sha256": "94c9b4884435f71704d1cb84546d960f728d64c1dc6dd7d6d300e7d0709bf247"
+      "path": "assets/social/etf-results-2026-11-27-d6116debc73b.png",
+      "alt": "Four Gate Alpha. Hypothetical backtest, Feb 6, 1995 to Nov 27, 2026. 4D ETF System: annualized return 13.8%, worst drawdown -14.0%, time at least 10% below peak 3.0%. SPY: annualized return 10.8%, worst drawdown -55.2%, time at least 10% below peak 33.3%. Modeled costs included; early ETF history uses proxies. Not live performance.",
+      "sha256": "3c933ba92073163fe4f2d3817aaf29794d8863a6349959af7880aa96642078a7"
     },
     "stocks": {
-      "path": "assets/social/stocks-results-2026-11-20-828b29bae7ae.png",
-      "alt": "Four Gate Alpha. Hypothetical backtest, Feb 6, 1995 to Nov 20, 2026. 4D Stock Picker Balanced: annualized return 17.2%, worst drawdown -18.8%, time at least 10% below peak 8.4%. SPY: annualized return 10.6%, worst drawdown -55.2%, time at least 10% below peak 33.3%. Modeled costs included; early ETF history uses proxies. Not live performance.",
-      "sha256": "2f118934887b42b238f41a684c14cc00a852db24c49f9ac49b17efbe3baa62e0"
+      "path": "assets/social/stocks-results-2026-11-27-d6116debc73b.png",
+      "alt": "Four Gate Alpha. Hypothetical backtest, Feb 6, 1995 to Nov 27, 2026. 4D Stock Picker Balanced: annualized return 17.5%, worst drawdown -20.0%, time at least 10% below peak 8.2%. SPY: annualized return 10.8%, worst drawdown -55.2%, time at least 10% below peak 33.3%. Modeled costs included; early ETF history uses proxies. Not live performance.",
+      "sha256": "5558acebff38e0a544c3667fdfccf950d380cf522d76cb1ce27ad7d0796e99b3"
     }
   }
 }

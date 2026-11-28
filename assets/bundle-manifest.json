@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "signal_date": "2026-11-20",
+  "signal_date": "2026-11-27",
   "start": "1995-02-06",
   "strategy_version": "2.3.1",
   "defensive_basket": {
@@ -44,15 +44,15 @@
     "eligibility": "200 observed ETF sessions; strict majority of SMA63/SMA126/SMA200; equal weights among eligible defensives; preserved single-survivor volatility exception.",
     "leverage": "Defensive capital is carried unchanged in every overlay tier."
   },
-  "market_snapshot_sha256": "ce339512656082990a5a2f506fe104006d69f7e894b314a14d0afe032269b324",
+  "market_snapshot_sha256": "746f9b3acd91e4ab89869c15b5605737eade8e055a2a7c76c5a3ba60e13fe851",
   "files": {
-    "stock-report.json": "067ebba10a9ec134c2649012eab8a40fc637a52d1e1a0ee3aba0cf92bab2c6e4",
-    "majority-metrics.json": "9e2838310a22507b4f52c53ddc57e8932d830e01acc1fe4e95410653b3f5321a",
-    "etf-evidence.json": "df2f2b7727f15c43695147fb200f3fa27976c7f88a622d9dc2160219c952f646",
-    "leverage.json": "c50ceb75e794fa423f81c3b513e854f3b60b59c34c655349b3fa8a86704f5053",
-    "RESEARCH_stock_signal.json": "4076655b86bc172d3b4eb5761b52c4c2ce315a15201be78db8c598a2c447d5ef",
-    "model-cohorts.json": "485dbbc47c0ac64009c87ddc4eac9134034e194f3c3d4bafaa4cd177b58a6b06"
+    "stock-report.json": "09f94531aa60f480c971335891e87fcae165ac53151697623b696912386cecc4",
+    "majority-metrics.json": "b4178b916dae45983e3b23b198e7d2d334f74260f610628a1347a2bfd8594caa",
+    "etf-evidence.json": "c99d73c91bb8886a05363964a380dde5732e509ef0816929ddbf35dc90189ba9",
+    "leverage.json": "e14884d4f57e722958ef759dbe653254ba07353045ab5061260ff3081299c6d4",
+    "RESEARCH_stock_signal.json": "eddca3fc3acae2ec251372c3eec5b8875d7c5dc1579112ef9d83edad694f0591",
+    "model-cohorts.json": "76bd9b0fb13a55551ffc4eea4e840fe7ddf162b9f0aa6601e3c1c68ac00de80e"
   },
   "leverage_start": "2010-02-16",
-  "stock_allocation_validation_sha256": "1f1460e9b97bd4fc43519f9124a15dce09766ccb42d749370a8380ee0ae13460"
+  "stock_allocation_validation_sha256": "747e62e1065396040f064e2badc6683320174e5788b919bb0d2cd5ff75d4dfa2"
 }

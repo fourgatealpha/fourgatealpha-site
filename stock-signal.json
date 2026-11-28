@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "signal_date": "2026-11-20",
-  "trade_date": "2026-11-23",
-  "published_at": "2026-11-21T15:54:39.966762+00:00",
-  "refresh_due_at": "2026-11-28T01:00:00+00:00",
+  "signal_date": "2026-11-27",
+  "trade_date": "2026-11-30",
+  "published_at": "2026-11-28T00:32:16.577781+00:00",
+  "refresh_due_at": "2026-12-05T01:00:00+00:00",
   "integrity": "verified",
   "independent_audit": "pending",
   "signal": {
-    "signal_date": "2026-11-20",
-    "state": "OFF3",
-    "spy_close": 689.8099975585938,
-    "spy_sma200": 730.2865823364258,
-    "favorable_count": 3,
+    "signal_date": "2026-11-27",
+    "state": "OFF2",
+    "spy_close": 728.3200073242188,
+    "spy_sma200": 730.981057434082,
+    "favorable_count": 2,
     "etf_weights": {
       "SPY": 0.5,
       "QQQ": 0.0,
@@ -30,12 +30,12 @@
     "qqq_trend_eligible": false,
     "spy_trend_votes": 0,
     "spy_sma_levels": {
-      "63": 760.9059225415426,
-      "126": 754.913089812748,
-      "200": 730.2865823364258
+      "63": 758.0687788705977,
+      "126": 754.0332452683222,
+      "200": 730.981057434082
     },
-    "sleeve": 3,
-    "rotation_sleeve_id": 2,
+    "sleeve": 1,
+    "rotation_sleeve_id": 3,
     "defensive_basket": {
       "version": "2.3.1",
       "defensive_assets": [
@@ -183,16 +183,16 @@
   },
   "quotes": {
     "SPY": {
-      "date": "2026-11-20",
-      "price": 689.8099975585938
+      "date": "2026-11-27",
+      "price": 728.3200073242188
     },
     "SHY": {
-      "date": "2026-11-20",
-      "price": 81.61000061035156
+      "date": "2026-11-27",
+      "price": 81.62000274658203
     },
     "USDU": {
-      "date": "2026-11-20",
-      "price": 27.639999389648438
+      "date": "2026-11-27",
+      "price": 27.770000457763672
     }
   }
 }
