@@ -2,10 +2,10 @@
   "schema_version": 1,
   "record_kind": "ACTIVE_MODEL_SLEEVE_PERFORMANCE",
   "as_of": "2026-11-27",
-  "generated_at": "2026-11-27T21:30:05.859135+00:00",
+  "generated_at": "2026-11-28T01:00:02.806975+00:00",
   "basis": "Unleveraged model total returns from rotation opening prices to the stated closing prices, before trading costs. Initial position weights drift with prices; cash earns the model cash proxy. Benchmarks use the same rotation open and closing date, before trading costs: SPY buy and hold; 80/20 SPY/IEF rebalances at the first market open each month. These are model results, not investor account returns.",
   "refresh_due_at": "2026-12-01T01:45:00+00:00",
-  "source_signal_date": "2026-11-20",
+  "source_signal_date": "2026-11-27",
   "etf": [
     {
       "sleeve": 1,
